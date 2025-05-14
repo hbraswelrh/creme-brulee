@@ -20,8 +20,8 @@ In this exercise, you will:
 1. Understand the concept of branches, forks, and commit history.
 2. Work with Markdown to comment on a pull-request and provide feedback.
 3. Create a repository under your namespace.
-1. (replace-me: Learning objective step #2)
-1. (replace-me: Learning objective step #N)
+1. Fork the trestle-bot repository and set the remote upstream.
+1. Initialize your trestle-workspace for syncing ComplianceAsCode/content to your OSCAL Content Catalogs, Profiles, and Component Definitions.
 
 
 ### How to start this exercise
