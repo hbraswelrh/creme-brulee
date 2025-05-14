@@ -1,21 +1,25 @@
-# (replace-me: Exercise title)
+# Bite-sized ComplyTime 🍮
 
-_(replace-me: One-line description of the exercise)_
+_Learn to use ComplyTime organization projects and tools._
 
 ## Welcome
 
-- **Who is this for**: (replace-me: Target audience description)
-- **What you'll learn**: (replace-me: Learning objectives)
-- **What you'll build**: (replace-me: Description of what the learner will create)
+- **Who is this for**: Compliance Managers, New ComplyTime users, Developers
+- **What you'll learn**: In this course, you'll learn how to setup the ComplyTime organization tools locally and by using vagrant boxes
+- **What you'll build**: You'll initialize a trestle workspace, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation using Agile Authoring and automated workflows.
 - **Prerequisites**:
-  - (replace-me: Prerequisite skill/exercise)
-  - (replace-me: Other prerequisites)
+  - GitHub account with a personal access token, setup [account here](https://github.com/), [token here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) :octocat:
+  - Vagrant environment installed and initialized on system - [documented here](https://docs.google.com/presentation/d/1rVhYxrvgYQRaKeBfctjXGg9cz7k_R21frUX-ZitTr8k/edit?slide=id.g30e84f14e68_0_7122#slide=id.g30e84f14e68_0_7122).
+  - Git tools installed on system Include the contents of installation in a `.md` file here 🧰
+  - Review `README.md` of [trestle-bot](https://github.com/complytime/trestle-bot) and [complytime](https://github.com/complytime/complytime)
 
 - **How long**: This exercise takes less than (replace-me: estimated time) to complete.
 
 In this exercise, you will:
 
-1. (replace-me: Learning objective step #1)
+1. Understand the concept of branches, forks, and commit history.
+2. Work with Markdown to comment on a pull-request and provide feedback.
+3. Create a repository under your namespace.
 1. (replace-me: Learning objective step #2)
 1. (replace-me: Learning objective step #N)
 
