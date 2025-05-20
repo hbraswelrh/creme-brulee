@@ -36,8 +36,38 @@ _You can choose to make the repository Public or Private_
 The trestle-workspace supports running trestlebot commands in GitHub Actions. The available actions are autosync, create, and rules-transform. The workflows can be seen [here](https://github.com/hbraswelrh/trestle-workspace/blob/main/.github/workflows/README.md). This is a simplistic way to get started with your first few tests.
 
 1. Navigate to the Actions tab in the trestle-workspace
-2. Click "Run workflow"
-3. Make sure the branch: main and then click the green box "Run Workflow."
+   
+<img alt="img_1.png" height="120" src="img_1.png" width="150"/>
+
+<img alt="img.png" height="40" src="img.png" width="400"/>
+
+2. Click "Run workflow."
+
+This will prompt for your input depending on the command being run. If you are authoring Component Definitions, the fields will populate for indicating profile, component title, component description, etc. Autosync will run based on the trigger of "Run workflow."
+
+<img alt="img_2.png" height="200" src="img_2.png" width="150"/>
+
+<img alt="img_6.png" height="200" src="img_6.png" width="150"/>
+
+<img alt="img_3.png" height="80" src="img_3.png" width="160"/>
+   
+3. Make sure the `branch: main` is indicated, and then click the green box "Run Workflow."
+
+<img alt="img_4.png" height="100" src="img_4.png" width="250"/>
+   
+<img alt="img_5.png" height="100" src="img_5.png" width="325"/>
+   
+
+
+
+<img alt="img_7.png" height="100" src="img_7.png" width="325"/>
+
+
+<img alt="img_8.png" height="100" src="img_8.png" width="325"/>
+
+#### Reviewing generated OSCAL Content from ComplianceasCode/content
+
+The trestle-workspace supports running trestlebot commands in GitHub Actions. The `sync-cac-content` command that generates OSCAL Catalogs, Profiles, and Component Definitions is not currently available as a GitHub Action. The RHEL9 product OSCAL Catalogs, Profiles, and Component Definitions that are available using the ComplianceAsCode/content repository are available on the `feat/rhel9-content` branch of the public template repository. See [here](https://github.com/hbraswelrh/trestle-workspace/tree/feat/rhel9-content). 
 
 #### Annotated File Tree 📂
 
