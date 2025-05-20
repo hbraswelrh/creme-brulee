@@ -1,12 +1,35 @@
-## Step 1: Initialize the trestle workspace with trestle-bot 
+## Learning Course Steps 
+
+> Prerequisites must be completed prior to attempting the ComplyTime module 
+
+### Step 1: _Read the docs_
+
+#### Resources that _must_ be reviewed for course completion
+
+| Topic                    | Where you can find the docs                                                                             | 
+|--------------------------|---------------------------------------------------------------------------------------------------------|
+| ComplianceAsCode/content | [`docs/CAC-CONTENT.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/CAC-CONTENT.md)       |
+| Policy as Code           | [`docs/POLICY-AS-CODE.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/POLICY-AS-CODE.md) |
+| CNCF                     | [`docs/CNCF.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/CNCF.md)                     |
+| Compliance Trestle       | [`TRESTLE-OVERVIEW.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/TRESTLE-OVERVIEW.md)  |
+
+
+#### Take the self-assessment 
+
+After reviewing the documentation in the table, take this short [self-assessment](https://form.typeform.com/to/tiOAik8G).
+
+
+
+
+### Step 2: _Initialize the trestle-workspace_
 
 _This will house the authored OSCAL content_
 
-### 📖 Theory: Author OSCAL Content and Update it in your [trestle-workspace](https://github.com/hbraswelrh/trestle-workspace/tree/main)
+#### 📖 Theory: Author OSCAL Content and Update it in your [trestle-workspace](https://github.com/hbraswelrh/trestle-workspace/tree/main)
 
 The [trestle-workspace](https://github.com/hbraswelrh/trestle-workspace/tree/main) is a public template that can be leveraged with trestle-bot in GitHub CI. The file structure layout is seen in the tree below. 
 
-### ⌨️ Activity: Interact with the trestle-workspace
+#### ⌨️ Activity: Interact with the trestle-workspace
 
 To interact with the trestle workspace, you will need to create your own copy of the [trestle-workspace](https://github.com/hbraswelrh/trestle-workspace/tree/main) public repository template. This will allow you to have your own trestle-workspace directly out of the box. 
 
@@ -29,41 +52,41 @@ _You can choose to make the repository Public or Private_
 <img src="https://github.com/user-attachments/assets/f7fd13d0-4e58-4613-851c-57bb09f5b7f2" alt="text" width="375" height="200">
 
 
-### Trestle Workspace Context: 
+#### Trestle Workspace Context: 
 
-#### Running trestle-bot commands in GitHub Actions 
+##### Running trestle-bot commands in GitHub Actions 
 
 The trestle-workspace supports running trestlebot commands in GitHub Actions. The available actions are autosync, create, and rules-transform. The workflows can be seen [here](https://github.com/hbraswelrh/trestle-workspace/blob/main/.github/workflows/README.md). This is a simplistic way to get started with your first few tests.
 
 1. Navigate to the Actions tab in the trestle-workspace
    
-<img alt="img_1.png" height="120" src="images/img_1.png" width="150"/>
+<img alt="img_1.png" height="120" src="https://github.com/hbraswelrh/creme-brulee/blob/1f1547fec174dd47a01c38e1a3b56d254a92d5a1/.github/steps/images/img_1.png" width="150"/>
 
-<img alt="img.png" height="40" src="images/img.png" width="400"/>
+<img alt="img.png" height="40" src="https://github.com/hbraswelrh/creme-brulee/blob/1f1547fec174dd47a01c38e1a3b56d254a92d5a1/.github/steps/images/img.png" width="400"/>
 
 2. Click "Run workflow."
 
 This will prompt for your input depending on the command being run. If you are authoring Component Definitions, the fields will populate for indicating profile, component title, component description, etc. Autosync will run based on the trigger of "Run workflow."
 
-<img alt="img_2.png" height="200" src="images/img_2.png" width="150"/>
+<img alt="img_2.png" height="200" src="https://github.com/hbraswelrh/creme-brulee/blob/1f1547fec174dd47a01c38e1a3b56d254a92d5a1/.github/steps/images/img_2.png" width="150"/>
 
-<img alt="img_6.png" height="200" src="images/img_6.png" width="150"/>
+<img alt="img_6.png" height="200" src="https://github.com/hbraswelrh/creme-brulee/blob/1f1547fec174dd47a01c38e1a3b56d254a92d5a1/.github/steps/images/img_6.png" width="150"/>
 
-<img alt="img_3.png" height="80" src="images/img_3.png" width="160"/>
+<img alt="img_3.png" height="80" src="https://github.com/hbraswelrh/creme-brulee/blob/1f1547fec174dd47a01c38e1a3b56d254a92d5a1/.github/steps/images/img_3.png" width="160"/>
    
 3. Make sure the `branch: main` is indicated, and then click the green box "Run Workflow."
 
-<img alt="img_4.png" height="100" src="images/img_4.png" width="250"/>
+<img alt="img_4.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/1f1547fec174dd47a01c38e1a3b56d254a92d5a1/.github/steps/images/img_4.png" width="250"/>
    
-<img alt="img_5.png" height="100" src="images/img_5.png" width="325"/>
+<img alt="img_5.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/1f1547fec174dd47a01c38e1a3b56d254a92d5a1/.github/steps/images/img_5.png" width="325"/>
    
 
 
 
-<img alt="img_7.png" height="100" src="images/img_7.png" width="325"/>
+<img alt="img_7.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/1f1547fec174dd47a01c38e1a3b56d254a92d5a1/.github/steps/images/img_7.png" width="325"/>
 
 
-<img alt="img_8.png" height="100" src="images/img_8.png" width="325"/>
+<img alt="img_8.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/1f1547fec174dd47a01c38e1a3b56d254a92d5a1/.github/steps/images/img_8.png" width="325"/>
 
 #### Reviewing generated OSCAL Content from ComplianceasCode/content
 
@@ -128,24 +151,11 @@ Starting with the OSCAL Catalog, you want to base it off of the CIS Benchmark fo
 
 ```
 
-<!--_the one-stop shop for housing your catalogs, profiles, and component-definitions_ -->
-
-<!-- GitHub-styled notifications can be used outside ordered lists. Available options are: NOTE, IMPORTANT, WARNING, TIP, CAUTION -->
-<!--[!NOTE]
-> (Important note or additional information relevant to this section)
- -->
-
-(replace-me: Optional theory or background information relevant to this step)
-
-
-<!-- IDEA: CREATE A REPO W A BUNCH OF ERRORS ON DOCS AND THEN GET PRS IN THAT REPO TO HAVE AN AUTOMATED WORKFLOW FOR CONTRIBUTIONS!!!!! -->
-
-1. (replace-me: Additional instructions as needed)
-
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
 - Reference the trestle-bot [`README.md`](https://github.com/complytime/trestle-bot/blob/main/README.md).
+- Comment on the GitHub issue that was created when starting this workflow.
 - [The guide for navigating public templates](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 - (replace-me: Additional troubleshooting tips as needed)
 

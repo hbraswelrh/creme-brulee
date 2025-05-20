@@ -5,23 +5,38 @@ _Learn to use ComplyTime organization projects and tools._
 ## Welcome
 
 - **Who is this for**: Compliance Managers, New ComplyTime users, Developers
-- **What you'll learn**: In this course, you'll learn how to setup the ComplyTime organization tools locally and by using vagrant boxes
-- **What you'll build**: You'll initialize a trestle workspace, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation using Agile Authoring and automated workflows.
-- **Prerequisites**:
-  - GitHub account with a personal access token, setup [account here](https://github.com/), [token here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) :octocat:
-  - Vagrant environment installed and initialized on system - [documented here](https://docs.google.com/presentation/d/1rVhYxrvgYQRaKeBfctjXGg9cz7k_R21frUX-ZitTr8k/edit?slide=id.g30e84f14e68_0_7122#slide=id.g30e84f14e68_0_7122).
-  - Git tools installed on system Include the contents of installation in a `.md` file here 🧰
-  - Review `README.md` of [trestle-bot](https://github.com/complytime/trestle-bot) and [complytime](https://github.com/complytime/complytime)
+- **What you'll learn**: In this course, you'll learn how to set up the ComplyTime organization tools, author OSCAL Content from the GitHub UI, and leverage those tools for Compliance Management workflows.
+- **What you'll build**: You'll initialize a trestle workspace, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation through Agile Authoring and automated workflows.
 
-- **How long**: This exercise takes less than (replace-me: estimated time) to complete.
+### Prerequisites
+
+#### GitHub 
+
+- You'll need a GitHub account with a personal access token, setup [account here](https://github.com/), [token here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) :octocat:
+
+##### Required GitHub curated Skills courses to complete prior to the ComplyTime module 
+
+> The required GitHub Skills courses will prepare you to interact with GitHub Issues, Pull Requests, and understand Git Flow. 
+
+  - Take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) skills course. 
+  - Take the [Communicate using Markdown](https://github.com/skills/communicate-using-markdown) GitHub Skills course. 
+
+**Document your completion of these prerequisites [here](https://forms.gle/1JihWyLzS71n7qkc7)**
+
+### :vertical_traffic_light: Start Here
+
+  - Review the [GLOSSARY.md](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/GLOSSARY.md) for relevant terms that will be used throughout course content. 
+  - Review `README.md` of [trestle-bot](https://github.com/complytime/trestle-bot) ,  [complytime](https://github.com/complytime/complytime), and [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content/blob/master/README.md). Refer to [GEMINI.md](https://github.com/hbraswelrh/creme-brulee/blob/8c2d9bf3d05eed5f00371fbb9f933839fe3556b4/docs/GEMINI.md) for prompts that could help with understanding the repository contents. 
+  - Review the [README.md](https://github.com/hbraswelrh/creme-brulee/blob/aae8325c6379d5dd97aa1de48f129c0cdd36aef4/.github/steps/README.md) that outlines the steps of the course. 
+
+
+> :hourglass: **How long**: This exercise is self-paced. The [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md) can be leveraged to pace yourself and revisit subjects.
 
 In this exercise, you will:
-
-1. Understand the concept of branches, forks, and commit history.
-2. Work with Markdown to comment on a pull-request and provide feedback.
-3. Create a repository under your namespace.
-1. Fork the trestle-bot repository and set the remote upstream.
-1. Initialize your trestle-workspace for syncing ComplianceAsCode/content to your OSCAL Content Catalogs, Profiles, and Component Definitions.
+1. Learn about the relevant repositories in the ComplyTime organization.
+2. Make your own copy of an initialized trestle-workspace. More info [here](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md)
+3. Trigger GitHub Actions that allow you to author OSCAL content. 
+4. Practice using Git, Markdown, and tools. 
 
 
 ### How to start this exercise
@@ -29,7 +44,8 @@ In this exercise, you will:
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
 
 <!--  (replace-me: Make sure to edit the URL with proper template_owner, template_name, repo name and description)  -->
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_owner=skills&template_name=exercise-template&owner=%40me&name=skills-<replace-me>&description=Exercise:+Replace+me&visibility=public)
+
+[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_name=creme-brulee&template_owner=hbraswelrh)
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>

@@ -1,0 +1,25 @@
+## **Useful Terms 📚**
+
+#### **Developer Terminology**
+
+| Term | Definition | Example |
+| :---- | :---- | :---- |
+| **Workflow** ⚙️ | A series of automated steps that run code, build, test, or deploy a project. Often used in [GitHub Actions](https://docs.github.com/en/actions/about-github-actions/understanding-github-actions). | In compliance-trestle, a workflow might automatically check if an OSCAL file is valid after you make changes. |
+| **Upstream** ⬆️ | Refers to the original or main source repository that other repositories (downstream) depend on or derive from. Changes often flow from upstream to downstream. | If your team develops a new feature for compliance-trestle (https://github.com/oscal-compass/compliance-trestle), you're contributing **upstream** to the original source. |
+| **Downstream** ⬇️ | Refers to a repository that depends on or derives from an upstream repository. It often consumes changes from upstream. | The trestle-bot repository (https://github.com/complytime/trestle-bot) is **downstream** of compliance-trestle. It uses code and definitions from compliance-trestle to build its GitHub Actions. |
+| **Contributor** 🧑‍💻 | Anyone who creates or submits changes (code, documentation, bug reports) to a project. | If you add a new feature to compliance-trestle or fix a typo in its documentation, you are a **contributor** to the oscal-compass organization. |
+| **Maintainer** 👷 | An individual (or group) responsible for the ongoing health, direction, and review of a project. They often approve contributions and release new versions. | A **maintainer** of compliance-trestle would be responsible for reviewing Pull Requests from contributors, merging new features, and ensuring the project remains stable and up-to-date within the oscal-compass organization. |
+| **Persona** 🎭 | A fictional character created to represent a typical user of a product, system, or service. It helps in understanding user needs and goals. | In the context of this course, a "Compliance Manager persona" helps us design content that meets the needs of someone who manages compliance but might be new to GitHub. |
+
+#### **Authoring Terminology**
+
+| Term | Definition | Example |
+| :---- | :---- | :---- |
+| **Authoring** ✍️ | The process of creating or writing content, especially technical documentation or policy definitions. | **Authoring** an OSCAL Component Definition involves writing the YAML or JSON to define your system's components and their security properties. |
+| **Agile Authoring** 🚀 | Applying Agile development principles (iterative, collaborative, responsive to change) to content creation. | Using short cycles to draft, review, and refine OSCAL content with feedback from others is an example of **Agile Authoring**. |
+
+#### **Additional Resources**
+
+##### **GitHub Glossary**
+
+* [GITHUB GLOSSARY](https://docs.github.com/en/get-started/learning-about-github/github-glossary#pull-request) 🌐

@@ -6,11 +6,11 @@ on:
   # Common event triggers: pull_request, push, issues, issue_comment (feel free to experiment)
   # Docs: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
   # Example:
-  # pull_request:
-  #   branches:
-  #     - main
-  #   types:
-  #     - closed
+   pull_request:
+     branches:
+       - main
+     types:
+       - closed
 
 permissions:
   contents: write
@@ -18,8 +18,7 @@ permissions:
   issues: write
 
 env:
-  #REVIEW_FILE: ".github/steps/x-review.md"
-  REVIEW_FILE: ".github/steps/3-step.md"
+  REVIEW_FILE: ".github/steps/x-review.md"
 
 jobs:
   find_exercise:

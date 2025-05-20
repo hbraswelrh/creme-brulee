@@ -1,4 +1,23 @@
 #### Annotated File Tree 📂
+
+The trestle-workspace that was created will have a file structure similar to the one pictured below.
+
+Branches of the trestle-workspace are initialized with different contents to keep your changes organized. 
+
+:tree: 
+- <img alt="img.png" height="50" src="branches.png" width="100"/>
+  
+
+- **feat/rhel8-content**
+Link to [ComplianceAsCode RHEL8 content](https://github.com/ComplianceAsCode/content/tree/master/products/rhel8) used to initialize and sync the OSCAL Content.
+
+- **feat/rhel9-content**
+Link to [ComplianceAsCode RHEL9 content](https://github.com/ComplianceAsCode/content/tree/master/products/rhel9) used to initialize and sync the OSCAL Content.
+
+
+- **feat/rhel10-content**
+Link to [ComplianceAsCode RHEL10 content](https://github.com/ComplianceAsCode/content/tree/master/products/rhel10) used to initialize and sync the OSCAL Content.
+
 ```bash
 .
 ├── assessment-plans/

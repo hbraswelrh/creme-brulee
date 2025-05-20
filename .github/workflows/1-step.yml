@@ -1,15 +1,19 @@
 name: Step 1
 
-
-
 on:
   workflow_dispatch:
   # Common event triggers: pull_request, push, issues, issue_comment (feel free to experiment)
   # Docs: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
   # Example:
-  # pull_request:
-  #   branches:
-  #     - main
+   push:
+     branches:
+       - main
+       - develop
+   issue_comment:
+     types: [created, deleted]
+   pull_request:
+     branches:
+       - main
 
 permissions:
   contents: read
@@ -64,6 +68,16 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ISSUE_BODY: ${{ steps.build-message-step-finish.outputs.updated-text }}
 
+  issue_commented:
+    name: Check for comment
+    runs-on: ubuntu_latest
+    if: ${{ !github.event.issue.pull_request }}
+    needs: [check_step_work]
+    steps:
+      - run: |
+          echo A comment on issue $NUMBER
+        env:
+          NUMBER: ${{ github.event.issue.number }}
   post_next_step_content:
     name: Post next step content
     needs: [find_exercise, check_step_work]
@@ -97,8 +111,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Disable current workflow and enable next one
-        run: |
+        run:
           gh workflow disable "${{github.workflow}}"
-          gh workflow enable "Step 2"
+          # gh workflow enable "${{ github.workflow }}"
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
