@@ -5,7 +5,7 @@ _Learn to use ComplyTime organization projects and tools._
 ## Welcome
 
 - **Who is this for**: Compliance Managers, New ComplyTime users, Developers
-- **What you'll learn**: In this course, you'll learn how to setup the ComplyTime organization tools locally and by using vagrant boxes
+- **What you'll learn**: In this course, you'll learn how to setup the ComplyTime organization tools locally, author content from the GitHub UI, and leverage tools with the help of vagrant boxes 📦
 - **What you'll build**: You'll initialize a trestle workspace, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation using Agile Authoring and automated workflows.
 - **Prerequisites**:
   - GitHub account with a personal access token, setup [account here](https://github.com/), [token here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) :octocat:
