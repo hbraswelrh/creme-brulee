@@ -31,6 +31,14 @@ _You can choose to make the repository Public or Private_
 
 ### Trestle Workspace Context: 
 
+#### Running trestle-bot commands in GitHub Actions 
+
+The trestle-workspace supports running trestlebot commands in GitHub Actions. The available actions are autosync, create, and rules-transform. The workflows can be seen [here](https://github.com/hbraswelrh/trestle-workspace/blob/main/.github/workflows/README.md). This is a simplistic way to get started with your first few tests.
+
+1. Navigate to the Actions tab in the trestle-workspace
+2. Click "Run workflow"
+3. Make sure the branch: main and then click the green box "Run Workflow."
+
 #### Annotated File Tree 📂
 
 The annotated file tree can be referenced in [annotated-tree.md](https://github.com/hbraswelrh/creme-brulee/blob/95c4bbb99cbb0e0b28b459f19950983ca13d34b7/docs/annotated-tree.md) which shows the current state of the trestle-workspace public template. The annotations are consistent with the table below. 
