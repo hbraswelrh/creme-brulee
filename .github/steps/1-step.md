@@ -20,7 +20,7 @@ To interact with the trestle workspace, you will need to create your own copy of
 
 **Step 3🖱️🟩:** Ensure that you are the repository owner and create a name for your new trestle-workspace template. Then, click "Create Repository."
 
-_You can choose to make the repository Public or Private_
+_Ensure the checkbox "include all branches" is selected_
 
 <img src="https://github.com/user-attachments/assets/bb4ffe1a-20f0-4ab7-abd7-d76a2eb10573" alt="text" width="250" height="250">
 
