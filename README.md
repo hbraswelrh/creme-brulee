@@ -5,8 +5,8 @@ _Learn to use ComplyTime organization projects and tools._
 ## Welcome
 
 - **Who is this for**: Compliance Managers, New ComplyTime users, Developers
-- **What you'll learn**: In this course, you'll learn how to setup the ComplyTime organization tools, author content from the GitHub UI, and leverage those tools for Compliance Management workflows.
-- **What you'll build**: You'll initialize a trestle workspace, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation using Agile Authoring and automated workflows.
+- **What you'll learn**: In this course, you'll learn how to set up the ComplyTime organization tools, author OSCAL Content from the GitHub UI, and leverage those tools for Compliance Management workflows.
+- **What you'll build**: You'll initialize a trestle workspace, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation through Agile Authoring and automated workflows.
 
 - **Prerequisites**:
   - GitHub account with a personal access token, setup [account here](https://github.com/), [token here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) :octocat:
@@ -14,11 +14,19 @@ _Learn to use ComplyTime organization projects and tools._
     - Git tools installed on system Include the contents of installation in a `.md` file here 🧰
   -->
 
-  - Take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) skills course.
-  - Take the [Communicate using Markdown](https://github.com/skills/communicate-using-markdown) GitHub Skills course 
+#### GitHub curated Skills courses to take before beginning the ComplyTime module 
+
+Document the completion of these prerequisites [here](https://forms.gle/1JihWyLzS71n7qkc7)
+
+  - Take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) skills course. 
+  - Take the [Communicate using Markdown](https://github.com/skills/communicate-using-markdown) GitHub Skills course. 
+
+#### Where to start? 
+
   - Review the [GLOSSARY.md](docs/GLOSSARY.md) for relevant terms 
   - Review `README.md` of [trestle-bot](https://github.com/complytime/trestle-bot) ,  [complytime](https://github.com/complytime/complytime), and [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content/blob/master/README.md)
   - Review the [CAC-CONTENT.md](docs/CAC-CONTENT.md)
+
 - **How long**: This exercise takes less than (replace-me: estimated time) to complete.
 
 In this exercise, you will:
