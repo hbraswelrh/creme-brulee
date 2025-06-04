@@ -8,39 +8,33 @@ _Learn to use ComplyTime organization projects and tools._
 - **What you'll learn**: In this course, you'll learn how to set up the ComplyTime organization tools, author OSCAL Content from the GitHub UI, and leverage those tools for Compliance Management workflows.
 - **What you'll build**: You'll initialize a trestle workspace, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation through Agile Authoring and automated workflows.
 
-- **Prerequisites**:
-  - GitHub account with a personal access token, setup [account here](https://github.com/), [token here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) :octocat:
-  <!-- - Vagrant environment installed and initialized on system - [documented here](https://docs.google.com/presentation/d/1rVhYxrvgYQRaKeBfctjXGg9cz7k_R21frUX-ZitTr8k/edit?slide=id.g30e84f14e68_0_7122#slide=id.g30e84f14e68_0_7122).
-    - Git tools installed on system Include the contents of installation in a `.md` file here 🧰
-  -->
+### Prerequisites
 
-#### GitHub curated Skills courses to take before beginning the ComplyTime module 
+#### GitHub 
 
-Document the completion of these prerequisites [here](https://forms.gle/1JihWyLzS71n7qkc7)
+- You'll need a GitHub account with a personal access token, setup [account here](https://github.com/), [token here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) :octocat:
+
+##### GitHub curated Skills courses to take before beginning the ComplyTime module 
+
+Document your completion of these prerequisites [here](https://forms.gle/1JihWyLzS71n7qkc7)
 
   - Take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) skills course. 
   - Take the [Communicate using Markdown](https://github.com/skills/communicate-using-markdown) GitHub Skills course. 
 
-#### Where to start? 
+### Start Here
 
-  - Review the [GLOSSARY.md](docs/GLOSSARY.md) for relevant terms 
-  - Review `README.md` of [trestle-bot](https://github.com/complytime/trestle-bot) ,  [complytime](https://github.com/complytime/complytime), and [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content/blob/master/README.md)
-  - Review the [CAC-CONTENT.md](docs/CAC-CONTENT.md)
+  - Review the [GLOSSARY.md](docs/GLOSSARY.md) for relevant terms that will be used throughout course content. 
+  - Review `README.md` of [trestle-bot](https://github.com/complytime/trestle-bot) ,  [complytime](https://github.com/complytime/complytime), and [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content/blob/master/README.md). Refer to [GEMINI.md](https://github.com/hbraswelrh/creme-brulee/blob/8c2d9bf3d05eed5f00371fbb9f933839fe3556b4/docs/GEMINI.md) for prompts that could help with understanding the repository contents. 
+  - Review the [README.md](https://github.com/hbraswelrh/creme-brulee/blob/aae8325c6379d5dd97aa1de48f129c0cdd36aef4/.github/steps/README.md) that outlines the steps of the course. 
 
 - **How long**: This exercise takes less than (replace-me: estimated time) to complete.
 
 In this exercise, you will:
 1. Learn about the relevant repositories in the ComplyTime organization.
 2. Make your own copy of an initialized trestle-workspace.
-3. Trigger GitHub Actions to author OSCAL content. 
+3. Trigger GitHub Actions that allow you to author OSCAL content. 
 4. Practice using Git, Markdown, and tools. 
 
-<!-- 1. Understand the concept of branches, forks, and commit history.
-2. Work with Markdown to comment on a pull-request and provide feedback.
-3. Create a repository under your namespace.
-1. Fork the trestle-bot repository and set the remote upstream.
-1. Initialize your trestle-workspace for syncing ComplianceAsCode/content to your OSCAL Content Catalogs, Profiles, and Component Definitions.
--->
 
 ### How to start this exercise
 
