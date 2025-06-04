@@ -2,7 +2,7 @@
 
 #### 1. Introducing ComplyTime Organization Repositories
   - **Goal:** Get users comfortable with repository interaction and location of work.
-  - **Action:** Provide a one-stop shop for repository contents, highlghting the purpose, resource, and best practices for reference.
+  - **Action:** Provide a one-stop shop for repository contents, highlighting the purpose, resources, and best practices for reference.
 #### 2. Create Personal Sandbox
   - **Goal:** Empower and educate users in a reproducable environment. 
   - **Action:** Use Public repository template to create your own OSCAL Content sandbox. 
