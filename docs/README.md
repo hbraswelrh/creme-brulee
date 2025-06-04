@@ -1,4 +1,4 @@
-## trestle-workspace OSCAL Catalogs 🤖
+## Learning Course Docs ⭐
 
 ## Table of Contents
 - [Introduction](#introduction)
