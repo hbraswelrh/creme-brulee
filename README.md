@@ -27,6 +27,7 @@ Document your completion of these prerequisites [here](https://forms.gle/1JihWyL
   - Review `README.md` of [trestle-bot](https://github.com/complytime/trestle-bot) ,  [complytime](https://github.com/complytime/complytime), and [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content/blob/master/README.md). Refer to [GEMINI.md](https://github.com/hbraswelrh/creme-brulee/blob/8c2d9bf3d05eed5f00371fbb9f933839fe3556b4/docs/GEMINI.md) for prompts that could help with understanding the repository contents. 
   - Review the [README.md](https://github.com/hbraswelrh/creme-brulee/blob/aae8325c6379d5dd97aa1de48f129c0cdd36aef4/.github/steps/README.md) that outlines the steps of the course. 
 
+
 - **How long**: This exercise takes less than (replace-me: estimated time) to complete.
 
 In this exercise, you will:
