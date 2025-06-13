@@ -10,10 +10,10 @@ on:
        - main
        - develop
    issue_comment:
-     types: [opened, edited, closed]
-   # pull_request:
-   #   branches:
-   #     - main
+     types: [created, edited, deleted]
+   pull_request:
+     branches:
+       - main
 
 permissions:
   contents: read
