@@ -5,10 +5,10 @@ on:
   # Common event triggers: pull_request, push, issues, issue_comment (feel free to experiment)
   # Docs: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
   # Example:
-   # push:
-   #   branches:
-   #     - main
-   #     - develop
+   push:
+     branches:
+       - main
+       - develop
    issue_comment:
      types: [opened, edited, closed]
    # pull_request:
