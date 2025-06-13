@@ -47,7 +47,7 @@ Simply copy the exercise to your account, then give your favorite Octocat (Mona)
 
 <!--  (replace-me: Make sure to edit the URL with proper template_owner, template_name, repo name and description)  -->
 
-[![](https://img.shields.io/badge/Copy%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_name=creme-brulee&template_owner=hbraswelrh)
+[![](https://img.shields.io/badge/Start%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_name=creme-brulee&template_owner=hbraswelrh)
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>
