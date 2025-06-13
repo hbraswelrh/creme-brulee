@@ -1,4 +1,4 @@
-![Uploading Screenshot From 2025-06-13 14-33-55 (Edited).png…]()
+![Screenshot From 2025-06-13 14-33-55 (Edited)](https://github.com/user-attachments/assets/d6bf8359-85f4-46cb-b597-e6fabe93a171)
 
 # Bite-sized ComplyTime 🍮
 
