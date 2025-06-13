@@ -1,3 +1,5 @@
+![github-header-image](https://github.com/user-attachments/assets/b48516c8-6b4e-41f1-8792-a6b38ec88d2f)
+
 # Bite-sized ComplyTime 🍮
 
 _Learn to use ComplyTime organization projects and tools._
