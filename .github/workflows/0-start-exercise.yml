@@ -80,11 +80,8 @@ jobs:
 #        env:
 #          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Enable next step workflow
-        run: gh workflow disable ${{ github.workflow }}
-          # gh workflow enable ${{ github.workflow }}
+        run: |
+          gh workflow disable ${{ github.workflow }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      - name: Enable next worklow
-        run: gh workflow enable "Step 2"
-        env:
-           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+     
