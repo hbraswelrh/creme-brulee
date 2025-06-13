@@ -10,7 +10,7 @@ on:
        - main
        - develop
    issue_comment:
-     types: [created, deleted]
+     types: [opened, edited, closed]
    pull_request:
      branches:
        - main
