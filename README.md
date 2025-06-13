@@ -1,4 +1,4 @@
-![github-header-image](https://github.com/user-attachments/assets/b48516c8-6b4e-41f1-8792-a6b38ec88d2f)
+![Screenshot From 2025-06-13 14-33-55](https://github.com/user-attachments/assets/e88e8121-dc4d-4afc-8b90-2b4213d376e5)
 
 # Bite-sized ComplyTime 🍮
 
