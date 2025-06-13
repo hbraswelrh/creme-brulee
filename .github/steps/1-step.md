@@ -1,34 +1,23 @@
-## Reading the Supporting Documentation in `creme-brulee/docs/`
+## **📚 Reading `creme-brulee` Course Documentation**
 
-#### ComplianceAsCode/content
+This is the _first_ step of the learning course. Get started by reviewing the docs that will set the stage for your learning journey within the `creme-brulee` project.
 
-[docs/CAC-CONTENT.md](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/CAC-CONTENT.md) 
 
-#### Cloud Native Computing Foundation 
+### **✅ Mandatory Review Materials for Course Completion**
 
-Read about CNCF in [docs/CNCF.md](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/CNCF.md).
-
-#### Policy as Code
-
-**What is it?**
-
-Policy as Code defines, updates, shares, and enforces policies using code ([Policy as Code](https://www.redhat.com/en/blog/policy-as-code-automation)).
-- Open the link below in a new tab
-[docs/POLICY-AS-CODE.md](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/POLICY-AS-CODE.md)
-
-#### Resources that _must_ be reviewed for course completion
+Ensure you've reviewed these foundational resources for your success in the course.
 
 | Topic                    | Where you can find the docs                                                                             | 
 |--------------------------|---------------------------------------------------------------------------------------------------------|
-| ComplianceAsCode/content | [`docs/CAC-CONTENT.md`]((https://github.com/hbraswelrh/creme-brulee/blob/main/docs/CAC-CONTENT.md)      |
+| ComplianceAsCode/content | [`docs/CAC-CONTENT.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/CAC-CONTENT.md)      |
 | Policy as Code           | [`docs/POLICY-AS-CODE.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/POLICY-AS-CODE.md) |
 | CNCF                     | [`docs/CNCF.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/CNCF.md)                     |
 | Compliance Trestle       | [`TRESTLE-OVERVIEW.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/TRESTLE-OVERVIEW.md)  |
 
 
-#### Take the self-assessment 
+### **📝 Take the Self-Assessment**
 
-After reviewing the documentation in the table, take this short [self-assessment](https://form.typeform.com/to/tiOAik8G).
+Once you've thoroughly reviewed all the documentation above, take this short [self-assessment quiz](https://form.typeform.com/to/tiOAik8G). Good luck\! 🚀
 
 
 
