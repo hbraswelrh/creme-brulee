@@ -37,7 +37,7 @@ The trestle-workspace supports running trestlebot commands in GitHub Actions. Th
 
 1. Navigate to the Actions tab in the trestle-workspace
    
-<img alt="img_1.png" height="120" src="https://github.com/hbraswelrh/creme-brulee/blob/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_1.png" width="150"/>
+<img alt="img_1.png" height="120" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_1.png" width="150"/>
 
 <img alt="img.png" height="40" src="https://github.com/hbraswelrh/creme-brulee/blob/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img.png" width="400"/>
 
