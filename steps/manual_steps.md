@@ -13,7 +13,7 @@ Ensure you've reviewed these foundational resources for your success in the cour
 
 | Topic                    | Where you can find the docs                                                                             | 
 |--------------------------|---------------------------------------------------------------------------------------------------------|
-| ComplianceAsCode/content | [`docs/CAC-CONTENT.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/CAC-CONTENT.md)      |
+| ComplianceAsCode/content | [`docs/CAC-CONTENT.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/CAC-CONTENT.md)       |
 | Policy as Code           | [`docs/POLICY-AS-CODE.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/POLICY-AS-CODE.md) |
 | CNCF                     | [`docs/CNCF.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/CNCF.md)                     |
 | Compliance Trestle       | [`TRESTLE-OVERVIEW.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/TRESTLE-OVERVIEW.md)  |

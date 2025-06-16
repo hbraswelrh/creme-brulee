@@ -1,4 +1,4 @@
-## Step 1: Initialize the trestle workspace with trestle-bot 
+## Step 2: Initialize the trestle workspace with trestle-bot 
 
 _This will house the authored OSCAL content_
 
