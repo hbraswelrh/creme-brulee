@@ -9,4 +9,4 @@
 #### 3. Automate OSCAL Content Updates via GitHub Actions
   - **Goal:** Understand practical interaction with ComplyTime tools using automation.
   - **Action:** Leverage GitHub Actions in the GitHub UI for creating and updating OSCAL Content. 
-![img.png](images/initial-commit.png) 
+![img.png](../../docs/images/initial-commit.png) 
