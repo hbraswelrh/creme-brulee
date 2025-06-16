@@ -86,8 +86,8 @@ Starting with the OSCAL Catalog, you want to base it off of the CIS Benchmark fo
 | [OSCAL Profile](https://github.com/hbraswelrh/my-trestle-workspace/tree/main/profiles)                                                                                     | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
 | [OSCAL Component Definition](https://github.com/hbraswelrh/my-trestle-workspace/blob/main/component-definitions/rhel9/rhel9-cis_rhel9-l1_server/component-definition.json) | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
 
-- The `annotated-tree.md`indicates "Control File cis_rhel9 from ComplianceAsCode/content" and "RHEL9 Profile for cis_rhel9-l1_x/12_x." Reference the second column of the table for how the elements of the ComplianceAsCode/content repository align with the trestle-workspace content.
-- 
+- The `annotated-tree.md` indicates "Control File `cis_rhel9` from ComplianceAsCode/content" and "RHEL9 Profile for cis_rhel9-l1_x/12_x." Reference the second column of the table for how the elements of the ComplianceAsCode/content repository align with the trestle-workspace content.
+
 - The base file tree without annotations can be found in [workspace-tree.md](https://github.com/hbraswelrh/creme-brulee/blob/520790e4c8b261cfe2b83a804c1c2728bdacb3ef/docs/workspace-tree.md)
 
 <!--The ComplianceAsCode/content repository is used for syncing and transforming content to OSCAL format.--> 
