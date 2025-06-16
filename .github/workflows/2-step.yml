@@ -6,13 +6,16 @@ on:
   # Common event triggers: pull_request, push, issues, issue_comment (feel free to experiment)
   # Docs: https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
   # Example:
-   pull_request:
-     branches:
-       - main
-     types:
-       - closed
-   issue_comment:
-     types: [created, edited, closed]
+  issues:
+    types:
+      -opened
+#   pull_request:
+#     branches:
+#       - main
+#     types:
+#       - closed
+#  issue_comment:
+#     types: [created, edited, closed]
 
 permissions:
   contents: write
