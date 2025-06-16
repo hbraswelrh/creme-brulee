@@ -111,6 +111,13 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
+      - name: Create comment - complete the self-assessment quiz
+        run: |
+          gh issue comment "$ISSUE_URL" \
+            --body "Complete the [self-assessment](https://form.typeform.com/to/tiOAik8G?typeform-source=github.com). This should be after you have completed [Step 2: Initializing the trestle-workspace](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md#step-2-initialize-the-trestle-workspace-)."
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
       - name: Disable current workflow and enable next one
         run: |
           gh workflow enable "Step 2"
