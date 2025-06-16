@@ -39,31 +39,31 @@ The trestle-workspace supports running trestlebot commands in GitHub Actions. Th
    
 <img alt="img_1.png" height="120" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_1.png" width="150"/>
 
-<img alt="img.png" height="40" src="https://github.com/hbraswelrh/creme-brulee/blob/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img.png" width="400"/>
+<img alt="img.png" height="40" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img.png" width="400"/>
 
 2. Click "Run workflow."
 
 This will prompt for your input depending on the command being run. If you are authoring Component Definitions, the fields will populate for indicating profile, component title, component description, etc. Autosync will run based on the trigger of "Run workflow."
 
-<img alt="img_2.png" height="200" src="https://github.com/hbraswelrh/creme-brulee/blob/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_2.png" width="150"/>
+<img alt="img_2.png" height="200" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_2.png" width="150"/>
 
-<img alt="img_6.png" height="200" src="https://github.com/hbraswelrh/creme-brulee/blob/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_6.png" width="150"/>
+<img alt="img_6.png" height="200" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_6.png" width="150"/>
 
-<img alt="img_3.png" height="80" src="https://github.com/hbraswelrh/creme-brulee/blob/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_3.png" width="160"/>
+<img alt="img_3.png" height="80" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_3.png" width="160"/>
    
 3. Make sure the `branch: main` is indicated, and then click the green box "Run Workflow."
 
-<img alt="img_4.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_4.png" width="250"/>
+<img alt="img_4.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_4.png" width="250"/>
    
-<img alt="img_5.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_5.png" width="325"/>
+<img alt="img_5.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_5.png" width="325"/>
    
 
 
 
-<img alt="img_7.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_7.png" width="325"/>
+<img alt="img_7.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_7.png" width="325"/>
 
 
-<img alt="img_8.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_8.png" width="325"/>
+<img alt="img_8.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_8.png" width="325"/>
 
 #### Reviewing generated OSCAL Content from ComplianceasCode/content
 
