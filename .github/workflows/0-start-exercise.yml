@@ -44,7 +44,7 @@ jobs:
           path: exercise-toolkit
           ref: v0.4.0
 
-      - name: Build comment - add step content
+      - name: Build comment - add step 1 content
         id: build-comment
         uses: skills/action-text-variables@v2
         with:
@@ -68,7 +68,7 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Create comment -complete the self-assessment quiz
+      - name: Create comment - complete the self-assessment quiz
         run: |
           gh issue comment "$ISSUE_URL" \
             --body "Complete the Read the Docs [self-assessment](https://form.typeform.com/to/tiOAik8G?typeform-source=github.com). This should be completed after [Step 1: Read the Docs](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md#-reading-creme-brulee-course-documentation). Did you complete the GitHub Skills [prerequisite](https://github.com/hbraswelrh/creme-brulee/tree/main?tab=readme-ov-file#prerequisites) courses? Those must be finished prior to this quiz."

@@ -1,4 +1,4 @@
-## Step 2: Initialize the trestle workspace with trestle-bot 
+## Step 2: Initialize the trestle workspace with complyscribe
 
 _This will house the authored OSCAL content_
 
@@ -24,16 +24,16 @@ _You can choose to make the repository Public or Private_
 
 <img src="https://github.com/user-attachments/assets/bb4ffe1a-20f0-4ab7-abd7-d76a2eb10573" alt="text" width="250" height="250">
 
-**Step 4🪄:** Your repository has now been created and will be available under `{YOUR_GITHUB_USERNAME}/{TRESTLE_WORKSPACE_NAME}`
+**Step 4🪄:** Your repository has now been created and will be available under `{YOUR_GITHUB_USERNAME}/{OSCAL_CONTENT_DEMO_NAME}`
 
 <img src="https://github.com/user-attachments/assets/f7fd13d0-4e58-4613-851c-57bb09f5b7f2" alt="text" width="375" height="200">
 
 
 ### Trestle Workspace Context: 
 
-#### Running trestle-bot commands in GitHub Actions 
+#### Running complyscribe commands in GitHub Actions 
 
-The trestle-workspace supports running trestlebot commands in GitHub Actions. The available actions are autosync, create, and rules-transform. The workflows can be seen [here](https://github.com/hbraswelrh/trestle-workspace/blob/main/.github/workflows/README.md). This is a simplistic way to get started with your first few tests.
+The trestle-workspace supports running complyscribe commands in GitHub Actions. The available actions are autosync, create, and rules-transform. The workflows can be found [here](https://github.com/hbraswelrh/trestle-workspace/blob/main/.github/workflows/README.md). This is a simplistic way to get started with your first few tests.
 
 1. Navigate to the Actions tab in the trestle-workspace
    
@@ -67,7 +67,7 @@ This will prompt for your input depending on the command being run. If you are a
 
 #### Reviewing generated OSCAL Content from ComplianceasCode/content
 
-The trestle-workspace supports running trestlebot commands in GitHub Actions. The `sync-cac-content` command that generates OSCAL Catalogs, Profiles, and Component Definitions is not currently available as a GitHub Action. The RHEL9 product OSCAL Catalogs, Profiles, and Component Definitions that are available using the ComplianceAsCode/content repository are available on the `feat/rhel9-content` branch of the public template repository. See [here](https://github.com/hbraswelrh/trestle-workspace/tree/feat/rhel9-content). 
+The trestle-workspace supports running `complyscribe` commands in GitHub Actions. The `sync-cac-content` command that generates OSCAL Catalogs, Profiles, and Component Definitions is not currently available as a GitHub Action. The RHEL9 product OSCAL Catalogs, Profiles, and Component Definitions that are available using the ComplianceAsCode/content repository are available on the `feat/rhel9-content` branch of the public template repository. See [here](https://github.com/hbraswelrh/trestle-workspace/tree/feat/rhel9-content). 
 
 #### Annotated File Tree 📂
 

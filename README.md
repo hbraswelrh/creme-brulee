@@ -28,7 +28,7 @@ _Learn to use ComplyTime organization projects and tools._
 ### :vertical_traffic_light: Start Here
 
   - Review the [GLOSSARY.md](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/GLOSSARY.md) for relevant terms that will be used throughout course content. 
-  - Review `README.md` of [trestle-bot](https://github.com/complytime/trestle-bot) ,  [complytime](https://github.com/complytime/complytime), and [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content/blob/master/README.md). Refer to [GEMINI.md](https://github.com/hbraswelrh/creme-brulee/blob/8c2d9bf3d05eed5f00371fbb9f933839fe3556b4/docs/GEMINI.md) for prompts that could help with understanding the repository contents. 
+  - Review `README.md` of [complyscribe](https://github.com/complytime/complyscribe) ,  [complyctl](https://github.com/complytime/complyctl), and [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content/blob/master/README.md). Refer to [GEMINI.md](https://github.com/hbraswelrh/creme-brulee/blob/8c2d9bf3d05eed5f00371fbb9f933839fe3556b4/docs/GEMINI.md) for prompts that could help with understanding the repository contents. 
   - Review the [README.md](https://github.com/hbraswelrh/creme-brulee/blob/aae8325c6379d5dd97aa1de48f129c0cdd36aef4/.github/steps/README.md) that outlines the steps of the course. 
 
 
