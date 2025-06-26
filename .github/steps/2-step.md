@@ -1,16 +1,16 @@
-## Step 2: Initialize the trestle workspace with complyscribe
+## Step 2: Initialize the oscal-content-demo with complyscribe
 
 _This will house the authored OSCAL content_
 
-### 📖 Theory: Author OSCAL Content and Update it in your [trestle-workspace](https://github.com/hbraswelrh/trestle-workspace/tree/main)
+### 📖 Theory: Author OSCAL Content and Update it in your [oscal-content-demo](https://github.com/hbraswelrh/oscal-content-demo/tree/main)
 
 The [trestle-workspace](https://github.com/hbraswelrh/trestle-workspace/tree/main) is a public template that can be leveraged with trestle-bot in GitHub CI. The file structure layout is seen in the tree below. 
 
-### ⌨️ Activity: Interact with the trestle-workspace
+### ⌨️ Activity: Interact with the oscal-content-demo
 
 To interact with the trestle workspace, you will need to create your own copy of the [trestle-workspace](https://github.com/hbraswelrh/trestle-workspace/tree/main) public repository template. This will allow you to have your own trestle-workspace directly out of the box. 
 
-**Step 1🖱️:** Navigate to the [trestle-workspace](https://github.com/hbraswelrh/trestle-workspace/tree/main). Click the green box in the upper right corner that says "Use this template."
+**Step 1🖱️:** Navigate to the [oscal-content-demo](https://github.com/hbraswelrh/oscal-content-demo/tree/main). Click the green box in the upper right corner that says "Use this template."
 
 <img src="https://github.com/user-attachments/assets/7f0d54c1-daef-488a-b8e4-0887cf7e491a" alt="text" width="375" height="200">
 
@@ -18,7 +18,7 @@ To interact with the trestle workspace, you will need to create your own copy of
 
 <img src="https://github.com/user-attachments/assets/0ce8f4a7-453d-408e-8174-75cec1cc507a" alt="text" width="250" height="85">
 
-**Step 3🖱️🟩:** Ensure that you are the repository owner and create a name for your new trestle-workspace template. Then, click "Create Repository."
+**Step 3🖱️🟩:** Ensure that you are the repository owner and create a name for your new oscal-content-demo template. Then, click "Create Repository."
 
 _You can choose to make the repository Public or Private_
 
@@ -29,11 +29,11 @@ _You can choose to make the repository Public or Private_
 <img src="https://github.com/user-attachments/assets/f7fd13d0-4e58-4613-851c-57bb09f5b7f2" alt="text" width="375" height="200">
 
 
-### Trestle Workspace Context: 
+### `oscal-content-demo` Context: 
 
-#### Running complyscribe commands in GitHub Actions 
+#### Running `complyscribe` commands in GitHub Actions 
 
-The trestle-workspace supports running complyscribe commands in GitHub Actions. The available actions are autosync, create, and rules-transform. The workflows can be found [here](https://github.com/hbraswelrh/trestle-workspace/blob/main/.github/workflows/README.md). This is a simplistic way to get started with your first few tests.
+The oscal-content-demo supports running `complyscribe` commands in GitHub Actions. The available actions are autosync, create, and rules-transform. The workflows can be found [here](https://github.com/hbraswelrh/oscal-content-demo/blob/main/.github/workflows/README.md). This is a simplistic way to get started with your first few tests.
 
 1. Navigate to the Actions tab in the trestle-workspace
    
@@ -67,11 +67,11 @@ This will prompt for your input depending on the command being run. If you are a
 
 #### Reviewing generated OSCAL Content from ComplianceasCode/content
 
-The trestle-workspace supports running `complyscribe` commands in GitHub Actions. The `sync-cac-content` command that generates OSCAL Catalogs, Profiles, and Component Definitions is not currently available as a GitHub Action. The RHEL9 product OSCAL Catalogs, Profiles, and Component Definitions that are available using the ComplianceAsCode/content repository are available on the `feat/rhel9-content` branch of the public template repository. See [here](https://github.com/hbraswelrh/trestle-workspace/tree/feat/rhel9-content). 
+The oscal-content-demo supports running `complyscribe` commands in GitHub Actions. The `sync-cac-content` command that generates OSCAL Catalogs, Profiles, and Component Definitions is not currently available as a GitHub Action. The RHEL9 product OSCAL Catalogs, Profiles, and Component Definitions that are available using the ComplianceAsCode/content repository are available on the `feat/rhel9-content` branch of the public template repository. See [here](https://github.com/hbraswelrh/trestle-workspace/tree/feat/rhel9-content). 
 
 #### Annotated File Tree 📂
 
-The annotated file tree can be referenced in [annotated-tree.md](https://github.com/hbraswelrh/creme-brulee/blob/95c4bbb99cbb0e0b28b459f19950983ca13d34b7/docs/annotated-tree.md) which shows the current state of the trestle-workspace public template. The annotations are consistent with the table below. 
+The annotated file tree can be referenced in [annotated-tree.md](https://github.com/hbraswelrh/creme-brulee/blob/95c4bbb99cbb0e0b28b459f19950983ca13d34b7/docs/annotated-tree.md) which shows the current state of the oscal-content-demo public template. The annotations are consistent with the table below. 
 
 **Example:** 
 
@@ -82,9 +82,9 @@ Starting with the OSCAL Catalog, you want to base it off of the CIS Benchmark fo
 
 | OSCAL Content Created in `trestle-workspace`                                                                                                                               |                                 ComplianceAsCode/content location                                  |
 |----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------:|
-| [OSCAL Catalog](https://github.com/hbraswelrh/my-trestle-workspace/blob/main/catalogs/cis_rhel9/catalog.json)                                                              |    [cis_rhel9](https://github.com/ComplianceAsCode/content/blob/master/controls/cis_rhel9.yml)     | 
-| [OSCAL Profile](https://github.com/hbraswelrh/my-trestle-workspace/tree/main/profiles)                                                                                     | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
-| [OSCAL Component Definition](https://github.com/hbraswelrh/my-trestle-workspace/blob/main/component-definitions/rhel9/rhel9-cis_rhel9-l1_server/component-definition.json) | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
+| [OSCAL Catalog](https://github.com/hbraswelrh/oscal-content-demo/blob/main/catalogs/cis_rhel9/catalog.json)                                                              |    [cis_rhel9](https://github.com/ComplianceAsCode/content/blob/master/controls/cis_rhel9.yml)     | 
+| [OSCAL Profile](https://github.com/hbraswelrh/oscal-content-demo/tree/main/profiles)                                                                                     | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
+| [OSCAL Component Definition](https://github.com/hbraswelrh/oscal-content-demo/blob/main/component-definitions/rhel9/rhel9-cis_rhel9-l1_server/component-definition.json) | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
 
 - The `annotated-tree.md` indicates "Control File `cis_rhel9` from ComplianceAsCode/content" and "RHEL9 Profile for cis_rhel9-l1_x/12_x." Reference the second column of the table for how the elements of the ComplianceAsCode/content repository align with the trestle-workspace content.
 
@@ -92,6 +92,33 @@ Starting with the OSCAL Catalog, you want to base it off of the CIS Benchmark fo
 
 <!--The ComplianceAsCode/content repository is used for syncing and transforming content to OSCAL format.--> 
 
+> 🗄️ Where you can find this content
+
+- 📁[assessment-plans](https://github.com/hbraswelrh/oscal-content-demo/tree/main/assessment-plans)
+   - 📂assessment-plan.json
+
+- 📁[assessment-results](https://github.com/hbraswelrh/oscal-content-demo/tree/main/assessment-results)
+   - 📂assessment-results.json
+- 📁[catalogs](https://github.com/hbraswelrh/oscal-content-demo/tree/main/catalogs)
+   - 📁 cis_rhel9
+      - 📂catalog.json
+
+- 📁[component-definitions](https://github.com/hbraswelrh/oscal-content-demo/tree/main/component-definitions)
+    - 📁 [rhel9](https://github.com/hbraswelrh/oscal-content-demo/tree/main/component-definitions/rhel9) 
+      - 📁 [rhel9-cis_rhel9-l1_server](https://github.com/hbraswelrh/oscal-content-demo/tree/main/component-definitions/rhel9/rhel9-cis_rhel9-l1_server)
+         - 📂[component-definition.json](https://github.com/hbraswelrh/oscal-content-demo/blob/main/component-definitions/rhel9/rhel9-cis_rhel9-l1_server/component-definition.json)
+- 📁[markdown](https://github.com/hbraswelrh/oscal-content-demo/tree/main/markdown)
+- 📁[plan-of-action-and-milestones](https://github.com/hbraswelrh/oscal-content-demo/tree/main/plan-of-action-and-milestones)
+- 📁[profiles](https://github.com/hbraswelrh/oscal-content-demo/tree/main/profiles)
+   - 📁[rhel9-cis_rhel9-l1_server](https://github.com/hbraswelrh/oscal-content-demo/tree/main/profiles/rhel9-cis_rhel9-l1_server)
+       - 📂[profile.json](https://github.com/hbraswelrh/oscal-content-demo/blob/main/profiles/rhel9-cis_rhel9-l1_server/profile.json)
+   - 📁[rhel9-cis_rhel9-l1_workstation](https://github.com/hbraswelrh/oscal-content-demo/tree/main/profiles/rhel9-cis_rhel9-l1_workstation)
+       - 📂[profile.json](https://github.com/hbraswelrh/oscal-content-demo/blob/main/profiles/rhel9-cis_rhel9-l1_workstation/profile.json)
+   - 📁[rhel9-cis_rhel9-l2_server](https://github.com/hbraswelrh/oscal-content-demo/tree/main/profiles/rhel9-cis_rhel9-l2_server)
+       - 📂[profile.json](https://github.com/hbraswelrh/oscal-content-demo/blob/main/profiles/rhel9-cis_rhel9-l2_server/profile.json)
+   - 📁[rhel9-cis_rhel9-l2_workstation](https://github.com/hbraswelrh/oscal-content-demo/tree/main/profiles/rhel9-cis_rhel9-l2_workstation)
+       - 📂[profile.json](https://github.com/hbraswelrh/oscal-content-demo/blob/main/profiles/rhel9-cis_rhel9-l2_workstation/profile.json)
+- 📁[system-security-plans](https://github.com/hbraswelrh/oscal-content-demo/tree/main/system-security-plans)
 #### Workspace file tree 
 
 ```bash
