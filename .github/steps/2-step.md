@@ -35,7 +35,7 @@ _You can choose to make the repository Public or Private_
 
 The oscal-content-demo supports running `complyscribe` commands in GitHub Actions. The available actions are autosync, create, and rules-transform. The workflows can be found [here](https://github.com/hbraswelrh/oscal-content-demo/blob/main/.github/workflows/README.md). This is a simplistic way to get started with your first few tests.
 
-1. Navigate to the Actions tab in the trestle-workspace
+1. Navigate to the Actions tab in the oscal-content-demo
    
 <img alt="img_1.png" height="120" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_1.png" width="150"/>
 
