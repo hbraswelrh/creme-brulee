@@ -51,5 +51,6 @@ C2P generates policies in the _native_ format of PVP _from_ the OSCAL Component 
   - Agile Authoring Pipelines
 
 #### GitHub Repositories 
+Reference the README.md of `compliance-to-policy` and `compliance-to-policy-go` for more information on Policy as Code. 
 - [`compliance-to-policy`](https://github.com/oscal-compass/compliance-to-policy)
 - [`compliance-to-policy-go`](https://github.com/oscal-compass/compliance-to-policy-go)
