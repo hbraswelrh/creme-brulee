@@ -16,7 +16,7 @@ Ensure you've reviewed these foundational resources for your success in the cour
 | CNCF                     | [`docs/CNCF.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/CNCF.md)                     |
 | Compliance Trestle       | [`TRESTLE-OVERVIEW.md`](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/TRESTLE-OVERVIEW.md)  |
 
-
+Document your notes in a GitHub issue like [this](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart). Ensure you select "Learning course issue template" when opening your issue.
 ### **📝 Take the Self-Assessment**
 
 Once you've thoroughly reviewed all the documentation above, take this short [self-assessment quiz](https://form.typeform.com/to/tiOAik8G). Good luck\! 🚀
