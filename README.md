@@ -8,7 +8,7 @@ _Learn to use ComplyTime organization projects and tools._
 
 - **Who is this for**: Compliance Managers, New ComplyTime users, Developers
 - **What you'll learn**: In this course, you'll learn how to set up the ComplyTime organization tools, author OSCAL Content from the GitHub UI, and leverage those tools for Compliance Management workflows.
-- **What you'll build**: You'll initialize a trestle workspace, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation through Agile Authoring and automated workflows.
+- **What you'll build**: You'll initialize an oscal-content-demo workspace, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation through Agile Authoring and automated workflows.
 
 ### Prerequisites
 
