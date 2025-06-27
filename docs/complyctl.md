@@ -1,4 +1,5 @@
 ## `complyctl` overview
+
 ComplyCTL is a tool that uses OSCAL to conduct compliance assessment activities. It operates by leveraging a plugin-based architecture for each stage of the compliance lifecycle.
 
 ### Core Functionality:
