@@ -7,9 +7,9 @@ Many codebases mentioned throughout this course require a robust understanding o
 #### Benefits of using Gemini for understanding relationship of codebases
 
 1. Gemini can cater to your preferred learning style.
-2. Resources can be aggregated in seconds rather than time consuming searches
+2. Resources can be aggregated in seconds rather than time-consuming searches
 
-#### Useful Gemini Prompts for those _curious_
+#### Useful Gemini Prompts for understanding the projects
 
 #### Gemini Gem Description 
 

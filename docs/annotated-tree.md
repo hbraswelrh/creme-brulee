@@ -1,8 +1,8 @@
 #### Annotated File Tree 📂
 
-The trestle-workspace that was created will have a file structure similar to the one pictured below.
+The oscal-content-demo that was created will have a file structure similar to the one pictured below.
 
-Branches of the trestle-workspace are initialized with different contents to keep your changes organized. 
+Branches of the oscal-content-demo are initialized with different contents to keep your changes organized. 
 
 :tree: 
 - <img alt="img.png" height="50" src="branches.png" width="100"/>

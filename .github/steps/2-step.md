@@ -4,11 +4,11 @@ _This will house the authored OSCAL content_
 
 ### 📖 Theory: Author OSCAL Content and Update it in your [oscal-content-demo](https://github.com/hbraswelrh/oscal-content-demo/tree/main)
 
-The [trestle-workspace](https://github.com/hbraswelrh/trestle-workspace/tree/main) is a public template that can be leveraged with trestle-bot in GitHub CI. The file structure layout is seen in the tree below. 
+The [oscal-content-demo](https://github.com/hbraswelrh/trestle-workspace/tree/main) is a public repository template that can be leveraged with complyscribe in GitHub CI. The file structure layout is seen in the tree below. 
 
 ### ⌨️ Activity: Interact with the oscal-content-demo
 
-To interact with the trestle workspace, you will need to create your own copy of the [trestle-workspace](https://github.com/hbraswelrh/trestle-workspace/tree/main) public repository template. This will allow you to have your own trestle-workspace directly out of the box. 
+To interact with the trestle workspace, you will need to create your own copy of the [oscal-content-demo](https://github.com/hbraswelrh/trestle-workspace/tree/main) public repository template. This will allow you to have your own trestle-workspace directly out of the box. 
 
 **Step 1🖱️:** Navigate to the [oscal-content-demo](https://github.com/hbraswelrh/oscal-content-demo/tree/main). Click the green box in the upper right corner that says "Use this template."
 
@@ -33,9 +33,9 @@ _You can choose to make the repository Public or Private_
 
 #### Running `complyscribe` commands in GitHub Actions 
 
-The oscal-content-demo supports running `complyscribe` commands in GitHub Actions. The available actions are autosync, create, and rules-transform. The workflows can be found [here](https://github.com/hbraswelrh/oscal-content-demo/blob/main/.github/workflows/README.md). This is a simplistic way to get started with your first few tests.
+The oscal-content-demo supports running `complyscribe` commands in GitHub Actions. The available actions are `autosync`, `create-cd`, and `rules-transform`. The workflows can be found [here](https://github.com/hbraswelrh/oscal-content-demo/blob/main/.github/workflows/README.md). This is a simplistic way to get started with your first few tests.
 
-1. Navigate to the Actions tab in the oscal-content-demo
+1. Navigate to the Actions tab in your oscal-content-demo workspace. 
    
 <img alt="img_1.png" height="120" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_1.png" width="150"/>
 
@@ -43,7 +43,7 @@ The oscal-content-demo supports running `complyscribe` commands in GitHub Action
 
 2. Click "Run workflow."
 
-This will prompt for your input depending on the command being run. If you are authoring Component Definitions, the fields will populate for indicating profile, component title, component description, etc. Autosync will run based on the trigger of "Run workflow."
+This will prompt for your input depending on the command being run. If authoring Component Definitions, the input fields will populate for indicating profile, component title, component description, etc. Those are manual inputs. Autosync will run based on the trigger of "Run workflow."
 
 <img alt="img_2.png" height="200" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_2.png" width="150"/>
 
@@ -56,8 +56,6 @@ This will prompt for your input depending on the command being run. If you are a
 <img alt="img_4.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_4.png" width="250"/>
    
 <img alt="img_5.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_5.png" width="325"/>
-   
-
 
 
 <img alt="img_7.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_7.png" width="325"/>
@@ -65,9 +63,10 @@ This will prompt for your input depending on the command being run. If you are a
 
 <img alt="img_8.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_8.png" width="325"/>
 
-#### Reviewing generated OSCAL Content from ComplianceasCode/content
 
-The oscal-content-demo supports running `complyscribe` commands in GitHub Actions. The `sync-cac-content` command that generates OSCAL Catalogs, Profiles, and Component Definitions is not currently available as a GitHub Action. The RHEL9 product OSCAL Catalogs, Profiles, and Component Definitions that are available using the ComplianceAsCode/content repository are available on the `feat/rhel9-content` branch of the public template repository. See [here](https://github.com/hbraswelrh/trestle-workspace/tree/feat/rhel9-content). 
+#### Reviewing generated OSCAL Content from ComplianceAsCode/content
+
+The oscal-content-demo supports running `complyscribe` commands in GitHub Actions. The `sync-cac-content` command that generates OSCAL Catalogs, Profiles, and Component Definitions is not currently available as a GitHub Action. The RHEL8, RHEL9, and RHEL10 product OSCAL Catalogs, Profiles, and Component Definitions are available in your workspace. The content from `ComplianceAsCode/content` was used with the `complyscribe sync-cac-content` commands to populate this content. The `ComplianceAsCode/oscal-content` repository is ongoing development and will synchronize the `ComplianceAsCode/content` resources with the `ComplianceAsCode/oscal-content` repository to continuously sync changes.  
 
 #### Annotated File Tree 📂
 
@@ -80,8 +79,8 @@ You want to create an OSCAL Catalog, OSCAL Profile, and an OSCAL Component Defin
 Starting with the OSCAL Catalog, you want to base it off of the CIS Benchmark for RHEL9. Let trestle-bot do the magic 🪄 in GitHub Actions.
 
 
-| OSCAL Content Created in `trestle-workspace`                                                                                                                               |                                 ComplianceAsCode/content location                                  |
-|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------:|
+| OSCAL Content Created in `trestle-workspace`                                                                                                                             |                                 ComplianceAsCode/content location                                  |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------:|
 | [OSCAL Catalog](https://github.com/hbraswelrh/oscal-content-demo/blob/main/catalogs/cis_rhel9/catalog.json)                                                              |    [cis_rhel9](https://github.com/ComplianceAsCode/content/blob/master/controls/cis_rhel9.yml)     | 
 | [OSCAL Profile](https://github.com/hbraswelrh/oscal-content-demo/tree/main/profiles)                                                                                     | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
 | [OSCAL Component Definition](https://github.com/hbraswelrh/oscal-content-demo/blob/main/component-definitions/rhel9/rhel9-cis_rhel9-l1_server/component-definition.json) | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
@@ -172,7 +171,7 @@ Starting with the OSCAL Catalog, you want to base it off of the CIS Benchmark fo
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
-- Reference the trestle-bot [`README.md`](https://github.com/complytime/trestle-bot/blob/main/README.md).
+- Reference the complyscribe [`README.md`](https://github.com/complytime/trestle-bot/blob/main/README.md).
 - [The guide for navigating public templates](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 - (replace-me: Additional troubleshooting tips as needed)
 

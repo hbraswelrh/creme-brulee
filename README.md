@@ -6,7 +6,7 @@ _Learn to use ComplyTime organization projects and tools._
 
 ## Welcome
 
-- **Who is this for**: Compliance Managers, New ComplyTime users, Developers
+- **Who is this for**: Compliance Managers, New ComplyTime users, Developers.
 - **What you'll learn**: In this course, you'll learn how to set up the ComplyTime organization tools, author OSCAL Content from the GitHub UI, and leverage those tools for Compliance Management workflows.
 - **What you'll build**: You'll initialize an oscal-content-demo workspace, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation through Agile Authoring and automated workflows.
 
@@ -16,14 +16,20 @@ _Learn to use ComplyTime organization projects and tools._
 
 - You'll need a GitHub account with a personal access token, setup [account here](https://github.com/), [token here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) :octocat:
 
+##### OSCAL for Compliance Managers
+
+> Required before attempting the ComplyTime module of the learning course
+
+- Review the OSCAL for Compliance Managers recording. The slides can be referenced [here](https://docs.google.com/presentation/d/13LDE-AL3xvWf1trSn_NE1OyjTP1KwVaq3HIbypgvtuU/edit?usp=sharing)
+
 ##### Required GitHub curated Skills courses to complete prior to the ComplyTime module 
 
 > The required GitHub Skills courses will prepare you to interact with GitHub Issues, Pull Requests, and understand Git Flow. 
 
-  - Take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) skills course. 
+  - Take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) Skills course. 
   - Take the [Communicate using Markdown](https://github.com/skills/communicate-using-markdown) GitHub Skills course. 
 
-**Document your completion of these prerequisites [here](https://forms.gle/1JihWyLzS71n7qkc7)**
+**Document your completion of these prerequisites [here](https://docs.google.com/forms/d/e/1FAIpQLScOfS4HjpbhMkbNqPCAUOnTdnZGHFNTQPemmMJkfH1_CH21Lw/viewform?usp=sharing&ouid=104913281648749089640)**
 
 ### :vertical_traffic_light: Start Here
 
@@ -36,9 +42,9 @@ _Learn to use ComplyTime organization projects and tools._
 
 In this exercise, you will:
 1. Learn about the relevant repositories in the ComplyTime organization.
-2. Make your own copy of an initialized trestle-workspace. More info [here](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md)
+2. Make your own copy of an initialized oscal-content-demo workspace. More info [here](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md)
 3. Trigger GitHub Actions that allow you to author OSCAL content. 
-4. Practice using Git, Markdown, and tools. 
+4. Practice using Git, Markdown, and ComplyTime tools. 
 
 
 ### How to start this exercise
