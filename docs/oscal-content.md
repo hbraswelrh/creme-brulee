@@ -1,8 +1,14 @@
 # oscal-content
 
-#### Where to find
+#### Where to find the
 
 [ComplianceAsCode/oscal-content](https://github.com/ComplianceAsCode/oscal-content) 
+
+#### Watch the demos 
+
+Demo [recording](https://drive.google.com/file/d/1ZOc-H4f5zG_NCf_5rEuQMSwMZ52PkFzY/view) for `sync-oscal-cac` GitHub Action that syncs OSCAL Content changes to ComplianceAsCode/content.
+
+Demo [recording](https://drive.google.com/file/d/1rvRlNkCzlvTh7NIC9JCKNIkiJCxW_S3W/view) for `sync-cac-oscal` GitHub Action that sync ComplianceAsCode/content changes to OSCAL Content.
 
 #### Why you should review `ComplianceAsCode/oscal-content`
 
