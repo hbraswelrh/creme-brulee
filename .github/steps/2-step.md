@@ -8,7 +8,7 @@ The [oscal-content-demo](https://github.com/hbraswelrh/trestle-workspace/tree/ma
 
 ### ⌨️ Activity: Interact with the oscal-content-demo
 
-To interact with the trestle workspace, you will need to create your own copy of the [oscal-content-demo](https://github.com/hbraswelrh/trestle-workspace/tree/main) public repository template. This will allow you to have your own trestle-workspace directly out of the box. 
+To interact with the oscal-content-demo, you will need to create your own copy. This public repository template [oscal-content-demo](https://github.com/hbraswelrh/trestle-workspace/tree/main) allows you to create unlimited copies, providing a safe and secure sandbox for testing the tools directly.
 
 **Step 1🖱️:** Navigate to the [oscal-content-demo](https://github.com/hbraswelrh/oscal-content-demo/tree/main). Click the green box in the upper right corner that says "Use this template."
 
@@ -28,6 +28,9 @@ _You can choose to make the repository Public or Private_
 
 <img src="https://github.com/user-attachments/assets/f7fd13d0-4e58-4613-851c-57bb09f5b7f2" alt="text" width="375" height="200">
 
+### Getting Comfortable with the `oscal-content-demo` flow
+
+Follow the steps on the [oscal-content-demo](https://github.com/hbraswelrh/oscal-content-demo/tree/main?tab=readme-ov-file#getting-started) `README.md`for making your first change.
 
 ### `oscal-content-demo` Context: 
 
@@ -63,6 +66,19 @@ This will prompt for your input depending on the command being run. If authoring
 
 <img alt="img_8.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_8.png" width="325"/>
 
+#### Self-assessment
+
+_Let's see what you've learned_
+
+Take the [self-assessment](https://form.typeform.com/to/EwVRNkJ4) once you have completed Step 2: _Initializing oscal-content-demo with complyscribe_.
+
+##### What You'll Submit
+
+Once completing Step 2: _Initializing oscal-content-demo with complyscribe_, you will have made changes on the `develop` branch of your `oscal-content-demo` repository. 
+
+The changes made will be reflected in your Pull Request. Copy and paste the link of your Pull Request in the self-assessment. 
+
+> Example: "ComplyTime Learning Course: {YOUR_NAME}."
 
 #### Reviewing generated OSCAL Content from ComplianceAsCode/content
 
@@ -79,12 +95,13 @@ You want to create an OSCAL Catalog, OSCAL Profile, and an OSCAL Component Defin
 Starting with the OSCAL Catalog, you want to base it off of the CIS Benchmark for RHEL9. Let trestle-bot do the magic 🪄 in GitHub Actions.
 
 
-| OSCAL Content Created in `trestle-workspace`                                                                                                                             |                                 ComplianceAsCode/content location                                  |
+| OSCAL Content Created in `oscal-content-demo`                                                                                                                            |                                 ComplianceAsCode/content location                                  |
 |--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------:|
 | [OSCAL Catalog](https://github.com/hbraswelrh/oscal-content-demo/blob/main/catalogs/cis_rhel9/catalog.json)                                                              |    [cis_rhel9](https://github.com/ComplianceAsCode/content/blob/master/controls/cis_rhel9.yml)     | 
 | [OSCAL Profile](https://github.com/hbraswelrh/oscal-content-demo/tree/main/profiles)                                                                                     | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
 | [OSCAL Component Definition](https://github.com/hbraswelrh/oscal-content-demo/blob/main/component-definitions/rhel9/rhel9-cis_rhel9-l1_server/component-definition.json) | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
 
+- 
 - The `annotated-tree.md` indicates "Control File `cis_rhel9` from ComplianceAsCode/content" and "RHEL9 Profile for cis_rhel9-l1_x/12_x." Reference the second column of the table for how the elements of the ComplianceAsCode/content repository align with the trestle-workspace content.
 
 - The base file tree without annotations can be found in [workspace-tree.md](https://github.com/hbraswelrh/creme-brulee/blob/520790e4c8b261cfe2b83a804c1c2728bdacb3ef/docs/workspace-tree.md)
@@ -153,18 +170,6 @@ Starting with the OSCAL Catalog, you want to base it off of the CIS Benchmark fo
 
 
 ```
-
-<!--_the one-stop shop for housing your catalogs, profiles, and component-definitions_ -->
-
-<!-- GitHub-styled notifications can be used outside ordered lists. Available options are: NOTE, IMPORTANT, WARNING, TIP, CAUTION -->
-<!--[!NOTE]
-> (Important note or additional information relevant to this section)
- -->
-
-(replace-me: Optional theory or background information relevant to this step)
-
-
-<!-- IDEA: CREATE A REPO W A BUNCH OF ERRORS ON DOCS AND THEN GET PRS IN THAT REPO TO HAVE AN AUTOMATED WORKFLOW FOR CONTRIBUTIONS!!!!! -->
 
 1. (replace-me: Additional instructions as needed)
 
