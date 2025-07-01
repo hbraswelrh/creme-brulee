@@ -22,9 +22,9 @@ _[Why trestle?](https://github.com/oscal-compass/compliance-trestle#why-trestle)
 
 #### GitHub Repositories
 
-- [compliance-trestle](https://github.com/oscal-compass/compliance-trestle)
-- [compliance-trestle-agile-authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring)
+_suggested to ask Gemini for more context on the `README.md`_
 
+- [compliance-trestle](https://github.com/oscal-compass/compliance-trestle)
 
 #### Supporting Links
 

@@ -18,7 +18,6 @@
 | **Authoring** ✍️       | The process of creating or writing content, especially technical documentation or policy definitions.       | **Authoring** an OSCAL Component Definition involves writing the YAML or JSON to define your system's components and their security properties. |
 | **Agile Authoring** 🚀 | Applying Agile development principles (iterative, collaborative, responsive to change) to content creation. | Using short cycles to draft, review, and refine OSCAL content with feedback from others is an example of **Agile Authoring**.                   |
 
-#### **Additional Resources**
 
 ##### **GitHub Glossary**
 
