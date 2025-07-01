@@ -31,3 +31,5 @@ As a Compliance Professional, you'll inevitably need to collaborate with the Pro
 #### Resources for learning how to use ComplianceAsCode
 
 - [Say Hello to ComplianceAsCode workshop](https://github.com/ComplianceAsCode/content/blob/master/docs/workshop/lab1_introduction.adoc)
+- [ComplianceAsCode/content/controls](https://complianceascode.readthedocs.io/en/latest/flowcharts/flowchart_controls.html) for the content that will be used for creating OSCAL Catalogs.
+- [ComplianceAsCode/content/products](https://complianceascode.readthedocs.io/en/latest/flowcharts/flowchart_products.html) for the content that will be used in tandem with OSCAL Catalogs to create OSCAL Profiles and Component Definitions.

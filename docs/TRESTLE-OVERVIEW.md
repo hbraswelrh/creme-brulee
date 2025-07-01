@@ -11,19 +11,22 @@ NIST's [OSCAL](https://pages.nist.gov/OSCAL/) standard data format is leveraged 
 Maintains and enforces transparency of complaince measures across multiple stakeholders in a developer-friendly environment. 
 - Trestle generated artifacts are then leveraged by tools for enforcement, measurement, and reporting of compliance. 
 
-#### Functions in the Complaince realm 
+#### Functions in the Complaince Realm 
 
-_[Why trestle](https://github.com/oscal-compass/compliance-trestle#why-trestle)_
+_[Why trestle?](https://github.com/oscal-compass/compliance-trestle#why-trestle)_
 
 - Management of OSCAL documentation for editing and manipulation with accountability of schema enforcement.
 - Transformation of documents from various formats to OSCAL. 
 - Streamlined management within a `git` environment.
+- 
 
 #### GitHub Repositories
 
 - [compliance-trestle](https://github.com/oscal-compass/compliance-trestle)
 - [compliance-trestle-agile-authoring](https://github.com/oscal-compass/compliance-trestle-agile-authoring)
 
+
 #### Supporting Links
 
 [Trestle Deck: Compliance-as-Code Orchestrator and Automation Workflows](https://csrc.nist.gov/csrc/media/Presentations/2022/oscal-mini-workshop-2-ibm-s-trestle/IBM_Trestle.pdf)
+More info on the OSCAL Compass Landing Page [here](https://oscal-compass.dev/)
