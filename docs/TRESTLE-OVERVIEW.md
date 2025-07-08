@@ -1,32 +1,64 @@
-## Compliance Trestle
+# 🏛️ Compliance Trestle Overview
 
-#### What is [`compliance-trestle`](https://oscal-compass.dev/compliance-trestle/latest/)
+---
 
-Trestle encapsulates an ensemble of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs.
+## 🔍 What is [`compliance-trestle`](https://oscal-compass.dev/compliance-trestle/latest/)?
 
-NIST's [OSCAL](https://pages.nist.gov/OSCAL/) standard data format is leveraged to connect the dots between humans and machines. 
+**Trestle** encapsulates an ensemble of tools that enable the creation, validation, and governance of documentation artifacts for compliance needs.
 
-#### What does it do?
+**NIST's [OSCAL](https://pages.nist.gov/OSCAL/)** standard data format is leveraged to connect the dots between humans and machines, creating a seamless bridge between policy and implementation.
 
-Maintains and enforces transparency of complaince measures across multiple stakeholders in a developer-friendly environment. 
-- Trestle generated artifacts are then leveraged by tools for enforcement, measurement, and reporting of compliance. 
+---
 
-#### Functions in the Complaince Realm 
+## ⚙️ What does it do?
 
-_[Why trestle?](https://github.com/oscal-compass/compliance-trestle#why-trestle)_
+Maintains and enforces **transparency of compliance measures** across multiple stakeholders in a developer-friendly environment.
 
-- Management of OSCAL documentation for editing and manipulation with accountability of schema enforcement.
-- Transformation of documents from various formats to OSCAL. 
-- Streamlined management within a `git` environment.
-- 
+### 🎯 Key Benefits
+- **📊 Artifact Generation**: Trestle generated artifacts are leveraged by tools for enforcement, measurement, and reporting of compliance
+- **🤝 Stakeholder Alignment**: Ensures all parties have consistent, up-to-date compliance information
+- **🔄 Automated Workflows**: Streamlines compliance processes through automation
 
-#### GitHub Repositories
+---
 
-_suggested to ask Gemini for more context on the `README.md`_
+## 🛠️ Functions in the Compliance Realm
 
-- [compliance-trestle](https://github.com/oscal-compass/compliance-trestle)
+> 💡 **Learn more**: [Why trestle?](https://github.com/oscal-compass/compliance-trestle#why-trestle)
 
-#### Supporting Links
+### 🔧 Core Capabilities
 
-[Trestle Deck: Compliance-as-Code Orchestrator and Automation Workflows](https://csrc.nist.gov/csrc/media/Presentations/2022/oscal-mini-workshop-2-ibm-s-trestle/IBM_Trestle.pdf)
-More info on the OSCAL Compass Landing Page [here](https://oscal-compass.dev/)
+| Function | Description |
+|----------|-------------|
+| **📝 OSCAL Management** | Management of OSCAL documentation for editing and manipulation with accountability of schema enforcement |
+| **🔄 Document Transformation** | Transformation of documents from various formats to OSCAL |
+| **🌿 Git Integration** | Streamlined management within a `git` environment |
+
+---
+
+## 📂 GitHub Repositories
+
+### 🏗️ Core Projects
+
+[![compliance-trestle](https://img.shields.io/badge/GitHub-compliance--trestle-blue?style=for-the-badge&logo=github)](https://github.com/oscal-compass/compliance-trestle)
+
+[![compliance-trestle-agile-authoring](https://img.shields.io/badge/GitHub-agile--authoring-green?style=for-the-badge&logo=github)](https://github.com/oscal-compass/compliance-trestle-agile-authoring)
+
+---
+
+## 📚 Supporting Resources
+
+### 📖 Documentation & Presentations
+
+- 📋 [**Trestle Deck: Compliance-as-Code Orchestrator and Automation Workflows**](https://csrc.nist.gov/csrc/media/Presentations/2022/oscal-mini-workshop-2-ibm-s-trestle/IBM_Trestle.pdf)
+- 🌐 [**Official Documentation**](https://oscal-compass.dev/compliance-trestle/latest/)
+- 📖 [**NIST OSCAL Standard**](https://pages.nist.gov/OSCAL/)
+
+---
+
+<div align="center">
+
+**🚀 Transform your compliance workflow with Trestle! 🚀**
+
+*Bridging the gap between policy and implementation through automation*
+
+</div>
