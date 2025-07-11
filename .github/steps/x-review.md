@@ -14,4 +14,4 @@ Here's a recap of your accomplishments:
 
 - Follow the steps of the `oscal-content-demo` repository 
 - Retry this exercise! Practicing only helps here. This is a public repository template so you can retry this exercise as often as you'd like. 
-- Ask questions. Please join the Slack Channel here
+- Ask questions. The Slack channel for the learning course will be [#learn-complytime](https://redhat.enterprise.slack.com/archives/C093B45QGQM)

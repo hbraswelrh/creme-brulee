@@ -34,22 +34,23 @@ _Learn to use ComplyTime organization projects and tools._
 ### :vertical_traffic_light: Start Here
 
   - Review the [GLOSSARY.md](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/GLOSSARY.md) for relevant terms that will be used throughout course content. 
-  - Review `README.md` of [complyscribe](https://github.com/complytime/complyscribe) ,  [complyctl](https://github.com/complytime/complyctl), and [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content/blob/master/README.md). Refer to [GEMINI.md](https://github.com/hbraswelrh/creme-brulee/blob/8c2d9bf3d05eed5f00371fbb9f933839fe3556b4/docs/GEMINI.md) for prompts that could help with understanding the repository contents. 
-  - Review the [README.md](https://github.com/hbraswelrh/creme-brulee/blob/aae8325c6379d5dd97aa1de48f129c0cdd36aef4/.github/steps/README.md) that outlines the steps of the course. 
+  - Refer to [GEMINI.md](https://github.com/hbraswelrh/creme-brulee/blob/8c2d9bf3d05eed5f00371fbb9f933839fe3556b4/docs/GEMINI.md) for prompts that could help with understanding the repository contents of [complyscribe](https://github.com/complytime/complyscribe/README.md), [complyctl](https://github.com/complytime/complyctl/README.md), and [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content/blob/master/README.md).  
+  - Review the [README.md](https://github.com/hbraswelrh/creme-brulee/blob/aae8325c6379d5dd97aa1de48f129c0cdd36aef4/.github/steps/README.md) outlining the course steps. 
 
 
-> :hourglass: **How long**: This exercise is self-paced. The [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md) can be leveraged to pace yourself and revisit subjects.
+> :hourglass: **How long?** This exercise is self-paced. The [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md) can be leveraged to pace yourself and revisit subjects.
 
 In this exercise, you will:
 1. Learn about the relevant repositories in the ComplyTime organization.
-2. Make your own copy of an initialized oscal-content-demo workspace. More info [here](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md)
+2. Understand the relationship of the repositories and how the oscal-content-demo workspace mirrors the oscal-content repository. More info [here](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md)
 3. Trigger GitHub Actions that allow you to author OSCAL content. 
 4. Practice using Git, Markdown, and ComplyTime tools. 
+[//]: # (2. Make your own copy of an initialized oscal-content-demo workspace. More info [here]&#40;https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md&#41;) 
 
 
 ### How to start this exercise
 
-Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+Simply copy the exercise to your account, then give your favorite Octocat :octocat: **about 20 seconds** to prepare the first lesson, then **refresh the page**.
 
 <!--  (replace-me: Make sure to edit the URL with proper template_owner, template_name, repo name and description)  -->
 
@@ -58,17 +59,16 @@ Simply copy the exercise to your account, then give your favorite Octocat (Mona)
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
-When copying the exercise, we recommend the following settings:
 
-- For owner, choose your personal account or an organization to host the repository.
-
-- We recommend creating a public repository, since private repositories will use Actions minutes.
-
+Review the [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md) and reach out in the Slack channel [#learn-complytime](https://redhat.enterprise.slack.com/archives/C093B45QGQM)
 If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
 
 - Check to see if a job is running. Sometimes it simply takes a bit longer.
+- An issue should be opened that looks like this:
 
-- If the page shows a failed job, please submit an issue. Nice, you found a bug! 🐛
+<img alt="img_1.png" height="120" src="steps/images/issuepic.png" width="200"/>
+
+<img alt="img_2.png" height="250" src="steps/images/issuepic2.png" width="200"/>
 
 </details>
 
