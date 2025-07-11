@@ -1,5 +1,5 @@
 ## Summary
-This PR is a template for Compliance Managers to copy for updating sandbox practice progress. 
+This PR is a template for Compliance Managers updating their course progress. 
 
 ## Related Issues
 
@@ -8,7 +8,9 @@ This PR is a template for Compliance Managers to copy for updating sandbox pract
 
 ## Rationale 
 
-Depends on Issue #()
+_Use this section to indicate your rationale for the changes made_
+
+- Depends on Issue #()
 
 #### What did you update?
 

@@ -8,6 +8,8 @@ This issue template serves as an outline for Compliance Managers to leverage for
 
 ## Rationale 
 
+_Use this section to elaborate on your notes, findings, etc._ 
+
 Depends on #()
 
 ## Questions 
