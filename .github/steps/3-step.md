@@ -1,14 +1,60 @@
-## Step 2: Initialize the oscal-content-demo with complyscribe
+## Step xyz: Deep dive into `ComplianceAsCode/oscal-content` 
 
-_This will house the authored OSCAL content_
+_This repository houses authored OSCAL content initialized by complyscribe_
+
+
+After completing the thorough review of the projects and tools in _Step 1: Read the docs_ you can strengthen your understanding by example.
 
 ### 📖 Theory: Author OSCAL Content and Update it in your [oscal-content-demo](https://github.com/hbraswelrh/oscal-content-demo/tree/main)
 
 The [oscal-content-demo](https://github.com/hbraswelrh/trestle-workspace/tree/main) is a public repository template that can be leveraged with complyscribe in GitHub CI. The file structure layout is seen in the tree below. 
 
+## Mapping `oscal-content-demo` to the `ComplianceAsCode/oscal-content`
+
+### Bidirectional Synchronization
+Stay updated wth content changes where `sync-oscal-cac` and `sync-cac-oscal` make sure that the _back and forth_ exchange of information is accurate. 
+
+#### `sync-oscal-cac` 
+
+Once there is a change made in the `oscal-content` repository, there is an automatic trigger that transforms the `ComplianceAsCode/content` content and requests a change to that material. 
+
+_Goal: updates should be synchronized and accurate_
+
+```mermaid
+graph LR
+    A[OSCAL Content PR #33] --> B[Workflow Triggered]
+    B --> C[Content Transformation]
+    C --> D[ComplianceAsCode PR #13617]
+```
+
+This functionality would be present when doing ...
+
+#### `sync-cac-oscal`
+
+Once there is a change in the `ComplianceAsCode/content` content, there is an automatic trigger that will transform the content that `complyscribe` handles and then requests for that transformed change to be placed back in the `ComplianceAsCode/oscal-content` repository. 
+
+
+```mermaid
+graph LR
+    A[ComplianceAsCode PR #13580] --> B[Workflow Triggered]
+    B --> C[Content Transformation]
+    C --> D[OSCAL Content PR #28]
+```
+> I know you're probably wondering why this is important...but, check this out!
+
+Above, the control file defines the RHEL8 HIPAA profile. The change makes it simpler to reference this [hipaa control file](https://github.com/ComplianceAsCode/content/blob/master/controls/hipaa.yml) in the [RHEL8 HIPAA Profile](https://github.com/ComplianceAsCode/content/blob/master/products/rhel8/profiles/hipaa.profile). The rules associated with the controls are now in the control file and referenced in the RHEL8 Profile. The table below outlines the Rule, `ComplianceAsCode/content` representation, and the PDF reference to the requirement that the rule satisfies.
+
+
+| Rule                            | ComplianceAsCode/content                                                                                                                                                                                                  | PDF Format                                                                                                                                                                                                                                           |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| coreos_disable_interactive_boot | [coreos_disable_interactive_boot](https://github.com/ComplianceAsCode/content/blob/213ff61cc3ea47773f478297e95d559fb6a15a6d/linux_os/guide/system/accounts/accounts-physical/coreos_disable_interactive_boot/rule.yml#L4) | [Risk Management 164.308(a)(1)(ii)(B)](https://www.ecfr.gov/current/title-45/part-164/section-164.308#p-164.308(a)(1)(ii)(B))                                                                                                                        |
+| disable_ctrlaldel_burstaction   | [disable_ctrlaldel_burstaction](https://github.com/ComplianceAsCode/content/blob/213ff61cc3ea47773f478297e95d559fb6a15a6d/linux_os/guide/system/accounts/accounts-physical/disable_ctrlaltdel_burstaction/rule.yml#L4)    | [Risk Management 164.308(a)(1)(ii)(B)](https://www.ecfr.gov/current/title-45/part-164/section-164.308#p-164.308(a)(1)(ii)(B)), [Risk Management 164.308(a)(7)(i)](https://www.ecfr.gov/current/title-45/part-164/section-164.308#p-164.308(a)(7)(i)) |
+
+The control ids are updated in the OSCAL Content PR #28 triggered by the update in ComplianceAsCode/content. The `oscal-content` profiles for RHEL8/HIPAA - [rhel8-hipaa-required](https://github.com/ComplianceAsCode/oscal-content/blob/1bf63ff5e400f1bd4934007e5251a586cbcafa7a/profiles/rhel8-hipaa-required/profile.json)
+
 ### ⌨️ Activity: Interact with the oscal-content-demo
 
-To interact with the oscal-content-demo, you will need to create your own copy. This public repository template [oscal-content-demo](https://github.com/hbraswelrh/trestle-workspace/tree/main) allows you to create unlimited copies, providing a safe and secure sandbox for testing the tools directly.
+To interact with the `oscal-content-demo`, you will need to create your own copy. This public repository template [oscal-content-demo](https://github.com/hbraswelrh/trestle-workspace/tree/main) allows you to create unlimited copies, providing a safe and secure sandbox for testing the tools directly.
 
 **Step 1🖱️:** Navigate to the [oscal-content-demo](https://github.com/hbraswelrh/oscal-content-demo/tree/main). Click the green box in the upper right corner that says "Use this template."
 
@@ -101,50 +147,8 @@ Starting with the OSCAL Catalog, you want to base it off of the CIS Benchmark fo
 | [OSCAL Profile](https://github.com/hbraswelrh/oscal-content-demo/tree/main/profiles)                                                                                     | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
 | [OSCAL Component Definition](https://github.com/hbraswelrh/oscal-content-demo/blob/main/component-definitions/rhel9/rhel9-cis_rhel9-l1_server/component-definition.json) | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
 
-- 
-- The `annotated-tree.md` indicates "Control File `cis_rhel9` from ComplianceAsCode/content" and "RHEL9 Profile for cis_rhel9-l1_x/12_x." Reference the second column of the table for how the elements of the ComplianceAsCode/content repository align with the trestle-workspace content.
-
-- The base file tree without annotations can be found in [workspace-tree.md](https://github.com/hbraswelrh/creme-brulee/blob/520790e4c8b261cfe2b83a804c1c2728bdacb3ef/docs/workspace-tree.md)
 
 > 🗄️ Where you can find this content
-
-#### Workspace file tree 
-
-```bash
-.
-├── assessment-plans
-├── assessment-results
-├── catalogs
-│   └── cis_rhel9
-│       └── catalog.json
-├── component-definitions
-│   └── rhel9
-│       └── rhel9-cis_rhel9-l1_server
-│           └── component-definition.json
-├── markdown
-│   ├── assessment-plans
-│   ├── assessment-results
-│   ├── catalogs
-│   ├── component-definitions
-│   ├── plan-of-action-and-milestones
-│   ├── profiles
-│   └── system-security-plans
-├── plan-of-action-and-milestones
-├── profiles
-│   ├── rhel9-cis_rhel9-l1_server
-│   │   └── profile.json
-│   ├── rhel9-cis_rhel9-l1_workstation
-│   │   └── profile.json
-│   ├── rhel9-cis_rhel9-l2_server
-│   │   └── profile.json
-│   └── rhel9-cis_rhel9-l2_workstation
-│       └── profile.json
-└── system-security-plans
-
-
-```
-
-1. (replace-me: Additional instructions as needed)
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>

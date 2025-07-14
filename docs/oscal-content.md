@@ -20,11 +20,11 @@ Initialized by [**complyscribe**](https://github.com/complytime/complyscribe), t
 
 ### 🔄 Sync Workflows
 
-| Workflow | Direction | Purpose | Source |
-|----------|-----------|---------|--------|
-| **`sync-comp`** | ➡️ **Inbound** | Generate OSCAL content from ComplianceAsCode | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) |
-| **`sync-controls`** | ➡️ **Inbound** | Generate OSCAL controls from ComplianceAsCode | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) |
-| **`sync-oscal-cac`** | ⬅️ **Outbound** | Sync OSCAL updates back to ComplianceAsCode | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) |
+| Workflow             | Direction       | Purpose                                       | Source                                                                  |
+|----------------------|-----------------|-----------------------------------------------|-------------------------------------------------------------------------|
+| **`sync-comp`**      | ➡️ **Inbound**  | Generate OSCAL content from ComplianceAsCode  | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) |
+| **`sync-controls`**  | ➡️ **Inbound**  | Generate OSCAL controls from ComplianceAsCode | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) |
+| **`sync-oscal-cac`** | ⬅️ **Outbound** | Sync OSCAL updates back to ComplianceAsCode   | [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) |
 
 ### 🔄 Bidirectional Synchronization
 
@@ -42,12 +42,12 @@ Initialized by [**complyscribe**](https://github.com/complytime/complyscribe), t
 
 #### 🔄 Process Steps
 
-| Step | Action | Description |
-|------|--------|-------------|
-| **1** | 🔍 **Detect Changes** | Identifies updates in source content (controls, profiles, rules, vars) |
-| **2** | 🛠️ **Prepare** | Gathers necessary arguments for Complyscribe |
-| **3** | 🔄 **Transform** | Runs complyscribe to convert source files into OSCAL |
-| **4** | 📝 **Propose Updates** | Automatically creates a Pull Request with new OSCAL content |
+| Step  | Action                 | Description                                                            |
+|-------|------------------------|------------------------------------------------------------------------|
+| **1** | 🔍 **Detect Changes**  | Identifies updates in source content (controls, profiles, rules, vars) |
+| **2** | 🛠️ **Prepare**        | Gathers necessary arguments for Complyscribe                           |
+| **3** | 🔄 **Transform**       | Runs complyscribe to convert source files into OSCAL                   |
+| **4** | 📝 **Propose Updates** | Automatically creates a Pull Request with new OSCAL content            |
 
 #### 📊 Real Example
 
@@ -71,12 +71,12 @@ graph LR
 
 #### 🔄 Process Steps
 
-| Step | Action | Description |
-|------|--------|-------------|
-| **1** | ⚡ **Trigger** | Activated upon merging PR with OSCAL file changes |
-| **2** | 🔍 **Detect Updates** | Identifies updated OSCAL files (catalogs, profiles, component-definitions) |
-| **3** | 🔄 **Sync with ComplyScribe** | Transforms OSCAL updates back into standard formats |
-| **4** | 📝 **Create Upstream PR** | Automatically creates PR in ComplianceAsCode/content |
+| Step  | Action                        | Description                                                                |
+|-------|-------------------------------|----------------------------------------------------------------------------|
+| **1** | ⚡ **Trigger**                 | Activated upon merging PR with OSCAL file changes                          |
+| **2** | 🔍 **Detect Updates**         | Identifies updated OSCAL files (catalogs, profiles, component-definitions) |
+| **3** | 🔄 **Sync with ComplyScribe** | Transforms OSCAL updates back into standard formats                        |
+| **4** | 📝 **Create Upstream PR**     | Automatically creates PR in ComplianceAsCode/content                       |
 
 #### 📊 Real Example
 
@@ -98,8 +98,8 @@ graph LR
 
 ### 📺 Watch the Workflows in Action
 
-| Workflow | Demo | Description |
-|----------|------|-------------|
+| Workflow             | Demo                                                                                    | Description                                      |
+|----------------------|-----------------------------------------------------------------------------------------|--------------------------------------------------|
 | **`sync-oscal-cac`** | [📹 Watch Demo](https://drive.google.com/file/d/1ZOc-H4f5zG_NCf_5rEuQMSwMZ52PkFzY/view) | OSCAL Content changes → ComplianceAsCode/content |
 | **`sync-cac-oscal`** | [📹 Watch Demo](https://drive.google.com/file/d/1rvRlNkCzlvTh7NIC9JCKNIkiJCxW_S3W/view) | ComplianceAsCode/content changes → OSCAL Content |
 
@@ -111,12 +111,12 @@ We utilize [**ComplyScribe**](https://github.com/complytime/complyscribe) to hel
 
 ### 🎯 Why ComplyScribe?
 
-| Feature | Benefit |
-|---------|---------|
-| **📝 Content Authoring** | Simplified OSCAL content creation |
+| Feature                    | Benefit                                   |
+|----------------------------|-------------------------------------------|
+| **📝 Content Authoring**   | Simplified OSCAL content creation         |
 | **✅ Standards Compliance** | Ensures adherence to OSCAL specifications |
-| **🔄 Format Management** | Consistent content formatting |
-| **🤖 Automation Ready** | Seamless CI/CD integration |
+| **🔄 Format Management**   | Consistent content formatting             |
+| **🤖 Automation Ready**    | Seamless CI/CD integration                |
 
 ---
 

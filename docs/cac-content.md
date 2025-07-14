@@ -23,11 +23,11 @@ The **`ComplianceAsCode/content`** project is an **open-source initiative** focu
 
 ### 🚫 The Problem: Redundancy
 
-| Traditional Approach | Challenge |
-|---------------------|-----------|
-| Multiple Formats | Security content developed separately for each format |
-| Duplicated Effort | Same policies written multiple times |
-| Inconsistency | Different implementations across systems |
+| Traditional Approach | Challenge                                             |
+|----------------------|-------------------------------------------------------|
+| Multiple Formats     | Security content developed separately for each format |
+| Duplicated Effort    | Same policies written multiple times                  |
+| Inconsistency        | Different implementations across systems              |
 
 ### ✅ The Solution: Unified Build System
 
@@ -37,8 +37,8 @@ The **"meat"** of ComplianceAsCode is its robust build system that enables:
 Write Once → Generate Multiple Formats
 ```
 
-| Input | Output Formats |
-|-------|---------------|
+| Input                         | Output Formats                       |
+|-------------------------------|--------------------------------------|
 | **OpenControl-inspired YAML** | Multiple security automation formats |
 
 #### 🎯 Benefits
@@ -61,11 +61,11 @@ The **`ComplianceAsCode/content`** project provides executable content designed 
 
 ### 👥 Compliance Manager Benefits
 
-| Feature | Benefit |
-|---------|---------|
-| **📊 Standardized Reporting** | Consistent audit documentation |
-| **🔍 Automated Evidence** | Streamlined compliance verification |
-| **⚡ Faster Auditing** | Reduced manual effort and time |
+| Feature                       | Benefit                             |
+|-------------------------------|-------------------------------------|
+| **📊 Standardized Reporting** | Consistent audit documentation      |
+| **🔍 Automated Evidence**     | Streamlined compliance verification |
+| **⚡ Faster Auditing**         | Reduced manual effort and time      |
 
 ---
 
@@ -110,16 +110,16 @@ As a **Compliance Professional**, understanding this project is crucial for effe
 
 ### 🚀 Getting Started
 
-| Resource | Description | Action |
-|----------|-------------|--------|
-| **📖 Documentation** | Comprehensive project guide | [Read the Docs](https://complianceascode.readthedocs.io/en/latest/) |
-| **🎓 Workshop** | Hands-on introduction | [Start the Workshop](https://github.com/ComplianceAsCode/content/blob/master/docs/workshop/lab1_introduction.adoc) |
+| Resource             | Description                 | Action                                                                                                             |
+|----------------------|-----------------------------|--------------------------------------------------------------------------------------------------------------------|
+| **📖 Documentation** | Comprehensive project guide | [Read the Docs](https://complianceascode.readthedocs.io/en/latest/)                                                |
+| **🎓 Workshop**      | Hands-on introduction       | [Start the Workshop](https://github.com/ComplianceAsCode/content/blob/master/docs/workshop/lab1_introduction.adoc) |
 
 ### 🔗 Advanced Topics
 
-| Topic | Focus Area | Link |
-|-------|-----------|------|
-| **🎯 OSCAL Catalogs** | Controls and standards | [Explore Controls](https://complianceascode.readthedocs.io/en/latest/flowcharts/flowchart_controls.html) |
+| Topic                 | Focus Area              | Link                                                                                                     |
+|-----------------------|-------------------------|----------------------------------------------------------------------------------------------------------|
+| **🎯 OSCAL Catalogs** | Controls and standards  | [Explore Controls](https://complianceascode.readthedocs.io/en/latest/flowcharts/flowchart_controls.html) |
 | **📋 OSCAL Profiles** | Products and components | [Explore Products](https://complianceascode.readthedocs.io/en/latest/flowcharts/flowchart_products.html) |
 
 ---

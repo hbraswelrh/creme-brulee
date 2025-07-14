@@ -36,11 +36,11 @@ The **Cloud Native Computing Foundation (CNCF)** is a vibrant open-source softwa
 
 ### 🔗 Quick Links
 
-| Resource | Description |
-|----------|-------------|
-| [🌐 OSCAL Compass](https://oscal-compass.dev/) | Official project website |
-| [📚 CNCF Projects](https://www.cncf.io/projects/) | Explore all CNCF projects |
-| [💬 Community](https://www.cncf.io/community/) | Join the broader CNCF community |
+| Resource                                          | Description                     |
+|---------------------------------------------------|---------------------------------|
+| [🌐 OSCAL Compass](https://oscal-compass.dev/)    | Official project website        |
+| [📚 CNCF Projects](https://www.cncf.io/projects/) | Explore all CNCF projects       |
+| [💬 Community](https://www.cncf.io/community/)    | Join the broader CNCF community |
 
 ---
 

@@ -27,11 +27,11 @@ Maintains and enforces **transparency of compliance measures** across multiple s
 
 ### 🔧 Core Capabilities
 
-| Function | Description |
-|----------|-------------|
-| **📝 OSCAL Management** | Management of OSCAL documentation for editing and manipulation with accountability of schema enforcement |
-| **🔄 Document Transformation** | Transformation of documents from various formats to OSCAL |
-| **🌿 Git Integration** | Streamlined management within a `git` environment |
+| Function                       | Description                                                                                              |
+|--------------------------------|----------------------------------------------------------------------------------------------------------|
+| **📝 OSCAL Management**        | Management of OSCAL documentation for editing and manipulation with accountability of schema enforcement |
+| **🔄 Document Transformation** | Transformation of documents from various formats to OSCAL                                                |
+| **🌿 Git Integration**         | Streamlined management within a `git` environment                                                        |
 
 ---
 
