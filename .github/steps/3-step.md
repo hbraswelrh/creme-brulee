@@ -64,27 +64,6 @@ The changes made will be reflected in your Pull Request. Copy and paste the link
 
 > Example: "ComplyTime Learning Course: {YOUR_NAME}."
 
-#### Reviewing generated OSCAL Content from ComplianceAsCode/content
-
-The oscal-content-demo supports running `complyscribe` commands in GitHub Actions. The `sync-cac-content` command that generates OSCAL Catalogs, Profiles, and Component Definitions is not currently available as a GitHub Action. The RHEL8, RHEL9, and RHEL10 product OSCAL Catalogs, Profiles, and Component Definitions are available in your workspace. The content from `ComplianceAsCode/content` was used with the `complyscribe sync-cac-content` commands to populate this content. The `ComplianceAsCode/oscal-content` repository is ongoing development and will synchronize the `ComplianceAsCode/content` resources with the `ComplianceAsCode/oscal-content` repository to continuously sync changes.  
-
-#### Annotated File Tree 📂
-
-The annotated file tree can be referenced in [annotated-tree.md](https://github.com/hbraswelrh/creme-brulee/blob/95c4bbb99cbb0e0b28b459f19950983ca13d34b7/docs/annotated-tree.md) which shows the current state of the oscal-content-demo public template. The annotations are consistent with the table below. 
-
-**Example:** 
-
-You want to create an OSCAL Catalog, OSCAL Profile, and an OSCAL Component Definition for a RHEL9 CIS Benchmark. The [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) repository houses up-to-date security content that is leveraged for transformation to OSCAL Content. 
-
-Starting with the OSCAL Catalog, you want to base it off of the CIS Benchmark for RHEL9. Let trestle-bot do the magic 🪄 in GitHub Actions.
-
-
-| OSCAL Content Created in `oscal-content-demo`                                                                                                                            |                                 ComplianceAsCode/content location                                  |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------:|
-| [OSCAL Catalog](https://github.com/hbraswelrh/oscal-content-demo/blob/main/catalogs/cis_rhel9/catalog.json)                                                              |    [cis_rhel9](https://github.com/ComplianceAsCode/content/blob/master/controls/cis_rhel9.yml)     | 
-| [OSCAL Profile](https://github.com/hbraswelrh/oscal-content-demo/tree/main/profiles)                                                                                     | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
-| [OSCAL Component Definition](https://github.com/hbraswelrh/oscal-content-demo/blob/main/component-definitions/rhel9/rhel9-cis_rhel9-l1_server/component-definition.json) | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
-
 
 > 🗄️ Where you can find this content
 
