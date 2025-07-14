@@ -58,8 +58,6 @@ Take the [self-assessment](https://form.typeform.com/to/EwVRNkJ4) once you have 
 
 ##### What You'll Submit
 
-Once completing Step 2: _Initializing oscal-content-demo with complyscribe_, you will have made changes on the `develop` branch of your `oscal-content-demo` repository. 
-
 The changes made will be reflected in your Pull Request. Copy and paste the link of your Pull Request in the self-assessment. 
 
 > Example: "ComplyTime Learning Course: {YOUR_NAME}."
