@@ -33,8 +33,9 @@ _Learn to use ComplyTime organization projects and tools._
 
 ### :vertical_traffic_light: Start Here
 
-  - Review the [GLOSSARY.md](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/GLOSSARY.md) for relevant terms that will be used throughout course content. 
-  - Refer to [GEMINI.md](https://github.com/hbraswelrh/creme-brulee/blob/8c2d9bf3d05eed5f00371fbb9f933839fe3556b4/docs/GEMINI.md) for prompts that could help with understanding the repository contents of [complyscribe](https://github.com/complytime/complyscribe/README.md), [complyctl](https://github.com/complytime/complyctl/README.md), and [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content/blob/master/README.md).  
+  - **📚 [Documentation Index](docs/README.md)** - Complete navigation to all course materials and resources
+  - Review the [GLOSSARY.md](docs/foundations/GLOSSARY.md) for relevant terms that will be used throughout course content. 
+  - Refer to [GEMINI.md](docs/foundations/GEMINI.md) for prompts that could help with understanding the repository contents of [complyscribe](https://github.com/complytime/complyscribe), [complyctl](https://github.com/complytime/complyctl), and [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content).  
   - Review the [README.md](https://github.com/hbraswelrh/creme-brulee/blob/aae8325c6379d5dd97aa1de48f129c0cdd36aef4/.github/steps/README.md) outlining the course steps. 
 
 
@@ -51,6 +52,43 @@ In this exercise, you will:
 ### How to start this exercise
 
 Simply copy the exercise to your account, then give your favorite Octocat :octocat: **about 20 seconds** to prepare the first lesson, then **refresh the page**.
+Settings
+￼
+Files
+￼
+ feat/cursor-updates
+￼
+￼
+t
+.github
+docs
+images
+CAC-CONTENT.md
+CNCF.md
+GEMINI.md
+GLOSSARY.md
+POLICY-AS-CODE.md
+TRESTLE-OVERVIEW.md
+annotated-tree.md
+cac-content.md
+complyctl-cursor.md
+complyctl.md
+complyscribe.md
+git_context.md
+oscal-content-overview.md
+oscal-content.md
+policy-as-code.md
+steps
+.gitignore
+LICENSE
+NOTES.md
+README.md
+img.png
+Breadcrumbscreme-brulee/docs
+/oscal-content-overview.md
+￼
+￼
+Latest commit
 
 <!--  (replace-me: Make sure to edit the URL with proper template_owner, template_name, repo name and description)  -->
 
