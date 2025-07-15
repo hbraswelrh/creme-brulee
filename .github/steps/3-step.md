@@ -63,6 +63,21 @@ The changes made will be reflected in your Pull Request. Copy and paste the link
 
 > Example: "ComplyTime Learning Course: {YOUR_NAME}."
 
+## Perspective
+
+Think of the relationship of `ComplianceAsCode/oscal-content` and `ComplianceAsCode/content` repository as the first
+
+Repository = original first-edition recipe book for all things pastries _creme-brulee included.._
+
+Now, imagine you have a friend that wants to bake the same pastries _creme-brulee specifically_, but they have their own copy of your recipe book. You both start baking, making substitutions and sprinkling in your preferences. Then, you discover better ways to tweak the flavors or incorporate a new folding technique. You both are wanting to make the same end-product, but you need to update each others' recipe book with the changes.
+
+Think of the relationship of recipe changes that end up with the same end-product as the GitHub Actions that automate synchronization between `ComplianceAsCode/content` and the `ComplianceAsCode/oscal-content`.
+
+GitHub Actions is like your assistant-baker in charge of ensuring that your copy and final product is always up-to-date with the original first-edition recipe book - substitutions and preferences included!
+
+When there is an improvement to the original first-edition recipe book you tell your assistant-baker and say "Hey, I updated the recipe to factor in almond flour, eggs..." -> your baking assistant immediately goes to your friend's copy of the original first-edition recipe book and checks for updates and makes sure the improvements and changes are applied there. Then, your friend's creme-brulee will always be made using the most up-to-date instructions, even if they aren't constantly checking in with you.
+
+Bringing it back
 
 > 🗄️ Where you can find this content
 
