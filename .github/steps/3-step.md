@@ -76,9 +76,9 @@ Think of the relationship of `ComplianceAsCode/oscal-content` and `ComplianceAsC
 - They want to have their own specialized version of your cookbook that builds on the results, but makes sure any recipe changes made in the first-edition are factored into their copy. 
 - This version focuses only on creme-brulee, but i's based on the recipes available in _The Original Project Bakeshop_.
 
-As you both bake, you'll tweak :magic: a few things here and there. Potentially finding a better way to infuse vanilla or a better torching :fire: technique that creates an immaculate crispy top. You both want the recipe to be the best that it can be, and that means ensuring both the first-edition creme-brulee section and the creme-brulee dedicated book reflect the newfound methods. 
+As you both bake, you'll tweak :magic_wand: a few things here and there. Potentially finding a better way to infuse vanilla or a better torching :fire: technique that creates an immaculate crispy top. You both want the recipe to be the best that it can be, and that means ensuring both the first-edition creme-brulee section and the creme-brulee dedicated book reflect the newfound methods. 
 
-**GitHub Actions:** Culinary Coordinators :chef:
+**GitHub Actions:** Culinary Coordinators :cook::magic_wand::bellhop_bell:
 
 GitHub Actions is your incredibly efficient team of culinary coordinators. Their sole purpose is to ensure that any improvements made to the creme-brulee recipe in _The Original Project Bakeshop_ or the specialized creme-brulee book are perfectly synchronized, resulting in the best creme-brulee that is approved by the first-edition.
 
@@ -86,7 +86,7 @@ GitHub Actions is your incredibly efficient team of culinary coordinators. Their
 
 - Your update to the creme-brulee recipe of _The Original Project Bakeshop_ you're telling your culinary coordinators "Hey, I just made an improvement to creme-brulee! Everyone needs to know about this!"
 - Your friend updates the specialized recipe discovering an even more efficient way to caramelize sugar with the torching method. They also reach out to the culinary coordinators.
-- The coordinators get to work and compare the recipe books. If _The Original Project Bakeshop_ was updated, they make sure the improvement is reflected in your friend's specialized creme-brulee book. If the specialized book has a brilliant new discovery, the coordinators ensure that is exchanged and shared back to keep _The Original Project Bakeshop_ up-to-date. 
+- The coordinators get to work and compare the recipe books. If _The Original Project Bakeshop_ was updated, they make sure the improvement is reflected in your friend's specialized creme-brulee book :arrows_clockwise:. If the specialized book has a brilliant new discovery, the coordinators ensure that is exchanged and shared back to keep _The Original Project Bakeshop_ up-to-date. 
 - The constant, automated synchronization keeps you and your friend working from the most refined and complete creme-brulee instructions. 
 
 GitHub Actions act as the automated bridge to ensure specific, related recipe changes are synchronized for consistent final products.
