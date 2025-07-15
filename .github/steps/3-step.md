@@ -63,7 +63,7 @@ The changes made will be reflected in your Pull Request. Copy and paste the link
 
 > Example: "ComplyTime Learning Course: {YOUR_NAME}."
 
-## Perspective
+## Perspective :book::custard:
 
 Think of the relationship of `ComplianceAsCode/oscal-content` and `ComplianceAsCode/content` repository with this analogy.
 
@@ -73,11 +73,11 @@ Now, you have a good friend, your baking confidant, who wants to specialize in t
 
 As you both bake, you'll tweak a few things here and there. Potentially finding a better way to infuse vanilla or a better torching :fire: technique that creates an immaculate crispy top. You both want the recipe to be the best that it can be, and that means ensuring both the first-edition creme-brulee section and the creme-brulee dedicated book reflect the newfound methods. 
 
-GitHub Actions: Culinary Coordinators
+**GitHub Actions:** Culinary Coordinators :chef:
 
 GitHub Actions is your incredibly efficient team of culinary coordinators. Their sole purpose is to ensure that any improvements made to the creme-brulee recipe in _The Original Project Bakeshop_ or the specialized creme-brulee book are perfectly synchronized, resulting in the best creme-brulee that is approved by the first-edition.
 
-Here's how it works:
+#### Here's how it works:
 
 - Your update to the creme-brulee recipe of _The Original Project Bakeshop_ you're telling your culinary coordinators "Hey, I just made an improvement to creme-brulee! Everyone needs to know about this!"
 - Your friend updates the specialized recipe discovering an even more efficient way to caramelize sugar with the torching method. They also reach out to the culinary coordinators.
@@ -86,17 +86,6 @@ Here's how it works:
 
 GitHub Actions act as the automated bridge to ensure specific, related recipe changes are synchronized for consistent final products.
 
-Repository = original first-edition recipe book for all things pastries _creme-brulee included.._
-
-Now, imagine you have a friend that wants to bake the same pastries _creme-brulee specifically_, but they have their own copy of your recipe book. You both start baking, making substitutions and sprinkling in your preferences. Then, you discover better ways to tweak the flavors or incorporate a new folding technique. You both are wanting to make the same end-product, but you need to update each others' recipe book with the changes.
-
-Think of the relationship of recipe changes that end up with the same end-product as the GitHub Actions that automate synchronization between `ComplianceAsCode/content` and the `ComplianceAsCode/oscal-content`.
-
-GitHub Actions is like your assistant-baker in charge of ensuring that your copy and final product is always up-to-date with the original first-edition recipe book - substitutions and preferences included!
-
-When there is an improvement to the original first-edition recipe book you tell your assistant-baker and say "Hey, I updated the recipe to factor in almond flour, eggs..." -> your baking assistant immediately goes to your friend's copy of the original first-edition recipe book and checks for updates and makes sure the improvements and changes are applied there. Then, your friend's creme-brulee will always be made using the most up-to-date instructions, even if they aren't constantly checking in with you.
-
-Bringing it back
 
 > 🗄️ Where you can find this content
 
