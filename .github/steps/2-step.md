@@ -1,150 +1,98 @@
-## Step 2: Initialize the oscal-content-demo with complyscribe
+## Step 2: Deep Dive into `ComplianceAsCode/oscal-content` 
 
-_This will house the authored OSCAL content_
-
-### 📖 Theory: Author OSCAL Content and Update it in your [oscal-content-demo](https://github.com/hbraswelrh/oscal-content-demo/tree/main)
-
-The [oscal-content-demo](https://github.com/hbraswelrh/trestle-workspace/tree/main) is a public repository template that can be leveraged with complyscribe in GitHub CI. The file structure layout is seen in the tree below. 
-
-### ⌨️ Activity: Interact with the oscal-content-demo
-
-To interact with the oscal-content-demo, you will need to create your own copy. This public repository template [oscal-content-demo](https://github.com/hbraswelrh/trestle-workspace/tree/main) allows you to create unlimited copies, providing a safe and secure sandbox for testing the tools directly.
-
-**Step 1🖱️:** Navigate to the [oscal-content-demo](https://github.com/hbraswelrh/oscal-content-demo/tree/main). Click the green box in the upper right corner that says "Use this template."
-
-<img src="https://github.com/user-attachments/assets/7f0d54c1-daef-488a-b8e4-0887cf7e491a" alt="text" width="375" height="200">
-
-**Step 2🖱️🟩:** Click "Create a new repository." This step is comparable to the "Make a Copy" functionality when duplicating a Google Doc. 
-
-<img src="https://github.com/user-attachments/assets/0ce8f4a7-453d-408e-8174-75cec1cc507a" alt="text" width="250" height="85">
-
-**Step 3🖱️🟩:** Ensure that you are the repository owner and create a name for your new oscal-content-demo template. Then, click "Create Repository."
-
-_You can choose to make the repository Public or Private_
-
-<img src="https://github.com/user-attachments/assets/bb4ffe1a-20f0-4ab7-abd7-d76a2eb10573" alt="text" width="250" height="250">
-
-**Step 4🪄:** Your repository has now been created and will be available under `{YOUR_GITHUB_USERNAME}/{OSCAL_CONTENT_DEMO_NAME}`
-
-<img src="https://github.com/user-attachments/assets/f7fd13d0-4e58-4613-851c-57bb09f5b7f2" alt="text" width="375" height="200">
-
-### Getting Comfortable with the `oscal-content-demo` flow
-
-Follow the steps on the [oscal-content-demo](https://github.com/hbraswelrh/oscal-content-demo/tree/main?tab=readme-ov-file#getting-started) `README.md`for making your first change.
-
-### `oscal-content-demo` Context: 
-
-#### Running `complyscribe` commands in GitHub Actions 
-
-The oscal-content-demo supports running `complyscribe` commands in GitHub Actions. The available actions are `autosync`, `create-cd`, and `rules-transform`. The workflows can be found [here](https://github.com/hbraswelrh/oscal-content-demo/blob/main/.github/workflows/README.md). This is a simplistic way to get started with your first few tests.
-
-1. Navigate to the Actions tab in your oscal-content-demo workspace. 
-   
-<img alt="img_1.png" height="120" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_1.png" width="150"/>
-
-<img alt="img.png" height="40" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img.png" width="400"/>
-
-2. Click "Run workflow."
-
-This will prompt for your input depending on the command being run. If authoring Component Definitions, the input fields will populate for indicating profile, component title, component description, etc. Those are manual inputs. Autosync will run based on the trigger of "Run workflow."
-
-<img alt="img_2.png" height="200" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_2.png" width="150"/>
-
-<img alt="img_6.png" height="200" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_6.png" width="150"/>
-
-<img alt="img_3.png" height="80" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_3.png" width="160"/>
-   
-3. Make sure the `branch: main` is indicated, and then click the green box "Run Workflow."
-
-<img alt="img_4.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_4.png" width="250"/>
-   
-<img alt="img_5.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_5.png" width="325"/>
+_This repository houses authored OSCAL content initialized by complyscribe_
 
 
-<img alt="img_7.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_7.png" width="325"/>
+After completing the thorough review of the projects and tools in _Step 1: Read the docs_ you can strengthen your understanding by example.
+
+## Mapping `oscal-content-demo` to the `ComplianceAsCode/oscal-content`
+
+### Bidirectional Synchronization
+Stay updated wth content changes where `sync-oscal-cac` and `sync-cac-oscal` make sure that the _back and forth_ exchange of information is accurate. 
+
+#### `sync-oscal-cac` 
+
+Once there is a change made in the `oscal-content` repository, there is an automatic trigger that transforms the `ComplianceAsCode/content` content and requests a change to that material. 
+
+_Goal: updates should be synchronized and accurate_
+
+```mermaid
+graph LR
+    A[OSCAL Content PR #33] --> B[Workflow Triggered]
+    B --> C[Content Transformation]
+    C --> D[ComplianceAsCode PR #13617]
+```
+
+Above, the PR in the `oscal-content` will trigger the workflow and make sure the changes are initialized by `complyscribe` and sending that back to the `ComplianceAsCode/content` repository.
+
+The updates automatically trigger the request to propose changes to the `ComplianceAsCode/content` repository content. The deletion of rules from the `component-definition.json` trigger the automatic generation of this [PR](https://github.com/ComplianceAsCode/content/pull/13680) in `ComplianceAsCode/content`. The PR proposes changes to the levels applied to te control file [cis_rhel8](https://github.com/ComplianceAsCode/content/pull/13680/files#diff-c97f4c1b44844a9d76570cbbc2bf8fdbceb1dc1076461fc8408870ab612cad9cR33) in `ComplianceAsCode/content`
+
+#### `sync-cac-oscal`
+
+Once there is a change in the `ComplianceAsCode/content` content, there is an automatic trigger that will transform the content that `complyscribe` handles and then requests for that transformed change to be placed back in the `ComplianceAsCode/oscal-content` repository. 
 
 
-<img alt="img_8.png" height="100" src="https://raw.githubusercontent.com/hbraswelrh/creme-brulee/4b8054ba9e94bd83b14d991cebda3d575d2420dd/docs/images/img_8.png" width="325"/>
+```mermaid
+graph LR
+    A[ComplianceAsCode PR #13580] --> B[Workflow Triggered]
+    B --> C[Content Transformation]
+    C --> D[OSCAL Content PR #28]
+```
+> I know you're probably wondering why this is important...but, check this out!
+
+Above, the control file defines the RHEL8 HIPAA profile. The change makes it simpler to reference this [hipaa control file](https://github.com/ComplianceAsCode/content/blob/master/controls/hipaa.yml) in the [RHEL8 HIPAA Profile](https://github.com/ComplianceAsCode/content/blob/master/products/rhel8/profiles/hipaa.profile). The rules associated with the controls are now in the control file and referenced in the RHEL8 Profile. The table below outlines the Rule, `ComplianceAsCode/content` representation, and the PDF reference to the requirement that the rule satisfies.
+
+
+| Rule                            | ComplianceAsCode/content                                                                                                                                                                                                  | PDF Format                                                                                                                                                                                                                                           |
+|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| coreos_disable_interactive_boot | [coreos_disable_interactive_boot](https://github.com/ComplianceAsCode/content/blob/213ff61cc3ea47773f478297e95d559fb6a15a6d/linux_os/guide/system/accounts/accounts-physical/coreos_disable_interactive_boot/rule.yml#L4) | [Risk Management 164.308(a)(1)(ii)(B)](https://www.ecfr.gov/current/title-45/part-164/section-164.308#p-164.308(a)(1)(ii)(B))                                                                                                                        |
+| disable_ctrlaldel_burstaction   | [disable_ctrlaldel_burstaction](https://github.com/ComplianceAsCode/content/blob/213ff61cc3ea47773f478297e95d559fb6a15a6d/linux_os/guide/system/accounts/accounts-physical/disable_ctrlaltdel_burstaction/rule.yml#L4)    | [Risk Management 164.308(a)(1)(ii)(B)](https://www.ecfr.gov/current/title-45/part-164/section-164.308#p-164.308(a)(1)(ii)(B)), [Risk Management 164.308(a)(7)(i)](https://www.ecfr.gov/current/title-45/part-164/section-164.308#p-164.308(a)(7)(i)) |
+
+The control ids are updated in the OSCAL Content PR #28 triggered by the update in ComplianceAsCode/content. The `oscal-content` profiles for RHEL8/HIPAA - [rhel8-hipaa-required](https://github.com/ComplianceAsCode/oscal-content/blob/1bf63ff5e400f1bd4934007e5251a586cbcafa7a/profiles/rhel8-hipaa-required/profile.json)
 
 #### Self-assessment
 
 _Let's see what you've learned_
 
-Take the [self-assessment](https://form.typeform.com/to/EwVRNkJ4) once you have completed Step 2: _Initializing oscal-content-demo with complyscribe_.
+[//]: # (Take the [self-assessment]&#40;https://form.typeform.com/to/EwVRNkJ4&#41; once you have completed Step 2: _Initializing oscal-content-demo with complyscribe_.)
+Take the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSccmDXNrEe5Tx_pkenjmtqvfZ90a8TIKy_8C-ZlSS15dHFBCw/viewform?usp=header) once you have completed Step 2: _Deep Dive into oscal-content_.
 
 ##### What You'll Submit
-
-Once completing Step 2: _Initializing oscal-content-demo with complyscribe_, you will have made changes on the `develop` branch of your `oscal-content-demo` repository. 
 
 The changes made will be reflected in your Pull Request. Copy and paste the link of your Pull Request in the self-assessment. 
 
 > Example: "ComplyTime Learning Course: {YOUR_NAME}."
 
-#### Reviewing generated OSCAL Content from ComplianceAsCode/content
+## Perspective :book::custard:
 
-The oscal-content-demo supports running `complyscribe` commands in GitHub Actions. The `sync-cac-content` command that generates OSCAL Catalogs, Profiles, and Component Definitions is not currently available as a GitHub Action. The RHEL8, RHEL9, and RHEL10 product OSCAL Catalogs, Profiles, and Component Definitions are available in your workspace. The content from `ComplianceAsCode/content` was used with the `complyscribe sync-cac-content` commands to populate this content. The `ComplianceAsCode/oscal-content` repository is ongoing development and will synchronize the `ComplianceAsCode/content` resources with the `ComplianceAsCode/oscal-content` repository to continuously sync changes.  
+Think of the relationship of `ComplianceAsCode/oscal-content` and `ComplianceAsCode/content` repository with this analogy.
 
-#### Annotated File Tree 📂
+**Imagine you have the original first-edition cookbook for all things pastries** :custard: :cookie:. 
 
-The annotated file tree can be referenced in [annotated-tree.md](https://github.com/hbraswelrh/creme-brulee/blob/95c4bbb99cbb0e0b28b459f19950983ca13d34b7/docs/annotated-tree.md) which shows the current state of the oscal-content-demo public template. The annotations are consistent with the table below. 
+- Let's call this book _The Original Project Bakeshop_, containing the foundational recipes for every pastry and treat from cupcakes, to NATA, to creme-brulee. It's the source of truth for all baking endeavors. 
 
-**Example:** 
+**Now, you have a good friend, your baking confidant, who wants to specialize in the creme-brulee :custard: recipe section of _The Original Project Bakeshop_.**
 
-You want to create an OSCAL Catalog, OSCAL Profile, and an OSCAL Component Definition for a RHEL9 CIS Benchmark. The [ComplianceAsCode/content](https://github.com/ComplianceAsCode/content) repository houses up-to-date security content that is leveraged for transformation to OSCAL Content. 
+- They want to have their own specialized version of your cookbook that builds on the results, but makes sure any recipe changes made in the first-edition are factored into their copy. 
+- This version focuses only on creme-brulee, but i's based on the recipes available in _The Original Project Bakeshop_.
 
-Starting with the OSCAL Catalog, you want to base it off of the CIS Benchmark for RHEL9. Let trestle-bot do the magic 🪄 in GitHub Actions.
+As you both bake, you'll tweak :magic_wand: a few things here and there. Potentially finding a better way to infuse vanilla or a better torching :fire: technique that creates an immaculate crispy top. You both want the recipe to be the best that it can be, and that means ensuring both the first-edition creme-brulee section and the creme-brulee dedicated book reflect the newfound methods. 
 
+**GitHub Actions:** Culinary Coordinators :cook::magic_wand::bellhop_bell:
 
-| OSCAL Content Created in `oscal-content-demo`                                                                                                                            |                                 ComplianceAsCode/content location                                  |
-|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------:|
-| [OSCAL Catalog](https://github.com/hbraswelrh/oscal-content-demo/blob/main/catalogs/cis_rhel9/catalog.json)                                                              |    [cis_rhel9](https://github.com/ComplianceAsCode/content/blob/master/controls/cis_rhel9.yml)     | 
-| [OSCAL Profile](https://github.com/hbraswelrh/oscal-content-demo/tree/main/profiles)                                                                                     | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
-| [OSCAL Component Definition](https://github.com/hbraswelrh/oscal-content-demo/blob/main/component-definitions/rhel9/rhel9-cis_rhel9-l1_server/component-definition.json) | [cis](https://github.com/ComplianceAsCode/content/blob/master/products/rhel9/profiles/cis.profile) |
+GitHub Actions is your incredibly efficient team of culinary coordinators. Their sole purpose is to ensure that any improvements made to the creme-brulee recipe in _The Original Project Bakeshop_ or the specialized creme-brulee book are perfectly synchronized, resulting in the best creme-brulee that is approved by the first-edition.
 
-- 
-- The `annotated-tree.md` indicates "Control File `cis_rhel9` from ComplianceAsCode/content" and "RHEL9 Profile for cis_rhel9-l1_x/12_x." Reference the second column of the table for how the elements of the ComplianceAsCode/content repository align with the trestle-workspace content.
+#### Here's how it works:
 
-- The base file tree without annotations can be found in [workspace-tree.md](https://github.com/hbraswelrh/creme-brulee/blob/520790e4c8b261cfe2b83a804c1c2728bdacb3ef/docs/workspace-tree.md)
+- Your update to the creme-brulee recipe of _The Original Project Bakeshop_ you're telling your culinary coordinators "Hey, I just made an improvement to creme-brulee! Everyone needs to know about this!"
+- Your friend updates the specialized recipe discovering an even more efficient way to caramelize sugar with the torching method. They also reach out to the culinary coordinators.
+- The coordinators get to work and compare the recipe books. If _The Original Project Bakeshop_ was updated, they make sure the improvement is reflected in your friend's specialized creme-brulee book :arrows_clockwise:. If the specialized book has a brilliant new discovery, the coordinators ensure that is exchanged and shared back to keep _The Original Project Bakeshop_ up-to-date. 
+- The constant, automated synchronization keeps you and your friend working from the most refined and complete creme-brulee instructions. 
+
+GitHub Actions act as the automated bridge to ensure specific, related recipe changes are synchronized for consistent final products.
+
 
 > 🗄️ Where you can find this content
-
-#### Workspace file tree 
-
-```bash
-.
-├── assessment-plans
-├── assessment-results
-├── catalogs
-│   └── cis_rhel9
-│       └── catalog.json
-├── component-definitions
-│   └── rhel9
-│       └── rhel9-cis_rhel9-l1_server
-│           └── component-definition.json
-├── markdown
-│   ├── assessment-plans
-│   ├── assessment-results
-│   ├── catalogs
-│   ├── component-definitions
-│   ├── plan-of-action-and-milestones
-│   ├── profiles
-│   └── system-security-plans
-├── plan-of-action-and-milestones
-├── profiles
-│   ├── rhel9-cis_rhel9-l1_server
-│   │   └── profile.json
-│   ├── rhel9-cis_rhel9-l1_workstation
-│   │   └── profile.json
-│   ├── rhel9-cis_rhel9-l2_server
-│   │   └── profile.json
-│   └── rhel9-cis_rhel9-l2_workstation
-│       └── profile.json
-└── system-security-plans
-
-
-```
-
-1. (replace-me: Additional instructions as needed)
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>

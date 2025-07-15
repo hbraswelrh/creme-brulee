@@ -1,4 +1,4 @@
-## Step xyz: Deep dive into `ComplianceAsCode/oscal-content` 
+## Step 2: Deep Dive into `ComplianceAsCode/oscal-content` 
 
 _This repository houses authored OSCAL content initialized by complyscribe_
 

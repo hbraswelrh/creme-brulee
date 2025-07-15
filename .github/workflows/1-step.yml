@@ -22,7 +22,7 @@ permissions:
   
 
 env:
-  STEP_2_FILE: ".github/steps/3-step.md"
+  STEP_2_FILE: ".github/steps/2-step.md"
 
 jobs:
   find_exercise:
