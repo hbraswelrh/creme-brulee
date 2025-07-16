@@ -1,20 +1,20 @@
 ## Step 2: Deep Dive into `ComplianceAsCode/oscal-content` 
 
-_This repository houses authored OSCAL content initialized by complyscribe_
+_Where OSCAL content initialized by complyscribe is housed_
 
-
-After completing the thorough review of the projects and tools in _Step 1: Read the docs_ you can strengthen your understanding by example.
+> After completing the thorough review of the projects and tools in _Step 1: Read the docs_ you can strengthen your understanding by examples and analogies below.
 
 ## Mapping `oscal-content-demo` to the `ComplianceAsCode/oscal-content`
 
 ### Bidirectional Synchronization
-Stay updated wth content changes where `sync-oscal-cac` and `sync-cac-oscal` make sure that the _back and forth_ exchange of information is accurate. 
+
+**Staying updated with content changes:** `sync-oscal-cac` and `sync-cac-oscal` ensure that the _back and forth_ exchange of information is accurate and synchronized. 
 
 #### `sync-oscal-cac` 
 
-Once there is a change made in the `oscal-content` repository, there is an automatic trigger that transforms the `ComplianceAsCode/content` content and requests a change to that material. 
+Once there is a change made in the `oscal-content` repository, there is an automatic trigger that transforms the `ComplianceAsCode/content` content and proposes changes to that material. 
 
-_Goal: updates should be synchronized and accurate_
+_Goal: updates should be accurately synchronized immediately upon changes_
 
 ```mermaid
 graph LR
@@ -23,13 +23,13 @@ graph LR
     C --> D[ComplianceAsCode PR #13617]
 ```
 
-Above, the PR in the `oscal-content` will trigger the workflow and make sure the changes are initialized by `complyscribe` and sending that back to the `ComplianceAsCode/content` repository.
+Above, the PR in the `oscal-content` will trigger the workflow and make sure the changes are initialized by `complyscribe`. Then, those changes will be sent back and proposed in the `ComplianceAsCode/content` repository.
 
-The updates automatically trigger the request to propose changes to the `ComplianceAsCode/content` repository content. The deletion of rules from the `component-definition.json` trigger the automatic generation of this [PR](https://github.com/ComplianceAsCode/content/pull/13680) in `ComplianceAsCode/content`. The PR proposes changes to the levels applied to te control file [cis_rhel8](https://github.com/ComplianceAsCode/content/pull/13680/files#diff-c97f4c1b44844a9d76570cbbc2bf8fdbceb1dc1076461fc8408870ab612cad9cR33) in `ComplianceAsCode/content`
+The updates automatically trigger the request to propose changes to the `ComplianceAsCode/content` repository content. The deletion of rules from the `component-definition.json` trigger the automatic generation of this [PR](https://github.com/ComplianceAsCode/content/pull/13680) in `ComplianceAsCode/content`. The PR proposes changes to the levels applied to the control file [cis_rhel8](https://github.com/ComplianceAsCode/content/pull/13680/files#diff-c97f4c1b44844a9d76570cbbc2bf8fdbceb1dc1076461fc8408870ab612cad9cR33) in `ComplianceAsCode/content`
 
 #### `sync-cac-oscal`
 
-Once there is a change in the `ComplianceAsCode/content` content, there is an automatic trigger that will transform the content that `complyscribe` handles and then requests for that transformed change to be placed back in the `ComplianceAsCode/oscal-content` repository. 
+Once there is a change in the `ComplianceAsCode/content` content, there is an automatic trigger that will transform the content handled by `complyscribe`. Then, automatically requesting that the proposed changes be synchronized and updated in the `ComplianceAsCode/oscal-content` repository. 
 
 
 ```mermaid
@@ -62,34 +62,6 @@ Take the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSccmDXNrEe5T
 The changes made will be reflected in your Pull Request. Copy and paste the link of your Pull Request in the self-assessment. 
 
 > Example: "ComplyTime Learning Course: {YOUR_NAME}."
-
-## Perspective :book::custard:
-
-Think of the relationship of `ComplianceAsCode/oscal-content` and `ComplianceAsCode/content` repository with this analogy.
-
-**Imagine you have the original first-edition cookbook for all things pastries** :custard: :cookie:. 
-
-- Let's call this book _The Original Project Bakeshop_, containing the foundational recipes for every pastry and treat from cupcakes, to NATA, to creme-brulee. It's the source of truth for all baking endeavors. 
-
-**Now, you have a good friend, your baking confidant, who wants to specialize in the creme-brulee :custard: recipe section of _The Original Project Bakeshop_.**
-
-- They want to have their own specialized version of your cookbook that builds on the results, but makes sure any recipe changes made in the first-edition are factored into their copy. 
-- This version focuses only on creme-brulee, but i's based on the recipes available in _The Original Project Bakeshop_.
-
-As you both bake, you'll tweak :magic_wand: a few things here and there. Potentially finding a better way to infuse vanilla or a better torching :fire: technique that creates an immaculate crispy top. You both want the recipe to be the best that it can be, and that means ensuring both the first-edition creme-brulee section and the creme-brulee dedicated book reflect the newfound methods. 
-
-**GitHub Actions:** Culinary Coordinators :cook::magic_wand::bellhop_bell:
-
-GitHub Actions is your incredibly efficient team of culinary coordinators. Their sole purpose is to ensure that any improvements made to the creme-brulee recipe in _The Original Project Bakeshop_ or the specialized creme-brulee book are perfectly synchronized, resulting in the best creme-brulee that is approved by the first-edition.
-
-#### Here's how it works:
-
-- Your update to the creme-brulee recipe of _The Original Project Bakeshop_ you're telling your culinary coordinators "Hey, I just made an improvement to creme-brulee! Everyone needs to know about this!"
-- Your friend updates the specialized recipe discovering an even more efficient way to caramelize sugar with the torching method. They also reach out to the culinary coordinators.
-- The coordinators get to work and compare the recipe books. If _The Original Project Bakeshop_ was updated, they make sure the improvement is reflected in your friend's specialized creme-brulee book :arrows_clockwise:. If the specialized book has a brilliant new discovery, the coordinators ensure that is exchanged and shared back to keep _The Original Project Bakeshop_ up-to-date. 
-- The constant, automated synchronization keeps you and your friend working from the most refined and complete creme-brulee instructions. 
-
-GitHub Actions act as the automated bridge to ensure specific, related recipe changes are synchronized for consistent final products.
 
 ## **Mastering the Recipe: A Compliance-as-Code Analogy 🍮📚**
 
