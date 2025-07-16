@@ -84,12 +84,7 @@ _Let's see what you've learned_
 [//]: # (Take the [self-assessment]&#40;https://form.typeform.com/to/EwVRNkJ4&#41; once you have completed Step 2: _Initializing oscal-content-demo with complyscribe_.)
 Take the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSccmDXNrEe5Tx_pkenjmtqvfZ90a8TIKy_8C-ZlSS15dHFBCw/viewform?usp=header) once you have completed Step 2: _Deep Dive into oscal-content_.
 
-##### What You'll Submit
-
-The changes made will be reflected in your Pull Request. Copy and paste the link of your Pull Request in the self-assessment. 
-
-> Example: "ComplyTime Learning Course: {YOUR_NAME}."
-
+> The original analogy content was _edited_ through prompting by Google Gemini.
 <details>
 <summary>Having trouble? 🤷</summary><br/>
 
