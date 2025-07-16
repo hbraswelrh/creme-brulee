@@ -31,7 +31,7 @@ This specialized book contains only the creme brûlée recipes, ensuring they ar
 In essence, GitHub Actions automate the collaboration, and complyscribe facilitates the specific conversion and synchronization, ensuring that the specialized OSCAL content (oscal-content) remains perfectly aligned with the comprehensive compliance content (content), and vice versa, leading to a consistently delicious (and compliant\!) final product.
 
 
-## Mapping `oscal-content` to the `ComplianceAsCode/oscal-content`
+## Mapping `oscal-content` to the `ComplianceAsCode/content`
 
 ### Bidirectional Synchronization
 
