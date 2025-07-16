@@ -8,7 +8,7 @@ on:
   # Example:
   issues:
     types:
-      -opened
+      - opened
 #   pull_request:
 #     branches:
 #       - main

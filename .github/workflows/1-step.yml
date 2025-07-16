@@ -114,7 +114,6 @@ jobs:
       - name: Create comment - complete the self-assessment quiz
         run: |
           gh issue comment "$ISSUE_URL" \
-            --body "Complete the [self-assessment](https://form.typeform.com/to/tiOAik8G?typeform-source=github.com). This should be after you have completed [Step 2: Initializing the oscal-content-demo with complyscribe. :fountainpen:](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md#step-2-initialize-the-oscal-content-demo-with-complyscribe)."
             --body "Complete the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSccmDXNrEe5Tx_pkenjmtqvfZ90a8TIKy_8C-ZlSS15dHFBCw/viewform?usp=header). This should be after you have completed [Step 2: Deep Dive into oscal-content. :fountainpen:](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md#step-2-initialize-the-oscal-content-demo-with-complyscribe)."
             --body "Complete the [self-assessment typeform version](https://form.typeform.com/to/wwndp0jk). This should be after you have completed [Step 2: Deep Dive into oscal-content. :fountainpen:](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md#step-2-initialize-the-oscal-content-demo-with-complyscribe)."
         env:
