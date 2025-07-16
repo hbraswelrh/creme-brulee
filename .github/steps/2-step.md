@@ -16,7 +16,7 @@ Let's imagine the relationship between `ComplianceAsCode/oscal-content` and `Com
 
 **Now, imagine ComplianceAsCode/oscal-content as a specialized companion cookbook.** It's built directly from the First-Edition Cookbook but focuses specifically on the "Creme Brûlée" section – representing the OSCAL (Open Security Controls Assessment Language) format.
 
-This specialized book contains only the creme brûlée recipes, ensuring they are always up-to-date with the Master Cookbook, even as the original recipes evolve. It's designed for those who need to work exclusively with the OSCAL format, building upon the foundational recipes while maintaining perfect synchronization.
+This specialized book contains only the creme brûlée recipes, ensuring they are always up-to-date with the First-edition Cookbook, even as the original recipes evolve. It's designed for those who need to work exclusively with the OSCAL format, building upon the foundational recipes while maintaining perfect synchronization.
 
 ### **The Culinary Coordinators: GitHub Actions & complyscribe 🧑‍🍳✨**
 
