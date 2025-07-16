@@ -82,7 +82,11 @@ The control ids are updated in the OSCAL Content PR #28 triggered by the update 
 _Let's see what you've learned_
 
 [//]: # (Take the [self-assessment]&#40;https://form.typeform.com/to/EwVRNkJ4&#41; once you have completed Step 2: _Initializing oscal-content-demo with complyscribe_.)
-Take the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSccmDXNrEe5Tx_pkenjmtqvfZ90a8TIKy_8C-ZlSS15dHFBCw/viewform?usp=header) once you have completed Step 2: _Deep Dive into oscal-content_.
+
+[//]: # (Take the [self-assessment] https://docs.google.com/forms/d/e/1FAIpQLSccmDXNrEe5Tx_pkenjmtqvfZ90a8TIKy_8C-ZlSS15dHFBCw/viewform?usp=header once you have completed Step 2: _Deep Dive into oscal-content_.)
+
+Take the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSfNAhRcdn0J_cFNAvtzfWz8-r41XU0qYmV_OVtWPgXHqUtRPw/viewform?usp=header ) once you have completed Step 2: _Deep Dive into oscal-content_.
+
 
 > The original analogy content was _edited_ through prompting by Google Gemini.
 <details>
