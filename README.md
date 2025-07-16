@@ -45,6 +45,7 @@ In this exercise, you will:
 2. Understand the relationship of the repositories and how the oscal-content-demo workspace mirrors the oscal-content repository. More info [here](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md)
 3. Trigger GitHub Actions that allow you to author OSCAL content. 
 4. Practice using Git, Markdown, and ComplyTime tools. 
+
 [//]: # (2. Make your own copy of an initialized oscal-content-demo workspace. More info [here]&#40;https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md&#41;) 
 
 

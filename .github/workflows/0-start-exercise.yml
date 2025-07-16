@@ -78,7 +78,7 @@ jobs:
       - name: Create comment - comment on the issue to trigger next workflow
         run: |
           gh issue comment "$ISSUE_URL" \
-            --body "Comment on this issue :pencil2:. Then start [Step 2: Initializing the oscal-content-demo with complyscribe. :fountainpen:](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md#step-2-initialize-the-oscal-content-demo-with-complyscribe)."
+            --body "Comment on this issue :pencil2:. Then start [Step 2: Deep Dive into ComplianceAsCode/oscal-content. ](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md)."
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
