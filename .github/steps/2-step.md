@@ -4,6 +4,33 @@ _Where OSCAL content initialized by complyscribe is housed_
 
 > After completing the thorough review of the projects and tools in _Step 1: Read the docs_ you can strengthen your understanding by examples and analogies below.
 
+## **Mastering the Recipe: A Compliance-as-Code Analogy 🍮📚**
+
+Let's imagine the relationship between `ComplianceAsCode/oscal-content` and `ComplianceAsCode/content` using a delicious analogy.
+
+### **The First-edition Cookbook: ComplianceAsCode/content**
+
+**Think of `ComplianceAsCode/content` as your definitive, first-edition cookbook for all things compliance.** It contains the foundational, approved recipes (compliance rules, policies, benchmarks) for every aspect of your organization's security posture. This is the **source of truth** for all compliance endeavors.
+
+### **The Specialized Cookbook: ComplianceAsCode/oscal-content**
+
+**Now, imagine ComplianceAsCode/oscal-content as a specialized companion cookbook.** It's built directly from the First-Edition Cookbook but focuses specifically on the "Creme Brûlée" section – representing the OSCAL (Open Security Controls Assessment Language) format.
+
+This specialized book contains only the creme brûlée recipes, ensuring they are always up-to-date with the Master Cookbook, even as the original recipes evolve. It's designed for those who need to work exclusively with the OSCAL format, building upon the foundational recipes while maintaining perfect synchronization.
+
+### **The Culinary Coordinators: GitHub Actions & complyscribe 🧑‍🍳✨**
+
+**GitHub Actions are your tireless team of culinary coordinators, and complyscribe is their specialized chef.** Their combined job is to ensure that any improvements or updates to the creme brûlée recipe – whether in the First-edition Cookbook or the Specialized Cookbook – are perfectly synchronized and reflected in both.
+
+**Here's how they work:**
+
+* **First-edition Cookbook Update:** When you refine the creme brûlée recipe in the First-edition Cookbook, your Culinary Coordinators (GitHub Actions) spring into action. They use complyscribe as their expert chef to automatically translate and update the Specialized Cookbook (ComplianceAsCode/oscal-content). This ensures that your friend, who relies on the specialized OSCAL version, always has the latest and greatest recipe.  
+* **Specialized Cookbook Discovery:** If your friend discovers a more efficient way to caramelize the sugar (a new OSCAL implementation or refinement), the Culinary Coordinators (GitHub Actions) ensure this valuable insight is shared back and incorporated into the First-edition Cookbook.  
+* **Constant Harmony:** This automated synchronization, powered by GitHub Actions and `complyscribe`, means you and your friend are always working from the most refined and complete creme brûlée instructions. GitHub Actions act as the automated bridge, with `complyscribe` handling the crucial conversion process, ensuring consistent, high-quality "compliance creme brûlée" across both repositories.
+
+In essence, GitHub Actions automate the collaboration, and complyscribe facilitates the specific conversion and synchronization, ensuring that the specialized OSCAL content (oscal-content) remains perfectly aligned with the comprehensive compliance content (content), and vice versa, leading to a consistently delicious (and compliant\!) final product.
+
+
 ## Mapping `oscal-content-demo` to the `ComplianceAsCode/oscal-content`
 
 ### Bidirectional Synchronization
@@ -62,34 +89,6 @@ Take the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSccmDXNrEe5T
 The changes made will be reflected in your Pull Request. Copy and paste the link of your Pull Request in the self-assessment. 
 
 > Example: "ComplyTime Learning Course: {YOUR_NAME}."
-
-## **Mastering the Recipe: A Compliance-as-Code Analogy 🍮📚**
-
-Let's imagine the relationship between ComplianceAsCode/oscal-content and ComplianceAsCode/content using a delicious analogy.
-
-### **The Master Cookbook: ComplianceAsCode/content**
-
-**Think of ComplianceAsCode/content as your definitive, first-edition cookbook for all things compliance.** It contains the foundational, approved recipes (compliance rules, policies, benchmarks) for every aspect of your organization's security posture. This is the **source of truth** for all compliance endeavors.
-
-### **The Specialized Cookbook: ComplianceAsCode/oscal-content**
-
-**Now, imagine ComplianceAsCode/oscal-content as a specialized companion cookbook.** It's built directly from the Master Cookbook but focuses specifically on the "Creme Brûlée" section – representing the OSCAL (Open Security Controls Assessment Language) format.
-
-This specialized book contains only the creme brûlée recipes, ensuring they are always up-to-date with the Master Cookbook, even as the original recipes evolve. It's designed for those who need to work exclusively with the OSCAL format, building upon the foundational recipes while maintaining perfect synchronization.
-
-### **The Culinary Coordinators: GitHub Actions & Complyscribe 🧑‍🍳✨**
-
-**GitHub Actions are your tireless team of culinary coordinators, and complyscribe is their specialized chef.** Their combined job is to ensure that any improvements or updates to the creme brûlée recipe – whether in the Master Cookbook or the Specialized Cookbook – are perfectly synchronized and reflected in both.
-
-**Here's how they work:**
-
-* **Master Cookbook Update:** When you refine the creme brûlée recipe in the Master Cookbook, your Culinary Coordinators (GitHub Actions) spring into action. They use complyscribe as their expert chef to automatically translate and update the Specialized Cookbook (ComplianceAsCode/oscal-content). This ensures that your friend, who relies on the specialized OSCAL version, always has the latest and greatest recipe.  
-* **Specialized Cookbook Discovery:** If your friend discovers a more efficient way to caramelize the sugar (a new OSCAL implementation or refinement), the Culinary Coordinators (GitHub Actions) ensure this valuable insight is shared back and incorporated into the Master Cookbook.  
-* **Constant Harmony:** This automated synchronization, powered by GitHub Actions and complyscribe, means you and your friend are always working from the most refined and complete creme brûlée instructions. GitHub Actions act as the automated bridge, with complyscribe handling the crucial conversion process, ensuring consistent, high-quality "compliance creme brûlée" across both repositories.
-
-In essence, GitHub Actions automate the collaboration, and complyscribe facilitates the specific conversion and synchronization, ensuring that the specialized OSCAL content (oscal-content) remains perfectly aligned with the comprehensive compliance content (content), and vice versa, leading to a consistently delicious (and compliant\!) final product.
-
-> 🗄️ Where you can find this content
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>
