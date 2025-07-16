@@ -1,5 +1,4 @@
 ## Bite-sized ComplyTime Outline 🥮
-Here's a combined table of contents for both Step 1 and Step 2 of your course:
 
 ## Table of Contents
 
@@ -14,7 +13,7 @@ Here's a combined table of contents for both Step 1 and Step 2 of your course:
           * [The First-edition Cookbook: ComplianceAsCode/content](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#the-first-edition-cookbook-complianceascodecontent)
           * [The Specialized Cookbook: ComplianceAsCode/oscal-content](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#the-specialized-cookbook-complianceascodeoscal-content)
           * [The Culinary Coordinators: GitHub Actions & complyscribe](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#the-culinary-coordinators-github-actions--complyscribe-)
-      * [Mapping `oscal-content` to the `ComplianceAsCode/oscal-content`](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#mapping-oscal-content-demo-to-the-complianceascodeoscal-content)
+      * [Mapping `oscal-content` to the `ComplianceAsCode/oscal-content`](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#mapping-oscal-content-to-the-complianceascodeoscal-content)
           * [Bidirectional Synchronization](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#bidirectional-synchronization)
               * [`sync-oscal-cac`](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#sync-oscal-cac)
               * [`sync-cac-oscal`](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#sync-cac-oscal)
