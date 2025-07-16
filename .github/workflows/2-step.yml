@@ -14,8 +14,8 @@ on:
 #       - main
 #     types:
 #       - closed
-#  issue_comment:
-#     types: [created, edited, closed]
+  issue_comment:
+     types: [created, edited]
 
 permissions:
   contents: write
