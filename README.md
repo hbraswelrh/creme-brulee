@@ -16,7 +16,7 @@ _Learn to use ComplyTime organization projects and tools._
 
 - You'll need a GitHub account with a personal access token, setup [account here](https://github.com/), [token here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) :octocat:
 
-- You'll need a GitHub account with a personal access token, setup <a href="https://github.com/" target="_blank">account here</a>, <a href="https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens" target="_blank">token here</a> :octocat:
+
 ##### OSCAL for Compliance Managers
 
 > Required before attempting the ComplyTime module of the learning course
