@@ -8,27 +8,44 @@ assignees: hbraswelrh
 ---
 
 ## Key Takeaways & Notes
-What were the most important things you learned in this section? 
 
-What new concepts clicked for you?
 
-### Key Concept 1:
+###  Step 1:  Read the docs 
 
-#### My Notes:
+#### Notes
+- _Insert notes here_
+- _Do not use italicized formatting_
 
-### Key Concept 2:
+###  Step 2:  Deep dive into oscal-content
 
-#### My Notes:
+#### Notes
 
-### Key Concept 3:
+- _Insert notes here. REPLACE this content with your notes._
+- _Do not use italics_
 
-#### My Notes:
+### {REPLACE_ME} Key Concept 1:
 
-(Add more as needed)
+#### Notes:
 
-### Challenges & Questions
+- _Insert notes here. REPLACE this content with your notes._
+- _Do not use italics_
+
+## Related Issues
+
+_Link your Excercise: Read the docs issue here_
+_Example Issue -> HERE_
+- Related to Issue #()
+## Questions
 
 ### Self-Reflection & Next Steps
-How do you feel about your understanding of this section? What will you do next?
 
-My plan for next steps:
+#### 
+#### Next Steps
+
+## Resources 
+_Add or delete resources while taking notes_
+
+- The [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md) has the content of **Step 1:** Read the docs and **Step 2:** Deep dive into oscal-content 
+
+
+> ⭐ This issue should be attached to your self-assessment
