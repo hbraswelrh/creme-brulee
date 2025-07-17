@@ -19,6 +19,9 @@
               * [`sync-cac-oscal`](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#sync-cac-oscal)
       * [Self-assessment](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#self-assessment)
           * [What You'll Submit](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#what-youll-submit)
+      * [Visual Representation](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/2-step.md#visual-representation)
+       
+     
 
 ## Learning Outcomes 📝
 
