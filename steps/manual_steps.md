@@ -1,6 +1,6 @@
 ## Learning Course Steps 
 
-> Prerequisites must be completed prior to attempting the ComplyTime module
+> [Prerequisites](https://github.com/hbraswelrh/creme-brulee/blob/main/README.md#prerequisites) must be completed prior to attempting the ComplyTime module
 
 Welcome to the ComplyTime learning course\! This guide will help you navigate the course, which is built on GitHub Skills and uses automated workflows to set up your personalized workspace. You'll use GitHub Issues to keep track of your notes as you progress.
 
