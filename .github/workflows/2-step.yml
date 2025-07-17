@@ -48,12 +48,6 @@ jobs:
           path: exercise-toolkit
           ref: v0.4.0
 
-      # START: Check practical exercise
-
-      # (replace-me: Add verification steps here if needed)
-
-      # END: Check practical exercise
-
       - name: Create comment - step finished - final review next
         run: |
           gh issue comment "$ISSUE_URL" \
@@ -79,7 +73,6 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
-  # The last workflow in the chain of steps should also finish the exercise.
   finish_exercise:
     name: Finish Exercise
     needs: [find_exercise, post_review_content]
