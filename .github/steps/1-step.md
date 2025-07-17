@@ -23,4 +23,3 @@ Document your notes in a GitHub issue like [this](https://docs.github.com/en/iss
 ### **📝 Take the Self-Assessment**
 
 Once you've thoroughly reviewed all the documentation above, take this short [self-assessment](https://form.typeform.com/to/tiOAik8G). Good luck\! 🚀
-

@@ -77,13 +77,13 @@ Above, the control file defines the RHEL8 HIPAA profile. The change makes it sim
 
 The control ids are updated in the OSCAL Content PR #28 triggered by the update in ComplianceAsCode/content. The `oscal-content` profiles for RHEL8/HIPAA - [rhel8-hipaa-required](https://github.com/ComplianceAsCode/oscal-content/blob/1bf63ff5e400f1bd4934007e5251a586cbcafa7a/profiles/rhel8-hipaa-required/profile.json)
 
+### Take notes in a GitHub Issue
+
+Follow the procedure in [issue-help.md](https://raw.githubusercontent.com/hbraswelrh/creme-brulee/refs/heads/main/docs/issue-help.md) to take notes on the course content. GitHub issues allow for easily keeping track of notes related to the course. 
+
 #### Self-assessment
 
 _Let's see what you've learned_
-
-[//]: # (Take the [self-assessment]&#40;https://form.typeform.com/to/EwVRNkJ4&#41; once you have completed Step 2: _Initializing oscal-content-demo with complyscribe_.)
-
-[//]: # (Take the [self-assessment] https://docs.google.com/forms/d/e/1FAIpQLSccmDXNrEe5Tx_pkenjmtqvfZ90a8TIKy_8C-ZlSS15dHFBCw/viewform?usp=header once you have completed Step 2: _Deep Dive into oscal-content_.)
 
 Take the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSfNAhRcdn0J_cFNAvtzfWz8-r41XU0qYmV_OVtWPgXHqUtRPw/viewform?usp=header ) once you have completed Step 2: _Deep Dive into oscal-content_.
 
