@@ -87,6 +87,28 @@ _Let's see what you've learned_
 
 Take the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSfNAhRcdn0J_cFNAvtzfWz8-r41XU0qYmV_OVtWPgXHqUtRPw/viewform?usp=header ) once you have completed Step 2: _Deep Dive into oscal-content_.
 
+## Visual Representation
+
+```mermaid
+flowchart LR
+ComplianceAsCode/content --> complyscribe --> ComplianceAsCode/oscal-content 
+ComplianceAsCode/content --> ComplianceAsCode/oscal-content
+ComplianceAsCode/oscal-content --> change --> sync-oscal-cac --> ComplianceAsCode/content
+ComplianceAsCode/content --> change --> sync-cac-oscal --> ComplianceAsCode/oscal-content
+```
+
+- **`ComplianceAsCode/content`:** first-edition-cookbook
+- **`ComplianceAsCode/oscal-content`:** specialized-cookbook
+- **`complyscribe`:** specialized-chef
+- **`sync-oscal-cac`** & **`sync-cac-oscal`:** culinary-coordinators
+
+```mermaid
+flowchart LR
+first-edition-cookbook --> specialized-chef  --> specialized-cookbook 
+first-edition-cookbook --> specialized-cookbook
+specialized-cookbook --> change --> culinary-coordinators --> first-edition-cookbook
+first-edition-cookbook  --> change --> culinary-coordinators --> specialized-cookbook
+```
 
 > The original analogy content was _edited_ through prompting by Google Gemini.
 <details>
