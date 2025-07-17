@@ -26,4 +26,7 @@ flowchart LR
 Step-1-Read-the-Docs --> self-assessment  --> comment-on-issue 
 comment-on-issue --> Step-2-Deep-Dive-oscal-content --> open-issue-take-notes
 open-issue-take-notes --> self-assessment-2 --> comment-on-new-issue --> close-learning-course-issue
+close-learning-course-issue --> Step-1-Read-the-Docs
+close-learning-course-issue --> Step-2-Deep-Dive-oscal-content
+
 ```
