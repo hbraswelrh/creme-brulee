@@ -19,3 +19,11 @@
 **New issue created**
 
 <img alt="img_4.png" height="160" src="img_4.png" width="180"/>
+
+
+```mermaid
+flowchart LR
+Step-1-Read-the-Docs --> self-assessment  --> comment-on-issue 
+comment-on-issue --> Step-2-Deep-Dive-oscal-content --> open-issue-take-notes
+open-issue-take-notes --> self-assessment-2 --> comment-on-new-issue --> close-learning-course-issue
+```
