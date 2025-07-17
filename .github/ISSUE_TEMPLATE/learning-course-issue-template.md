@@ -33,7 +33,7 @@ assignees: hbraswelrh
 ## Related Issues
 
 _Link your Excercise: Read the docs issue here_
-_Example Issue -> HERE_
+_Example Issue -> [HERE](https://github.com/hbraswelrh/creme-brulee/issues/7)_
 - Related to Issue #()
 ## Questions
 
