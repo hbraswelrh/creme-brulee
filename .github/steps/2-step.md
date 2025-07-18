@@ -2,7 +2,7 @@
 
 _Where OSCAL content initialized by complyscribe is housed_
 
-> After completing the thorough review of the projects and tools in _Step 1: Read the docs_ you can strengthen your understanding by examples and analogies below.
+> After completing _Step 1: Read the docs_, strengthen your understanding by examples and analogies below.
 
 ## **Mastering the Recipe: A Compliance-as-Code Analogy 🍮📚**
 
