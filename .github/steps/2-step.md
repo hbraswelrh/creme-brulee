@@ -79,7 +79,7 @@ The control ids are updated in the OSCAL Content PR #28 triggered by the update 
 
 ### Take notes in a GitHub Issue
 
-Follow the procedure in [issue-help.md](https://raw.githubusercontent.com/hbraswelrh/creme-brulee/refs/heads/main/docs/issue-help.md) to take notes on the course content. GitHub issues allow for easily keeping track of notes related to the course. 
+Follow the procedure in [issue-help.md](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/issue-help.md) to take notes on the course content. GitHub issues allow for easily keeping track of notes related to the course. 
 
 #### Self-assessment
 
