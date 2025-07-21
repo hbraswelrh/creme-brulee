@@ -8,6 +8,9 @@ Help on [Creating an issue](https://github.com/hbraswelrh/creme-brulee/blob/main
 
 After completing [**Step 1:** _Read the docs_](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/1-step.md) you'll need to document your notes in a GitHub issue. Expand on your understanding of Markdown by opening a GitHub issue. Select "Learning course template" for the issue type. 
 
+## Review the `markdown/` folder in the `creme-brulee` repository
+
+
 #### Add the following sections
 
 # ac-1 - \[Access Control\] Access Control Policy and Procedures
@@ -121,3 +124,14 @@ ______________________________________________________________________
 ### Implementation Status: planned
 
 ______________________________________________________________________
+
+---
+x-trestle-global:
+  sort-id: r2
+---
+
+# r2 - \[REPLACE_ME\] Hardware Configuration
+
+## Control Statement
+
+It is recommended to apply the configuration recommendations for BIOS/UEFI mentioned in ANSSI DAT-24.
