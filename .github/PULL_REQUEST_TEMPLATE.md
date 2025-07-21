@@ -1,20 +1,22 @@
 ## Summary
-This PR is a template for Compliance Managers to copy for updating sandbox practice progress. 
+This PR is a template for Compliance Managers to leverage for updating learning course progress. 
 
 ## Related Issues
 
 - Related to Issue #(1) for creating a system to track progress
-- This will eventually be an automated PR that will provide a "first PR" message.
+- _Link your issues for note-taking here_
 
 ## Rationale 
-
-Depends on Issue #()
+_Include description of your changes_
 
 #### What did you update?
 
 - [ ] OSCAL Catalogs
 - [ ] OSCAL Profiles
 - [ ] OSCAL Component Definitions
+- [ ] Markdown OSCAL Catalogs
+- [ ] Markdown OSCAL Profiles
+- [ ] Markdown OSCAL Component Definitions
 
 #### What ComplianceAsCode/content resources did you leverage?
 
@@ -24,6 +26,6 @@ Depends on Issue #()
 
 ## Questions 
 
-Any questions can be left in the comments. Tag @hbraswelrh for more info and to escalate any issues follow-up via Slack. 
+Any questions can be left in the comments. Tag @hbraswelrh for more info. Escalate any issues via Slack in the #learn-complytime Slack Channel.
 
 Follow `GUIDELINES.md` for comment structure.  
