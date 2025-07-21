@@ -6,3 +6,5 @@ x-trestle-global:
 # cis_rhel10_1-1.1.6 - \[REPLACE_ME\] Ensure Squashfs Kernel Module Is Not Available (Automated)
 
 ## Control Statement
+
+Example edit control statement
