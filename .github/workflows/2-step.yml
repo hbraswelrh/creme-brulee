@@ -9,11 +9,12 @@ on:
   issues:
     types:
       - opened
-#   pull_request:
-#     branches:
-#       - main
-#     types:
-#       - closed
+  pull_request:
+     branches:
+       - main
+       - learn-complytime/step-2
+     types:
+       - opened
   issue_comment:
      types: [created, edited]
 
