@@ -19,8 +19,9 @@ The **Cloud Native Computing Foundation (CNCF)** is a vibrant open-source softwa
 
 ### 🔗 Key Resources
 
-- 📋 [**Project Charter**](https://github.com/cncf/foundation/blob/main/charter.md) - Learn about CNCF's governance and mission
-- 🏠 [**OSCAL Compass Homepage**](https://oscal-compass.dev/) - Explore the project
+ 📋 [**Project Charter**](https://github.com/cncf/foundation/blob/main/charter.md) - Learn about CNCF's governance and mission
+ 
+ 🏠 [**OSCAL Compass Homepage**](https://oscal-compass.dev/) - Explore the project
 
 ---
 
@@ -28,11 +29,11 @@ The **Cloud Native Computing Foundation (CNCF)** is a vibrant open-source softwa
 
 ### 🌟 Ways to Contribute
 
-- **💻 Code Contributions**: Submit pull requests and help improve the codebase
-- **📝 Documentation**: Help make our docs better and more accessible  
-- **🐛 Bug Reports**: Report issues and help us improve quality
-- **💡 Feature Requests**: Share ideas for new capabilities
-- **🗣️ Community**: Join discussions and help other users
+- **Code Contributions**: Submit pull requests and help improve the codebase
+- **Documentation**: Help make our docs better and more accessible  
+- **Bug Reports**: Report issues and help us improve quality
+- **Feature Requests**: Share ideas for new capabilities
+- **Community**: Join discussions and help other users
 
 ### 🔗 Quick Links
 
