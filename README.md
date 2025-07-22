@@ -7,8 +7,8 @@ _Learn to use ComplyTime organization projects and tools._
 ## Welcome
 
 - **Who is this for**: Compliance Managers, New ComplyTime users, Developers.
-- **What you'll learn**: In this course, you'll learn how to set up the ComplyTime organization tools, author OSCAL Content from the GitHub UI, and leverage those tools for Compliance Management workflows.
-- **What you'll build**: You'll initialize an oscal-content-demo workspace, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation through Agile Authoring and automated workflows.
+- **What you'll learn**: In this course, you'll learn about the ComplyTime organization tools, update OSCAL Content from the GitHub UI using Git flow and markdown, and leverage those tools for Compliance Management workflows.
+- **What you'll build**: You'll open a GitHub Issue for note-taking, open a pull request for proposed changes in the `markdown/` folder, interact with the ComplyTime organization codebases, and understand how ComplyTime tools assist in managing your Compliance Documentation through Agile Authoring and automated workflows.
 
 ### Prerequisites
 
@@ -43,18 +43,13 @@ _Learn to use ComplyTime organization projects and tools._
 
 In this exercise, you will:
 1. Learn about the relevant repositories in the ComplyTime organization.
-2. Understand the relationship of the repositories and how the oscal-content-demo workspace mirrors the oscal-content repository. More info [here](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md)
-3. Trigger GitHub Actions that allow you to author OSCAL content. 
-4. Practice using Git, Markdown, and ComplyTime tools. 
-
-[//]: # (2. Make your own copy of an initialized oscal-content-demo workspace. More info [here]&#40;https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md&#41;) 
-
+2. Practice using Git, Markdown, and ComplyTime tools for getting comfortable with the workflow.
+3.  More info [here](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md)
 
 ### How to start this exercise
 
 Simply copy the exercise to your account, then give your favorite Octocat :octocat: **about 20 seconds** to prepare the first lesson, then **refresh the page**.
 
-<!--  (replace-me: Make sure to edit the URL with proper template_owner, template_name, repo name and description)  -->
 
 [![](https://img.shields.io/badge/Start%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/new?template_name=creme-brulee&template_owner=hbraswelrh)
 
@@ -62,7 +57,7 @@ Simply copy the exercise to your account, then give your favorite Octocat :octoc
 <summary>Having trouble? 🤷</summary><br/>
 
 
-Review the [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md) and reach out in the Slack channel [#learn-complytime](https://redhat.enterprise.slack.com/archives/C093B45QGQM)
+- Review the [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md) and reach out in the Slack channel [#learn-complytime](https://redhat.enterprise.slack.com/archives/C093B45QGQM)
 If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
 
 - Check to see if a job is running. Sometimes it simply takes a bit longer.
