@@ -17,9 +17,9 @@ The **`ComplianceAsCode/content`** project is an **open-source initiative** focu
 
 **Compliance as Code** means treating your security policies and compliance artifacts like software code. This enables:
 
-- 🔄 **Automation**
-- 📝 **Version Control**
-- ⚖️ **Consistent Application**
+- **Automation**
+- **Version Control**
+- **Consistent Application**
 
 ### 🚫 The Problem: Redundancy
 
@@ -43,9 +43,9 @@ Write Once → Generate Multiple Formats
 
 #### 🎯 Benefits
 
-- **🚀 Efficient Development**: Reduces redundant effort across organizations
-- **🌐 Diverse Deployment**: Supports various environments and tools
-- **📊 Consistency**: Single source of truth for all security content
+- **Efficient Development**: Reduces redundant effort across organizations
+- **Diverse Deployment**: Supports various environments and tools
+- **Consistency**: Single source of truth for all security content
 
 ---
 
@@ -84,9 +84,9 @@ consistency: "Single source ensures uniform output"
 
 ### 🎯 Core Advantages
 
-- **📝 Templating**: Reduces boilerplate and redundancies
-- **🎯 Centralized Security Identifiers**: Ensures consistency across all generated outputs
-- **🔄 Single Source**: All identifiers like NIST ID and STIG sourced from YAML rule files
+- **Templating**: Reduces boilerplate and redundancies
+- **Centralized Security Identifiers**: Ensures consistency across all generated outputs
+- **Single Source**: All identifiers like NIST ID and STIG sourced from YAML rule files
 
 > 📖 **For more details**: Consult the project's official README.md on GitHub
 
@@ -100,9 +100,9 @@ As a **Compliance Professional**, understanding this project is crucial for effe
 
 ### 🎯 Key Benefits
 
-- **🌉 Bridge Knowledge Gaps**: Better understanding of technical implementation
-- **🤝 Improved Collaboration**: Common language with development teams
-- **📈 Enhanced Efficiency**: Leverage automation for compliance processes
+- **Bridge Knowledge Gaps**: Better understanding of technical implementation
+- **Improved Collaboration**: Common language with development teams
+- **Enhanced Efficiency**: Leverage automation for compliance processes
 
 ---
 
