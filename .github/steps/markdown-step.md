@@ -1,8 +1,8 @@
 # ✏️ Step 2: Taking notes using Markdown
 
-You'll need to get used to working with markdown. You should've completed the Communicate Using Markdown GitHub Skills course. 
+You'll need to get used to working with markdown. You should've completed the _Communicate Using Markdown_ GitHub Skills course as a pre-requisite. 
 
-Help on [Creating an issue](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/issue-help.md)
+Follow the [help guide](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/issue-help.md) for creating issues.
 
 ## 🧰 What you'll need
 
@@ -14,6 +14,9 @@ You'll need to create a New Branch in your copy of the `creme-brulee` ComplyTime
 
 > The Pull Request will be part of the attestation of course completion.
 
+## What You'll Submit
+
+The [self-assessment]() will require submission of the link to your GitHub issue for taking notes and the Pull request opened with markdown changes. 
 #### Add the following sections
 
 # ac-1 - \[Access Control\] Access Control Policy and Procedures
