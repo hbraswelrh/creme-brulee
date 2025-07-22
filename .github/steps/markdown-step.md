@@ -8,6 +8,12 @@ Help on [Creating an issue](https://github.com/hbraswelrh/creme-brulee/blob/main
 
 After completing [**Step 1:** _Read the docs_](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/1-step.md) you'll need to document your notes in a GitHub issue. Expand on your understanding of Markdown by opening a GitHub issue. Select "Learning course template" for the issue type. 
 
+## :octocat: Open a Pull Request
+
+You'll need to create a New Branch in your copy of the `creme-brulee` ComplyTime module (ex: `learn-complytime/{user_name}`). After switching to that branch, update markdown **Control Statements** in the `markdown/` folder of your workspace. Then, open a Pull Request from your branch `learn-complytime/{user_name}` that proposes changes to `main`. Then, using the Pull Request template, update the contents of the Pull Request to reflect the changes introduced.
+
+> The Pull Request will be part of the attestation of course completion.
+
 #### Add the following sections
 
 # ac-1 - \[Access Control\] Access Control Policy and Procedures
