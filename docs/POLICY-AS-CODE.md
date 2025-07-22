@@ -14,9 +14,9 @@
 
 ### 🔧 Core Objectives
 
-- **🔗 Integration**: Integrate compliance frameworks and existing policy engines
-- **⚙️ Flexibility**: Enable usage of heterogeneous policy engines in compliance check operations
-- **🤝 Community**: Community-driven plugin extension
+- **Integration**: Integrate compliance frameworks and existing policy engines
+- **Flexibility**: Enable usage of heterogeneous policy engines in compliance check operations
+- **Community**: Community-driven plugin extension
 
 ### ✨ Key Benefits
 
@@ -34,8 +34,8 @@
 
 ### 🎯 Focus Areas
 
-- **📊 Evidence-Based**: Less discussion of measures, more machine-readable evidence of compliance
-- **🔄 Automation**: Common examples include testing automation scripts to ensure defined policies are properly enforced
+- **Evidence-Based**: Less discussion of measures, more machine-readable evidence of compliance
+- **Automation**: Common examples include testing automation scripts to ensure defined policies are properly enforced
 
 ---
 
@@ -79,8 +79,8 @@ Policy As Code = used by Policy Validation Points (PVP)
 
 ### 🎯 Plugin Responsibilities
 
-- **📝 Policy Generation**: Handle policy names/IDs and return policies
-- **⚖️ Result Processing**: Handle verdict and reasoning for each policy
+- **Policy Generation**: Handle policy names/IDs and return policies
+- **Result Processing**: Handle verdict and reasoning for each policy
 
 ---
 
@@ -94,9 +94,9 @@ Policy As Code = used by Policy Validation Points (PVP)
 
 **C2P** can be integrated into your **Continuous Compliance pipelines**:
 
-- 🐙 **GitHub Actions**
-- 🔧 **Tekton Pipelines**  
-- 📝 **Agile Authoring Pipelines**
+- **GitHub Actions**
+- **Tekton Pipelines**  
+- **Agile Authoring Pipelines**
 
 ---
 
