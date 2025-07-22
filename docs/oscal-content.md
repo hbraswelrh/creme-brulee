@@ -128,10 +128,10 @@ We utilize [**ComplyScribe**](https://github.com/complytime/complyscribe) to hel
 
 **This repository will eventually be maintained by Compliance Managers**, providing:
 
-- **📊 Centralized Content Management**: Single source of truth for OSCAL content
-- **🔄 Automated Synchronization**: Seamless updates between systems
-- **👥 Collaborative Workflows**: Team-based content authoring and review
-- **📈 Scalable Architecture**: Growing with organizational needs
+- **Centralized Content Management**: Single source of truth for OSCAL content
+- **Automated Synchronization**: Seamless updates between systems
+- **Collaborative Workflows**: Team-based content authoring and review
+- **Scalable Architecture**: Growing with organizational needs
 
 ---
 
@@ -141,10 +141,10 @@ We utilize [**ComplyScribe**](https://github.com/complytime/complyscribe) to hel
 
 **Maintainers** can contribute by:
 
-1. **🍴 Fork**: Create a fork of the repository
-2. **✏️ Author/Edit**: Modify OSCAL content files
-3. **📝 Pull Request**: Open a PR with your changes
-4. **🔄 Auto-Sync**: Once merged, `sync-oscal-cac` workflow triggers automatically
+1. **Fork**: Create a fork of the repository
+2. **Author/Edit**: Modify OSCAL content files
+3. **Pull Request**: Open a PR with your changes
+4. **Auto-Sync**: Once merged, `sync-oscal-cac` workflow triggers automatically
 
 ### 📋 Contribution Workflow
 
