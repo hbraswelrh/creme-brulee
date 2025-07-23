@@ -37,13 +37,8 @@ As you go through the documentation, it's highly recommended that you take detai
 * **Important:** When creating your issue, make sure to select the "**Learning course issue template**." This will help you keep your notes organized and consistent.  
 * You can refer to [this example](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart) for guidance on how to create an issue.
 
-### **Step 2: Take the Self-Assessment**
 
-Once you've confidently reviewed all the documentation and taken your notes, it's time to test your understanding.
-
-* Complete the short [self-assessment](https://form.typeform.com/to/tiOAik8G). This will help solidify your knowledge and prepare you for the next stages of the course.
-
-#### Example :speech_balloon:
+### Example :speech_balloon:
 
 ##### Refresh page once you've made your copy of the `creme-brulee` repository. 
 
@@ -63,14 +58,16 @@ Once you've confidently reviewed all the documentation and taken your notes, it'
 
 <img alt="img_3.png" height="300" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-1.png" width="400"/>
 
-###### Notice the supporting comments ✏️.
+> Notice the supporting comments ✏️.
 
 <img alt="img_4.png" height="500" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-2.png" width="500"/>
 
 
-## Issue Note-taking
+## Taking notes using GitHub Issues
 
 > Taking notes in an issue will help with comfortability using Git and practicing with Markdown. 
+
+### Navigation
 
 Navigate to the Issues tab. Click the green "New issue" box in the top right corner.
 
@@ -80,9 +77,13 @@ Open an issue using the "Learning course issue template."
 
 <img alt="img.png" height="190" src="images/issuelctemplate.png" width="300"/>
 
+### Update the template content
+
 Update the content and the `{REPLACE_ME}` areas with your Key Concepts. Click "Create" to create your issue. This will track your notes while completing Step 1: _Read the docs_. 
 
 <img alt="img.png" height="280" src="images/replaceme.png" width="350"/>
+
+### Next Steps 
 
 Once you have taken notes and completed the self-assessment for Step 1: Read the docs, copy the link of your issue and paste it in the comments of your Exercise: Read the docs issue.
 
@@ -92,56 +93,43 @@ Click "Comment." That comment will trigger Step 2 to populate in the issue body.
 
 <img alt="img.png" height="100" src="images/commenterbody.png" width="350"/>
 
-##### Comment the link to your note-taking issue to populate Step 2.
+#### Comment the link to your note-taking issue to populate Step 2.
 
 <img alt="img_5.png" height="400" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/comment.png" width="400"/>
 
-
 ## Step 2: Practice communicating using Markdown and Git
 
-Read the docs 
+Comment the link to your note-taking issue on the exercise issue once finishing Step 1: _Read the Docs_. The next step will populate after around 20 seconds. 
 
-<img alt="img.png" height="200" src="images/step1pic.png" width="220"/>
+<img alt="img_3.png" height="400" src="images/issuecommenttrigger.png" width="400"/>
 
-Issue
+##### Populating step 2
 
-<img alt="img_1.png" height="250" src="images/issueopened.png" width="200"/>
+<img alt="img_1.png" height="400" src="images/step2populate.png" width="400"/>
 
-Issue body
+##### Follow directions in issue body
 
-<img alt="img_2.png" height="250" src="images/issuebodyimage.png" width="210"/>
+<img alt="img.png" height="400" src="images/followdirections.png" width="400"/>
 
-Comment on the issue once finishing Step 1: Read the Docs. The next step will populate after around 20 seconds. 
+### Branching 
 
-<img alt="img_3.png" height="250" src="images/issuecommenttrigger.png" width="210"/>
+##### Navigate back to the homepage to create a new branch. 
 
-Populating step 2
+<img alt="img.png" height="400" src="images/gotohome.png" width="440"/>
 
-<img alt="img_1.png" height="200" src="images/step2populate.png" width="200"/>
+##### Click "View All Branches." The branch `main` should be the only branch in your workspace.
 
-Follow directions in issue body
+<img alt="img_1.png" height="340" src="images/branchesviewbefore.png" width="500"/>
 
-<img alt="img.png" height="200" src="images/followdirections.png" width="200"/>
+##### Click the green button in the top right corner that says "New Branch." 
 
-#### Branching 
+<img alt="img.png" height="360" src="images/singlemainbranch.png" width="550"/>
 
-Navigate back to the homepage to create a new branch. 
-
-<img alt="img.png" height="200" src="images/gotohome.png" width="220"/>
-
-Click "View All Branches." The branch `main` should be the only branch in your workspace.
-
-<img alt="img_1.png" height="200" src="images/branchesviewbefore.png" width="210"/>
-
-Click the green button in the top right corner that says "New Branch." 
-
-<img alt="img.png" height="200" src="images/singlemainbranch.png" width="220"/>
-
-Create a new branch named "`learn-complytime/step-2`"
+##### Create a new branch named "`learn-complytime/step-2`"
 
 > This step is _crucial_ for the course to work. Ensure you create the branch name exactly as `learn-complytime/step-2`.
 
-<img alt="img_1.png" height="210" src="images/learn-complytimebranchname.png" width="290"/>
+<img alt="img_1.png" height="350" src="images/learn-complytimebranchname.png" width="550"/>
 
 Click "Create new branch." The default "Source" will be the main branch. That means that the main branch will be copied to your new `learn-complytime/step-2` branch. 
 
@@ -149,11 +137,11 @@ Click "Create new branch." The default "Source" will be the main branch. That me
 
 **BEFORE**: `main` branch
 
-<img alt="img.png" height="200" src="images/mainbranch.png" width="300"/>
+<img alt="img.png" height="300" src="images/mainbranch.png" width="500"/>
 
 **AFTER**: `learn-complytime/step-2` branch
 
-<img alt="img_1.png" height="200" src="images/newbranchimage.png" width="300"/>
+<img alt="img_1.png" height="300" src="images/newbranchimage.png" width="500"/>
 
 #### Making changes in the `markdown/` folder
 
@@ -176,23 +164,23 @@ Example Markdown for RHEL10 ANSSI Control R1: Hardware Support.
 
 Markdown version of Control R1 from `rhel10-anssi-enhanced` OSCAL Profile.
 
-<img alt="img.png" height="200" src="images/profcontrolstmt.png" width="300"/>
+<img alt="img.png" height="400" src="images/profcontrolstmt.png" width="600"/>
 
 Updates can be made to the Control Statement editable content by clicking the pencil in the top right corner of the `r1.md` file. This is where you must make sure that the branch selected in the top left corner is `learn-complytime/step-2`.
 
 
-<img alt="img.png" height="190" src="images/editprofilemd.png" width="280"/>
+<img alt="img.png" height="380" src="images/editprofilemd.png" width="560"/>
 
 This is the step where your knowledge from the Intro to GitHub Skills and Communicate Using Markdown will be important. The "Edit" and "Preview" tabs in the GitHub UI editor will help you check your Markdown work as you go. "Edit" is the Markdown formatted text. "Preview" is the styled format with Markdown applied.
 
 ##### EDIT - Markdown format that includes my change "Control my_addition_name" and "Part example new part."
 
-<img alt="img.png" height="190" src="images/exedit2.png" width="300"/>
+<img alt="img.png" height="380" src="images/exedit2.png" width="560"/>
 
 
 ##### PREVIEW - styled Markdown format that includes my change "Control my_addition_name" and "Part example new part."
 
-<img alt="img.png" height="200" src="images/reeditformat.png" width="270"/>
+<img alt="img.png" height="400" src="images/reeditformat.png" width="540"/>
 
 #### Git flow
 
