@@ -152,9 +152,10 @@ You will make edits to content in the Markdown folder.
 <img alt="img.png" height="190" src="images/markdwon.png" width="380"/>
 
 
-Clicking on Profiles there will be RHEL8, RHEL9, and RHEL10 content initialized by `complyscribe`. The folders are organized by `product-profile-level`. This example uses content for the RHEL10 ANSSI Enhanced Profile.
+Clicking on Component Definitions there will be RHEL8, RHEL9, and RHEL10 content initialized by `complyscribe`. The folders are organized by `Example-POLICY-level/compdef-title/profile`. This example uses content for the RHEL10 ANSSI Enhanced Example Component Definition.
 
-<img alt="img.png" height="190" src="images/exampleimage.png" width="380"/>
+<img alt="img.png" height="90" src="images/try.png" width="350"/>
+
 
 Example Markdown for RHEL10 ANSSI Control R1: Hardware Support.
 
@@ -164,23 +165,22 @@ Example Markdown for RHEL10 ANSSI Control R1: Hardware Support.
 
 Markdown version of Control R1 from `rhel10-anssi-enhanced` OSCAL Profile.
 
-<img alt="img.png" height="400" src="images/profcontrolstmt.png" width="600"/>
+<img alt="img.png" height="250" src="images/comdefexample.png" width="650"/>
 
-Updates can be made to the Control Statement editable content by clicking the pencil in the top right corner of the `r1.md` file. This is where you must make sure that the branch selected in the top left corner is `learn-complytime/step-2`.
+Updates can be made to the Component Definition editable content by clicking the pencil in the top right corner of the `r1.md` file. This is where you must make sure that the branch selected in the top left corner is `learn-complytime/step-2`.
 
+<img alt="img.png" height="300" src="images/fixed.png" width="700"/>
 
-<img alt="img.png" height="380" src="images/editprofilemd.png" width="560"/>
 
 This is the step where your knowledge from the Intro to GitHub Skills and Communicate Using Markdown will be important. The "Edit" and "Preview" tabs in the GitHub UI editor will help you check your Markdown work as you go. "Edit" is the Markdown formatted text. "Preview" is the styled format with Markdown applied.
 
-##### EDIT - Markdown format that includes my change "Control my_addition_name" and "Part example new part."
+##### EDIT - Markdown format that includes my change "Example control implementation description for control r1. This should be edited as part of Step 2 of the ComplyTime GitHub Skills Discovery."
 
-<img alt="img.png" height="380" src="images/exedit2.png" width="560"/>
+<img alt="img.png" height="300" src="images/previewtesting.png" width="700"/>
 
+##### PREVIEW - styled Markdown format that includes my change "Example control implementation description for control r1. This should be edited as part of Step 2 of the ComplyTime GitHub Skills Discovery."
 
-##### PREVIEW - styled Markdown format that includes my change "Control my_addition_name" and "Part example new part."
-
-<img alt="img.png" height="400" src="images/reeditformat.png" width="540"/>
+<img alt="img_1.png" height="300" src="images/fixeditup.png" width="700"/>
 
 #### Git flow
 
@@ -188,13 +188,13 @@ After making a few edits click the green button in the top right corner "Commit 
 
 > Ensure the "Commit directly to the learn-complytime/step-2 branch" option is selected.
 
-<img alt="img.png" height="440" src="images/fixupdates.png" width="640"/>
+<img alt="img.png" height="440" src="images/primage.png" width="640"/>
 
 Click the green box that says "Commit Changes." Then, click **Code** in the top left corner to go back to the homepage of your repository. There will be a yellow banner that notifies you that your  `learn-complytime/step-2` branch had recent pushes. Click the green box "Compare & pull request."
 
 <img alt="img.png" height="340" src="images/PRalert.png" width="500"/>
 
-Once you click "Compare & pull request" there will be a new screen populated to create your pull request. Ensure that the gray banner indicates `base: main` and `compare: learn-complytime/step-2` for the pull request. This will compare your change to control R1: Hardware Support that you made on the `learn-complytime/step-2` branch to the `main` branch which was prior to editing the `r1.md` control statement.
+Once you click "Compare & pull request" there will be a new screen populated to create your pull request. Ensure that the gray banner indicates `base: main` and `compare: learn-complytime/step-2` for the pull request. This will compare your change to R1: Hardware Support that you made on the `learn-complytime/step-2` branch to the `main` branch which was prior to editing the `r1.md` control implementation.
 
 <img alt="img.png" height="400" src="images/prcompare.png" width="600"/>
 
@@ -224,7 +224,7 @@ Click "Commits." The commit message you chose when editing R1: Hardware Support 
 
 **Commit Preview**
 
-<img alt="img.png" height="520" src="images/fixedcommitpreview.png" width="740"/>
+<img alt="img.png" height="100" src="images/fixcommitmessage.png" width="700"/>
 
 Once you have opened the PR your GitHub Issue for the course will **close**. Switching back to the `main` branch, the page will send a Congratulations :tada: and you can keep practicing or revisit your previous work on the GitHub issue by clicking "RETURN TO EXERCISE."
 
