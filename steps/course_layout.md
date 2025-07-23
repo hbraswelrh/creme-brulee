@@ -8,7 +8,7 @@ To ensure the GitHub Actions automation will work properly, once the GitHub issu
 
 ##### Refresh page once you've made your copy of the `creme-brulee` repository. 
 
-<img alt="img.png" height="200" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/read-the-docs.png" width="600"/>
+<img alt="img.png" height="200" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/read-the-docs.png" width="500"/>
 
 ##### Click "Go to Exercise." You'll be in the body of the GitHub issue that outlines _Step 1: Read the Docs_
 
@@ -18,13 +18,13 @@ To ensure the GitHub Actions automation will work properly, once the GitHub issu
 
 ##### The body of your issue should look like this
 
-<img alt="img_2.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-0.png" width="500"/>
+<img alt="img_2.png" height="200" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-0.png" width="500"/>
 
 
-<img alt="img_3.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-1.png" width="400"/>
+<img alt="img_3.png" height="300" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-1.png" width="400"/>
 
 ###### Notice the supporting comments ✏️.
-<img alt="img_4.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-2.png" width="500"/>
+<img alt="img_4.png" height="500" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-2.png" width="500"/>
 
 ##### Comment on the issue to see Step 2.
 
