@@ -1,4 +1,4 @@
-## Learning Course Steps 
+# ComplyTime GitHub Skills Discovery Manual Steps
 
 > [Prerequisites](https://github.com/hbraswelrh/creme-brulee/blob/main/README.md#prerequisites) must be completed prior to attempting the ComplyTime module
 
@@ -80,7 +80,7 @@ Follow the steps in the [manual_steps.md](https://github.com/hbraswelrh/creme-br
 
 The [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLScIXyhvuLdCcKqBewFGggM7I38W7JJ-phbBUIdhJCw0Puz_cg/viewform?usp=header) will require submission of the link to your Pull Request opened for changes to OSCAL Component Definitions. 
 
-Edit a minimum of **three** Component Definitions. Separate each edit by commit. The Pull Request will include all commits published on the `learn-complytime/step-2` branch.
+Edit a minimum of **three** Component Definitions. Separate each edit by commit. The Pull Request will include all commits published on the `learn-complytime/step-2` branch. When clicking the pencil to edit Markdown files, the hidden instructions will appear.
 
 ## RHEL10 ANSSI Enhanced Component Definition Example
 ---
@@ -122,9 +122,6 @@ Making an edit here for the control implementation description for r1.
 
 ______________________________________________________________________
 
----
-
----
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>
