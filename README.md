@@ -39,7 +39,7 @@ _Learn to use ComplyTime organization projects and tools._
   - Review the [README.md](https://github.com/hbraswelrh/creme-brulee/blob/aae8325c6379d5dd97aa1de48f129c0cdd36aef4/.github/steps/README.md) outlining the course steps. 
 
 
-> :hourglass: **How long?** This exercise is self-paced. The [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md) can be leveraged to pace yourself and revisit subjects.
+> :hourglass: **How long?** This exercise is self-paced. The [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md) can be leveraged to pace yourself and revisit subjects. The [course_layout.md](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md) includes the deep-dive examples and context for the steps.
 
 In this exercise, you will:
 1. Learn about the relevant repositories in the ComplyTime organization.
@@ -57,7 +57,7 @@ Simply copy the exercise to your account, then give your favorite Octocat :octoc
 <summary>Having trouble? 🤷</summary><br/>
 
 
-- Review the [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md) and reach out in the Slack channel [#learn-complytime](https://redhat.enterprise.slack.com/archives/C093B45QGQM)
+- Review the [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md) , [course_layout.md](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md) and reach out in the Slack channel [#learn-complytime](https://redhat.enterprise.slack.com/archives/C093B45QGQM)
 If the exercise isn't ready in 20 seconds, please check the [Actions](../../actions) tab.
 
 - Check to see if a job is running. Sometimes it simply takes a bit longer.
