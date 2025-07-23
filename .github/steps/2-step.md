@@ -35,7 +35,6 @@ Edit a minimum of **three** Component Definitions. Separate each edit by commit.
 
 
 ---
-
 x-trestle-comp-def-rules:
   My-Test-Component:
     - name: rule-r1
@@ -45,7 +44,6 @@ x-trestle-global:
     title: rhel10-anssi-enhanced
     href: trestle://profiles/rhel10-anssi-enhanced/profile.json
   sort-id: r1
-
 ---
 
 # r1 - \[REPLACE_ME\] Hardware Support
