@@ -12,12 +12,6 @@ on:
 
    issue_comment:
      types: [created, edited, deleted]
-   #pull_request:
-     #types:
-    #   - opened
-   # branches:
-   #    - main
-   #    - learn-complytime/step-2
 
 permissions:
   contents: read
@@ -118,7 +112,7 @@ jobs:
       - name: Create comment - complete the self-assessment quiz
         run: |
           gh issue comment "$ISSUE_URL" \
-            --body "Complete the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLScIXyhvuLdCcKqBewFGggM7I38W7JJ-phbBUIdhJCw0Puz_cg/viewform?usp=header). This should be after you have completed [Step 2: Practice communicating using Markdown and Git.](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md#step-2-initialize-the-oscal-content-demo-with-complyscribe)."
+            --body "Complete the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLScIXyhvuLdCcKqBewFGggM7I38W7JJ-phbBUIdhJCw0Puz_cg/viewform?usp=header). This should be after you have completed [Step 2: Practice Communicating using Markdown and Git.](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md#step-2-initialize-the-oscal-content-demo-with-complyscribe)."
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
