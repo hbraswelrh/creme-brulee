@@ -219,3 +219,27 @@ Once you have opened the PR your GitHub Issue for the course will close. Switchi
 Clicking "RETURN TO EXERCISE" will bring you back to this page. Feel free to keep practicing.
 
 <img alt="img.png" height="200" src="images/issuepage.png" width="300"/>
+
+## Issue Note taking
+
+> Taking notes in an issue will help with comfortability using Git and practicing with Markdown. 
+
+Navigate to the Issues tab. Click the green "New issue" box in the top right corner.
+
+<img alt="img.png" height="190" src="images/newissuepic.png" width="300"/>
+
+Open an issue using the "Learning course issue template."
+
+<img alt="img.png" height="190" src="images/issuelctemplate.png" width="300"/>
+
+Update the content and the `{REPLACE_ME}` areas with your Key Concepts. Click "Create" to create your issue. This will track your notes while completing Step 1: _Read the docs_. 
+
+<img alt="img.png" height="280" src="images/replaceme.png" width="350"/>
+
+Once you have taken notes and completed the self-assessment for Step 1: Read the docs, copy the link of your issue and paste it in the comments of your Exercise: Read the docs issue.
+
+<img alt="img.png" height="190" src="images/availableimage.png" width="310"/>
+
+Click "Comment." That comment will trigger Step 2 to populate in the issue body.
+
+<img alt="img.png" height="100" src="images/commenterbody.png" width="350"/>
