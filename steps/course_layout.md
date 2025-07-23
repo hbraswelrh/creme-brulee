@@ -188,11 +188,11 @@ After making a few edits click the green button in the top right corner "Commit 
 
 > Ensure the "Commit directly to the learn-complytime/step-2 branch" option is selected.
 
-<img alt="img.png" height="220" src="images/fixupdates.png" width="320"/>
+<img alt="img.png" height="440" src="images/fixupdates.png" width="640"/>
 
 Click the green box that says "Commit Changes." Then, click **Code** in the top left corner to go back to the homepage of your repository. There will be a yellow banner that notifies you that your  `learn-complytime/step-2` branch had recent pushes. Click the green box "Compare & pull request."
 
-<img alt="img.png" height="200" src="images/PRalert.png" width="350"/>
+<img alt="img.png" height="340" src="images/PRalert.png" width="500"/>
 
 Once you click "Compare & pull request" there will be a new screen populated to create your pull request. Ensure that the gray banner indicates `base: main` and `compare: learn-complytime/step-2` for the pull request. This will compare your change to control R1: Hardware Support that you made on the `learn-complytime/step-2` branch to the `main` branch which was prior to editing the `r1.md` control statement.
 
