@@ -25,12 +25,12 @@ To ensure the GitHub Actions automation will work properly, once the GitHub issu
 <img alt="img_3.png" height="300" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-1.png" width="400"/>
 
 ###### Notice the supporting comments ✏️.
+
 <img alt="img_4.png" height="500" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-2.png" width="500"/>
 
 ##### Comment on the issue to see Step 2.
 
-<img alt="img_5.png" height="200" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/comment.png" width="200"/>
-
+<img alt="img_5.png" height="400" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/comment.png" width="400"/>
 
 
 Welcome to the ComplyTime learning course\! This guide will help you navigate the course, which is built on GitHub Skills and uses automated workflows to set up your personalized workspace. You'll use GitHub Issues to keep track of your notes as you progress.
