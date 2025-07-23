@@ -107,7 +107,7 @@ Comment the link to your note-taking issue on the exercise issue once finishing 
 
 <img alt="img_1.png" height="400" src="images/step2populate.png" width="400"/>
 
-##### Follow directions in issue body
+##### Follow the directions in the issue body
 
 <img alt="img.png" height="400" src="images/followdirections.png" width="400"/>
 
