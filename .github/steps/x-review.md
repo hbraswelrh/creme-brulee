@@ -1,6 +1,6 @@
 ## Review 👓
 
-Congratulations! You've completed the `creme-brulee` ComplyTime learning course and learned a lot about the supporting projects. You learned about the projects that build the foundation for ComplyTime tools and how the `oscal-content` repository synchronizes the `ComplianceAsCode/content` with the `ComplianceAsCode/oscal-content`.
+Congratulations! You've completed the `creme-brulee` ComplyTime learning course and learned a lot about the supporting projects. You learned about the projects that build the foundation for ComplyTime tools and how to edit OSCAL Component Definitions in Markdown. You gained Git Flow experience through creation of branches, Pull Requests, and Markdown content. You're encouraged to continue your lasting learning journey through expanding your knowledge on Markdown and Git Flow. 
 
 <img src="https://octodex.github.com/images/jetpacktocat.png" alt="celebrate" width=200 align=right>
 
@@ -8,7 +8,8 @@ Congratulations! You've completed the `creme-brulee` ComplyTime learning course 
 
 - Expanded your knowledge on interacting with GitHub through GitHub Issues and Pull Requests.
 - Learned about the open-source projects that contribute to automating compliance management workflows.
-- Took notes on the ComplyTime projects and tools using markdown and Git flow.
+- Took notes on the ComplyTime projects and tools using Markdown and Git flow.
+- Updated OSCAL Component Definitions in Markdown and opened a Pull Request. 
 - Learned about the `ComplianceAsCode/oscal-content` repository and the bidirectional synchronization with `ComplianceAsCode/content` thanks to `complyscribe`.
 
 ### What's next? ⏭️

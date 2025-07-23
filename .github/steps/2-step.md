@@ -1,121 +1,82 @@
-## Step 2: Deep Dive into `ComplianceAsCode/oscal-content` 
+# Step 2: Practice Communicating using Markdown and Git
 
-_Where OSCAL content initialized by complyscribe is housed_
+> You should've completed the _Communicate Using Markdown_ GitHub Skills course as a pre-requisite. 
 
-> After completing _Step 1: Read the docs_, strengthen your understanding by examples and analogies below.
+## What you'll need
 
-## **Mastering the Recipe: A Compliance-as-Code Analogy 🍮📚**
+After completing [**Step 1:** _Read the docs_](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/1-step.md) you'll need to copy the link to the exercise issue and include it in the Pull request.
 
-Let's imagine the relationship between `ComplianceAsCode/oscal-content` and `ComplianceAsCode/content` using a delicious analogy.
+Follow the [help guide](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/issue-help.md) for creating issues.
 
-### **The First-edition Cookbook: ComplianceAsCode/content**
+---
 
-**Think of `ComplianceAsCode/content` as your definitive, first-edition cookbook for all things compliance.** It contains the foundational, approved recipes (compliance rules, policies, benchmarks) for every aspect of your organization's security posture. This is the **source of truth** for all compliance endeavors.
+## **Getting Started**
 
-### **The Specialized Cookbook: ComplianceAsCode/oscal-content**
+Follow the steps in the [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md) for an in-depth walkthrough and example of editing content in the `markdown/` folder.
 
-**Now, imagine ComplianceAsCode/oscal-content as a specialized companion cookbook.** It's built directly from the First-Edition Cookbook but focuses specifically on the "Creme Brûlée" section – representing the OSCAL (Open Security Controls Assessment Language) format.
+1. **Create a New Branch**: In your copy of the learning course, create a new branch named `learn-complytime/step-2`. 
+2. **Switch Branches**: Switch to the `learn-complytime/step-2` branch. This is where you'll start working with Git and Markdown.  
+3. **Navigate and Review**: Go to the `markdown/` folder and review its contents. You'll find catalogs, profiles, and component definitions that were initialized by `complyscribe`.  
+   * **Editing Example**: The in-depth walkthrough in the [course_layout.md](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md) provides an example of editing Markdown in the `markdown/profiles/rhel10-anssi-enhanced/r1/r1.md` file. Use this as a guide to make changes in the "Editable Content" section of your control files. **Directions are hidden until you begin editing the Markdown file.**  
+4. **Commit Your Changes**: Commit your changes to your `learn-complytime/step-2` branch. You can make several commits as you work.  
+5. **Open a Pull Request**: Open a Pull Request and update its description to clearly explain the changes you've made in the Markdown files.  
+6. **Submit Your Work**: Copy the link to your Pull Request and submit it in the self-assessment.  
+7. **Keep Practicing\!**: There's no limit to how many times you can retry this exercise. Simply follow the steps in the [**manual steps**](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md) again. For additional help, refer to the [**course layout**](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md).
 
-This specialized book contains only the creme brûlée recipes, ensuring they are always up-to-date with the First-edition Cookbook, even as the original recipes evolve. It's designed for those who need to work exclusively with the OSCAL format, building upon the foundational recipes while maintaining perfect synchronization.
+---
 
-### **The Culinary Coordinators: GitHub Actions & complyscribe 🧑‍🍳✨**
+## :octocat: Open a Pull Request
 
-**GitHub Actions are your tireless team of culinary coordinators, and complyscribe is their specialized chef.** Their combined job is to ensure that any improvements or updates to the creme brûlée recipe – whether in the First-edition Cookbook or the Specialized Cookbook – are perfectly synchronized and reflected in both.
+> The Pull Request will be part of the attestation of course completion.
 
-**Here's how they work:**
+## What You'll Submit
 
-* **First-edition Cookbook Update:** When you refine the creme brûlée recipe in the First-edition Cookbook, your Culinary Coordinators (GitHub Actions) spring into action. They use complyscribe as their expert chef to automatically translate and update the Specialized Cookbook (ComplianceAsCode/oscal-content). This ensures that your friend, who relies on the specialized OSCAL version, always has the latest and greatest recipe.  
-* **Specialized Cookbook Discovery:** If your friend discovers a more efficient way to caramelize the sugar (a new OSCAL implementation or refinement), the Culinary Coordinators (GitHub Actions) ensure this valuable insight is shared back and incorporated into the First-edition Cookbook.  
-* **Constant Harmony:** This automated synchronization, powered by GitHub Actions and `complyscribe`, means you and your friend are always working from the most refined and complete creme brûlée instructions. GitHub Actions act as the automated bridge, with `complyscribe` handling the crucial conversion process, ensuring consistent, high-quality "compliance creme brûlée" across both repositories.
+The [self-assessment]() will require submission of the link to your GitHub issue for taking notes and the Pull request opened with markdown changes. 
 
-In essence, GitHub Actions automate the collaboration, and complyscribe facilitates the specific conversion and synchronization, ensuring that the specialized OSCAL content (oscal-content) remains perfectly aligned with the comprehensive compliance content (content), and vice versa, leading to a consistently delicious (and compliant\!) final product.
+## RHEL10 ANSSI Enhanced Profile Example
+---
+---
+x-trestle-global:
+  profile:
+    title: rhel10-anssi-enhanced
+  sort-id: r12
+---
 
+# r12 - \[REPLACE_ME\] Ipv4 Configuration Options
 
-## Mapping `oscal-content` to `ComplianceAsCode/content` with `complyscribe`
+## Control Statement
 
-### Bidirectional Synchronization
+# Editable Content
 
-**Staying updated with content changes:** `sync-oscal-cac` and `sync-cac-oscal` ensure that the _back and forth_ exchange of information is accurate and synchronized. 
+<!-- Make additions and edits below -->
+<!-- The above represents the contents of the control as received by the profile, prior to additions. -->
+<!-- If the profile makes additions to the control, they will appear below. -->
+<!-- The above markdown may not be edited but you may edit the content below, and/or introduce new additions to be made by the profile. -->
+<!-- If there is a yaml header at the top, parameter values may be edited. Use --set-parameters to incorporate the changes during assembly. -->
+<!-- The content here will then replace what is in the profile for this control, after running profile-assemble. -->
+<!-- The current profile has no added parts for this control, but you may add new ones here. -->
+<!-- Each addition must have a heading either of the form ## Control my_addition_name -->
+<!-- or ## Part a. (where the a. refers to one of the control statement labels.) -->
+<!-- "## Control" parts are new parts added after the statement part. -->
+<!-- "## Part" parts are new parts added into the top-level statement part with that label. -->
+<!-- Subparts may be added with nested hash levels of the form ### My Subpart Name -->
+<!-- underneath the parent ## Control or ## Part being added -->
+<!-- See https://oscal-compass.github.io/compliance-trestle/tutorials/ssp_profile_catalog_authoring/ssp_profile_catalog_authoring for guidance. -->
 
-#### `sync-oscal-cac` 
+---
 
-Once there is a change made in the `oscal-content` repository, there is an automatic trigger that transforms the `ComplianceAsCode/content` content and proposes changes to that material. 
+---
+## Add the following sections
 
-_Goal: updates should be accurately synchronized immediately upon changes_
+## Control Statement
 
-```mermaid
-graph LR
-    A[OSCAL Content PR #33] --> B[Workflow Triggered]
-    B --> C[Content Transformation]
-    C --> D[ComplianceAsCode PR #13617]
-```
+## Control [REPLACE_ME]
 
-Above, the PR in the `oscal-content` will trigger the workflow and make sure the changes are initialized by `complyscribe`. Then, those changes will be sent back and proposed in the `ComplianceAsCode/content` repository.
+## Part a.
 
-The updates automatically trigger the request to propose changes to the `ComplianceAsCode/content` repository content. The deletion of rules from the `component-definition.json` trigger the automatic generation of this [PR](https://github.com/ComplianceAsCode/content/pull/13680) in `ComplianceAsCode/content`. The PR proposes changes to the levels applied to the control file [cis_rhel8](https://github.com/ComplianceAsCode/content/pull/13680/files#diff-c97f4c1b44844a9d76570cbbc2bf8fdbceb1dc1076461fc8408870ab612cad9cR33) in `ComplianceAsCode/content`
+---
 
-#### `sync-cac-oscal`
+## ANSSI _for example..._ 
 
-Once there is a change in the `ComplianceAsCode/content` content, there is an automatic trigger that will transform the content handled by `complyscribe`. Then, automatically requesting that the proposed changes be synchronized and updated in the `ComplianceAsCode/oscal-content` repository. 
+As a Compliance Manager, you would edit the markdown using bullet points (-) and the Markdown syntax standard.
 
-
-```mermaid
-graph LR
-    A[ComplianceAsCode PR #13580] --> B[Workflow Triggered]
-    B --> C[Content Transformation]
-    C --> D[OSCAL Content PR #28]
-```
-> I know you're probably wondering why this is important...but, check this out!
-
-Above, the control file defines the RHEL8 HIPAA profile. The change makes it simpler to reference this [hipaa control file](https://github.com/ComplianceAsCode/content/blob/master/controls/hipaa.yml) in the [RHEL8 HIPAA Profile](https://github.com/ComplianceAsCode/content/blob/master/products/rhel8/profiles/hipaa.profile). The rules associated with the controls are now in the control file and referenced in the RHEL8 Profile. The table below outlines the Rule, `ComplianceAsCode/content` representation, and the PDF reference to the requirement that the rule satisfies.
-
-
-| Rule                            | ComplianceAsCode/content                                                                                                                                                                                                  | PDF Format                                                                                                                                                                                                                                           |
-|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| coreos_disable_interactive_boot | [coreos_disable_interactive_boot](https://github.com/ComplianceAsCode/content/blob/213ff61cc3ea47773f478297e95d559fb6a15a6d/linux_os/guide/system/accounts/accounts-physical/coreos_disable_interactive_boot/rule.yml#L4) | [Risk Management 164.308(a)(1)(ii)(B)](https://www.ecfr.gov/current/title-45/part-164/section-164.308#p-164.308(a)(1)(ii)(B))                                                                                                                        |
-| disable_ctrlaldel_burstaction   | [disable_ctrlaldel_burstaction](https://github.com/ComplianceAsCode/content/blob/213ff61cc3ea47773f478297e95d559fb6a15a6d/linux_os/guide/system/accounts/accounts-physical/disable_ctrlaltdel_burstaction/rule.yml#L4)    | [Risk Management 164.308(a)(1)(ii)(B)](https://www.ecfr.gov/current/title-45/part-164/section-164.308#p-164.308(a)(1)(ii)(B)), [Risk Management 164.308(a)(7)(i)](https://www.ecfr.gov/current/title-45/part-164/section-164.308#p-164.308(a)(7)(i)) |
-
-The control ids are updated in the OSCAL Content PR #28 triggered by the update in ComplianceAsCode/content. The `oscal-content` profiles for RHEL8/HIPAA - [rhel8-hipaa-required](https://github.com/ComplianceAsCode/oscal-content/blob/1bf63ff5e400f1bd4934007e5251a586cbcafa7a/profiles/rhel8-hipaa-required/profile.json)
-
-### Take notes in a GitHub Issue
-
-Follow the procedure in [issue-help.md](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/issue-help.md) to take notes on the course content. GitHub issues allow for easily keeping track of notes related to the course. 
-
-#### Self-assessment
-
-_Let's see what you've learned_
-
-Take the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSfNAhRcdn0J_cFNAvtzfWz8-r41XU0qYmV_OVtWPgXHqUtRPw/viewform?usp=header ) once you have completed Step 2: _Deep Dive into oscal-content_.
-
-## Visual Representation
-
-```mermaid
-flowchart LR
-ComplianceAsCode/content --> complyscribe --> ComplianceAsCode/oscal-content 
-ComplianceAsCode/content --> ComplianceAsCode/oscal-content
-ComplianceAsCode/oscal-content --> change --> sync-oscal-cac --> ComplianceAsCode/content
-ComplianceAsCode/content --> change --> sync-cac-oscal --> ComplianceAsCode/oscal-content
-```
-
-- **`ComplianceAsCode/content`:** first-edition-cookbook
-- **`ComplianceAsCode/oscal-content`:** specialized-cookbook
-- **`complyscribe`:** specialized-chef
-- **`sync-oscal-cac`** & **`sync-cac-oscal`:** culinary-coordinators
-
-```mermaid
-flowchart LR
-first-edition-cookbook --> specialized-chef  --> specialized-cookbook 
-first-edition-cookbook --> specialized-cookbook
-specialized-cookbook --> change --> culinary-coordinators --> first-edition-cookbook
-first-edition-cookbook  --> change --> culinary-coordinators --> specialized-cookbook
-```
-
-> The original analogy content was _edited_ through prompting by Google Gemini.
-<details>
-<summary>Having trouble? 🤷</summary><br/>
-
-- Reference the complyscribe [`README.md`](https://github.com/complytime/trestle-bot/blob/main/README.md).
-- [The guide for navigating public templates](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
-- (replace-me: Additional troubleshooting tips as needed)
-
-</details>
