@@ -13,11 +13,11 @@ The very first step in your ComplyTime journey is to thoroughly review the provi
 As you go through the documentation, it's highly recommended that you take detailed notes. You'll be required to open a GitHub issue for **Step 2:** Deep dive into oscal-content. Your personal workspace, created by the automated workflows, allows you to use GitHub Issues for taking notes. An example issue can be reviewed [here](https://github.com/hbraswelrh/creme-brulee/issues/7). 
 
 * To document your notes, create a new GitHub Issue.  
-* **Important:** When creating your issue, make sure to select the "**Learning course issue template**." This will help you keep your notes organized and consistent. The **Learning course issue template** is formatted and allows you to take notes, test your markdown skills, and keep your learning organized.  
+* **Important:** When creating your issue, make sure to select the "**Learning course issue template**." This will help you keep your notes organized and consistent. The **Learning course issue template** is formatted and allows you to take notes, test your Markdown skills, and keep your learning organized.  
 * You can refer to [this example](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart) for guidance on how to create an issue.
+* The [course_layout.md](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md) details the process for opening issues. 
 
 Good luck with your ComplyTime learning journey\!
-
 
 ## **📚 Reading `creme-brulee` Course Documentation**
 
@@ -41,10 +41,13 @@ Ensure you've reviewed these foundational resources for your success in the cour
 
 Document your notes in a GitHub issue like [this](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart). Ensure you select "Learning course issue template" when opening your issue.
 
+> Reference the [course_layout.md](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md) for additional context on opening an issue to take notes. 
+
 ### **📝 Take the Self-Assessment**
 
-Once you've thoroughly reviewed all the documentation above, take this short [self-assessment quiz](https://form.typeform.com/to/tiOAik8G). Good luck\! 🚀
+Once you've thoroughly reviewed all the documentation above, take this short [self-assessment](https://form.typeform.com/to/tiOAik8G). Good luck\! 🚀
 
+> Comment the link to the issue that you opened once you're done taking the self-assessment. 
 
 # Step 2: Practice Communicating using Markdown and Git
 
@@ -122,6 +125,8 @@ Making an edit here for the control implementation description for r1.
 ### Implementation Status: planned
 
 ______________________________________________________________________
+
+---
 
 ---
 
