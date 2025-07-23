@@ -84,6 +84,7 @@ Edit a minimum of **three** Component Definitions. Separate each edit by commit.
 
 ## RHEL10 ANSSI Enhanced Component Definition Example
 ---
+
 ---
 x-trestle-comp-def-rules:
   My-Test-Component:

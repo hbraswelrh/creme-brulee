@@ -32,7 +32,9 @@ The [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLScIXyhvuLdCcKqBew
 Edit a minimum of **three** Component Definitions. Separate each edit by commit. The Pull Request will include all commits published on the `learn-complytime/step-2` branch.
 
 ## RHEL10 ANSSI Enhanced Component Definition Example
+
 ---
+
 ---
 x-trestle-comp-def-rules:
   My-Test-Component:
