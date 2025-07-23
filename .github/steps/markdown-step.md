@@ -2,12 +2,11 @@
 
 > You should've completed the _Communicate Using Markdown_ GitHub Skills course as a pre-requisite. 
 
-Follow the [help guide](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/issue-help.md) for creating issues.
-
-## 🧰 What you'll need
+## What you'll need
 
 After completing [**Step 1:** _Read the docs_](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/1-step.md) you'll need to copy the link to the exercise issue and include it in the Pull request.
 
+Follow the [help guide](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/issue-help.md) for creating issues.
 
 ---
 
@@ -26,25 +25,16 @@ Follow the steps in the [manual_steps.md](https://github.com/hbraswelrh/creme-br
 
 ---
 
-1. Create a new branch in your copy of the learning course. The name of the branch must be `learn-complytime/step-2`.
-2. Switch to the `learn-complytime/step-2` branch to start working with Git and Markdown.
-3. Navigate to the `markdown/` folder and review the contents. There are catalogs, profiles, and component definitions initialized by `complyscribe`. In the in-depth walkthrough, there is an example of editing Markdown in the `markdown/profiles/rhel10-anssi-enhanced/r1/r1.md` file. Follow the same procedure to make changes the "Editable Content" section of the control files. Directions are hidden until editing the Markdown file.
-4. Commit several changes to your `learn-complytime/step-2` branch.
-5. Open a Pull Request and update the description to reflect what changes you made in the markdown files.
-6. Copy the link to your Pull Request and submit it in the self-assessment.
-7. Keep practicing! There is no limit to the amount of times you can retry this exercise. Just follow the same steps in the [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md). Reference the [course_layout.md](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md) for additional help/ 
-
 ## :octocat: Open a Pull Request
-
-You'll need to create a New Branch in your copy of the `creme-brulee` ComplyTime module (ex: `learn-complytime/{user_name}`). After switching to that branch, update markdown **Control Statements** in the `markdown/` folder of your workspace. Then, open a Pull Request from your branch `learn-complytime/{user_name}` that proposes changes to `main`. Then, using the Pull Request template, update the contents of the Pull Request to reflect the changes introduced.
 
 > The Pull Request will be part of the attestation of course completion.
 
 ## What You'll Submit
 
 The [self-assessment]() will require submission of the link to your GitHub issue for taking notes and the Pull request opened with markdown changes. 
-## RHEL10 ANSSI Enhanced Profile Example
 
+## RHEL10 ANSSI Enhanced Profile Example
+---
 ---
 x-trestle-global:
   profile:
@@ -73,9 +63,20 @@ x-trestle-global:
 <!-- underneath the parent ## Control or ## Part being added -->
 <!-- See https://oscal-compass.github.io/compliance-trestle/tutorials/ssp_profile_catalog_authoring/ssp_profile_catalog_authoring for guidance. -->
 
+---
 
-#### Add the following sections
+---
+## Add the following sections
 
+## Control Statement
+
+## Control [REPLACE_ME]
+
+## Part a.
+
+---
+
+---
 # ac-1 - \[Access Control\] Access Control Policy and Procedures
 
 ## Control Statement
@@ -134,6 +135,10 @@ Determine if the organization:
 ## Control guidance
 
 This control addresses the establishment of policy and procedures for the effective implementation of selected security controls and control enhancements in the AC family. Policy and procedures reflect applicable federal laws, Executive Orders, directives, regulations, policies, standards, and guidance. Security program policies and procedures at the organization level may make the need for system-specific policies and procedures unnecessary. The policy can be included as part of the general information security policy for organizations or conversely, can be represented by multiple policies reflecting the complex nature of certain organizations. The procedures can be established for the security program in general and for particular information systems, if needed. The organizational risk management strategy is a key factor in establishing policy and procedures.
+
+---
+
+---
 
 ## ANSSI _for example..._ 
 
