@@ -20,6 +20,10 @@ Ensure you've reviewed these foundational resources for your success in the cour
 
 Document your notes in a GitHub issue like [this](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart). Ensure you select "Learning course issue template" when opening your issue.
 
+> Reference the [course_layout.md](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md) for additional context on opening an issue to take notes. 
+
 ### **📝 Take the Self-Assessment**
 
 Once you've thoroughly reviewed all the documentation above, take this short [self-assessment](https://form.typeform.com/to/tiOAik8G). Good luck\! 🚀
+
+> Comment the link to the issue that you opened once you're done taking the self-assessment. 
