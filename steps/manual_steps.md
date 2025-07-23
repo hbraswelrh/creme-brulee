@@ -76,10 +76,6 @@ Follow the steps in the [manual_steps.md](https://github.com/hbraswelrh/creme-br
 
 ---
 
-## :octocat: Open a Pull Request
-
-> The Pull Request will be part of the attestation of course completion.
-
 ## What You'll Submit
 
 The [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLScIXyhvuLdCcKqBewFGggM7I38W7JJ-phbBUIdhJCw0Puz_cg/viewform?usp=header) will require submission of the link to your Pull Request opened for changes to OSCAL Component Definitions. 
