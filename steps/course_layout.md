@@ -196,12 +196,12 @@ Click the green box that says "Commit Changes." Then, click **Code** in the top 
 
 Once you click "Compare & pull request" there will be a new screen populated to create your pull request. Ensure that the gray banner indicates `base: main` and `compare: learn-complytime/step-2` for the pull request. This will compare your change to control R1: Hardware Support that you made on the `learn-complytime/step-2` branch to the `main` branch which was prior to editing the `r1.md` control statement.
 
-<img alt="img.png" height="200" src="images/prcompare.png" width="300"/>
+<img alt="img.png" height="400" src="images/prcompare.png" width="600"/>
 
 
 The same rules apply for the Add a description box of the Pull Request. The "Write" tab will show the Markdown format. The "Preview" tab shows the styled Markdown format.
 
-<img alt="img.png" src="images/PRformatted.png" width="300" height="190"/>
+<img alt="img.png" src="images/PRformatted.png" width="600" height="380"/>
 
 #### Providing context through Markdown
 
@@ -209,27 +209,27 @@ Update the description with the issue that you opened for taking notes on the co
 
 Click the green "Create pull request" button. This will create a pull request that proposes changes to the `main` branch. Your commit(s) will be shown in the pull request history.
 
-<img alt="img.png" height="250" src="images/createprbutton.png" width="250"/>
+<img alt="img.png" height="500" src="images/createprbutton.png" width="500"/>
 
 #### Checking your work
 
 Result
 
-<img alt="img.png" height="190" src="images/hwoitlooks.png" width="290"/>
+<img alt="img.png" height="380" src="images/hwoitlooks.png" width="580"/>
 
 
 Click "Commits." The commit message you chose when editing R1: Hardware Support in `r1.md` should match the commit title in your pull request. Clicking on the commit will let you see the changes you made and any description you added.
 
-<img alt="img.png" height="230" src="images/commitimage.png" width="350"/>
+<img alt="img.png" height="460" src="images/commitimage.png" width="700"/>
 
 **Commit Preview**
 
-<img alt="img.png" height="260" src="images/fixedcommitpreview.png" width="370"/>
+<img alt="img.png" height="520" src="images/fixedcommitpreview.png" width="740"/>
 
 Once you have opened the PR your GitHub Issue for the course will **close**. Switching back to the `main` branch, the page will send a Congratulations :tada: and you can keep practicing or revisit your previous work on the GitHub issue by clicking "RETURN TO EXERCISE."
 
-<img alt="img.png" height="200" src="images/congrats.png" width="280"/>
+<img alt="img.png" height="400" src="images/congrats.png" width="560"/>
 
 Clicking "RETURN TO EXERCISE" will bring you back to this page. Feel free to keep practicing.
 
-<img alt="img.png" height="200" src="images/issuepage.png" width="300"/>
+<img alt="img.png" height="400" src="images/issuepage.png" width="600"/>
