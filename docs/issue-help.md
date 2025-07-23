@@ -27,10 +27,13 @@ _Make changes, edit fields_
 
 ```mermaid
 flowchart LR
-Step-1-Read-the-Docs --> self-assessment  --> comment-on-issue 
-comment-on-issue --> Step-2-Deep-Dive-oscal-content --> open-issue-take-notes
-open-issue-take-notes --> self-assessment-2 --> comment-on-new-issue --> close-learning-course-issue
-close-learning-course-issue --> Step-1-Read-the-Docs
-close-learning-course-issue --> Step-2-Deep-Dive-oscal-content
+GitHub-Skills-Discovery-Exercise-Issue --> Step-1-Read-the-Docs
+Step-1-Read-the-Docs --> self-assessment --> needs --> open-issue-taking-notes 
+Step-1-Read-the-Docs --> open-issue-taking-notes --> comment-link-to-notes
+comment-link-to-notes --> Step-2-Practice-Communicating-Using-Markdown --> create-new-branch --> commit-changes
+commit-changes --> open-pull-request --> self-assessment-2
+open-pull-request --> closes --> GitHub-Skills-Discovery-Exercise-Issue
+pull-request-link --> self-assessment-2
+open-issue-taking-notes --> open-pull-request
 
 ```
