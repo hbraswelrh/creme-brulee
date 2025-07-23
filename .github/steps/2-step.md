@@ -34,6 +34,7 @@ Edit a minimum of **three** Component Definitions. Separate each edit by commit.
 ## RHEL10 ANSSI Enhanced Component Definition Example
 
 ---
+---
 x-trestle-comp-def-rules:
   My-Test-Component:
     - name: rule-r1
@@ -71,3 +72,4 @@ Making an edit here for the control implementation description for r1.
 
 ______________________________________________________________________
 
+---
