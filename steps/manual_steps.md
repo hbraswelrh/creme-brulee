@@ -45,7 +45,7 @@ Document your notes in a GitHub issue like [this](https://docs.github.com/en/iss
 
 ### **📝 Take the Self-Assessment**
 
-Once you've thoroughly reviewed all the documentation above, take this short [self-assessment](https://form.typeform.com/to/tiOAik8G). Good luck\! 🚀
+Once you've thoroughly reviewed all the documentation above, take this short [self-assessment]([https://form.typeform.com/to/tiOAik8G](https://docs.google.com/forms/d/e/1FAIpQLSdE4qJ3pmWa1SaQoWMiUI9p3ZdB947PbhqZEIFo7nWYdcJ44A/viewform?usp=header)). Good luck\! 🚀
 
 > Comment the link to the issue that you opened once you're done taking the self-assessment. 
 
