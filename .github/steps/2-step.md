@@ -31,7 +31,9 @@ Follow the steps in the [manual_steps.md](https://github.com/hbraswelrh/creme-br
 
 ## What You'll Submit
 
-The [self-assessment]() will require submission of the link to your GitHub issue for taking notes and the Pull request opened with markdown changes. 
+The [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLScIXyhvuLdCcKqBewFGggM7I38W7JJ-phbBUIdhJCw0Puz_cg/viewform?usp=header) will require submission of the link to your Pull Request opened for changes to OSCAL Component Definitions. 
+
+Edit a minimum of **three** Component Definitions. Separate each edit by commit. The Pull Request will include all commits published on the `learn-complytime/step-2` branch.
 
 ## RHEL10 ANSSI Enhanced Component Definition Example
 ---
@@ -74,10 +76,5 @@ Making an edit here for the control implementation description for r1.
 ______________________________________________________________________
 
 ---
-## What to include?
-
-Edit a minimum of **three** Component Definitions. Separate each edit by commit. The Pull Request will include all commits published on the `learn-complytime/step-2` branch.
-
-
 
 ---
