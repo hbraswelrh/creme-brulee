@@ -122,7 +122,6 @@ Making an edit here for the control implementation description for r1.
 
 ______________________________________________________________________
 
----
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>
