@@ -83,7 +83,6 @@ The [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLScIXyhvuLdCcKqBew
 Edit a minimum of **three** Component Definitions. Separate each edit by commit. The Pull Request will include all commits published on the `learn-complytime/step-2` branch. When clicking the pencil to edit Markdown files, the hidden instructions will appear.
 
 ## RHEL10 ANSSI Enhanced Component Definition Example
----
 
 ---
 x-trestle-comp-def-rules:
@@ -123,9 +122,6 @@ Making an edit here for the control implementation description for r1.
 
 ______________________________________________________________________
 
----
-
----
 
 <details>
 <summary>Having trouble? 🤷</summary><br/>
