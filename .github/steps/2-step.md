@@ -33,17 +33,6 @@ Edit a minimum of **three** Component Definitions. Separate each edit by commit.
 
 ## RHEL10 ANSSI Enhanced Component Definition Example
 
-
----
-x-trestle-comp-def-rules:
-  My-Test-Component:
-    - name: rule-r1
-      description: Rule for r1
-x-trestle-global:
-  profile:
-    title: rhel10-anssi-enhanced
-    href: trestle://profiles/rhel10-anssi-enhanced/profile.json
-  sort-id: r1
 ---
 
 # r1 - \[REPLACE_ME\] Hardware Support
