@@ -8,7 +8,7 @@ To ensure the GitHub Actions automation will work properly, once the GitHub issu
 
 ##### Refresh page once you've made your copy of the `creme-brulee` repository. 
 
-<img alt="img.png" height="100" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/read-the-docs.png" width="200"/>
+<img alt="img.png" height="200" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/read-the-docs.png" width="350"/>
 
 ##### Click "Go to Exercise." You'll be in the body of the GitHub issue that outlines _Step 1: Read the Docs_
 
