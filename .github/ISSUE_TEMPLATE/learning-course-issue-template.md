@@ -16,7 +16,7 @@ assignees: hbraswelrh
 - _Insert notes here_
 - _Do not use italicized formatting_
 
-###  Step 2:  Deep dive into oscal-content
+###  Step 2:  Practice Communicating using Git and Markdown
 
 #### Notes
 
