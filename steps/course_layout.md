@@ -1,4 +1,4 @@
-## Course Layout
+# Course Layout
 
 Welcome to the ComplyTime learning course! This guide will help you navigate the course, which is built on GitHub Skills and uses automated workflows to set up your personalized workspace. You'll use GitHub Issues to keep track of your notes as you progress.
 
@@ -26,7 +26,7 @@ Document your notes in a GitHub issue like [this](https://docs.github.com/en/iss
 
 ### **📝 Take the Self-Assessment**
 
-Once you've thoroughly reviewed all the documentation above, take this short [self-assessment](https://form.typeform.com/to/tiOAik8G). Good luck\! 🚀
+Once you've thoroughly reviewed all the documentation above, take this short [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSdE4qJ3pmWa1SaQoWMiUI9p3ZdB947PbhqZEIFo7nWYdcJ44A/viewform?usp=header). Good luck\! 🚀
 |
 
 #### **Taking Notes**
