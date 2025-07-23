@@ -20,6 +20,7 @@ To ensure the GitHub Actions automation will work properly, once the GitHub issu
 
 <img alt="img_2.png" height="200" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-0.png" width="500"/>
 
+##### Populated content for Step 1
 
 <img alt="img_3.png" height="300" src="https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/issue-body-1.png" width="400"/>
 
