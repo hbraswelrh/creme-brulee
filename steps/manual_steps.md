@@ -71,15 +71,6 @@ Ensure you've reviewed these foundational resources for your success in the cour
 
 Document your notes in a GitHub issue like [this](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart). Ensure you select "Learning course issue template" when opening your issue.
 
-#### **Taking Notes**
-
-As you go through the documentation, it's highly recommended that you take detailed notes. You'll be required to open a GitHub issue for **Step 2:** Deep dive into oscal-content. Your personal workspace, created by the automated workflows, allows you to use GitHub Issues for taking notes. An example issue can be reviewed [here](https://github.com/hbraswelrh/creme-brulee/issues/7). 
-
-* To document your notes, create a new GitHub Issue.  
-* **Important:** When creating your issue, make sure to select the "**Learning course issue template**." This will help you keep your notes organized and consistent. The **Learning course issue template** is formatted and allows you to take notes, test your Markdown skills, and keep your learning organized.  
-* You can Refer to [this example](https://docs.github.com/en/issues/tracking-your-work-with-issues/configuring-issues/quickstart) for guidance on how to create an issue.
-* Follow the directions below for taking notes on Step 1: _Read the docs_
-
 ---
 
 ## 📓 **Taking Notes Using GitHub Issues**
