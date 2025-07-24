@@ -345,6 +345,10 @@ The [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLScIXyhvuLdCcKqBew
 
 Edit a minimum of **three** Component Definitions. Separate each edit by commit. The Pull Request will include all commits published on the `learn-complytime/step-2` branch. When clicking the pencil to edit Markdown files, the hidden instructions will appear.
 
+Copy the link to the exercise issue from [**Step 1:** _Read the docs_](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/1-step.md). The link will be attached to your Pull Request opened during Step 2.  
+
+Follow the [help guide](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/issue-help.md) for creating issues.
+
 ## RHEL10 ANSSI Enhanced Component Definition Example
 
 ---
