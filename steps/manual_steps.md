@@ -126,9 +126,7 @@ Update the content and the `{REPLACE_ME}` areas with your Key Concepts. Click "C
 
 ### **📝 Take the Self-Assessment**
 
-Once you've thoroughly reviewed all the documentation above, take this short [self-assessment]([https://form.typeform.com/to/tiOAik8G](https://docs.google.com/forms/d/e/1FAIpQLSdE4qJ3pmWa1SaQoWMiUI9p3ZdB947PbhqZEIFo7nWYdcJ44A/viewform?usp=header)). Good luck\! 🚀
-
-> Comment the link to your notes from Step 1: _Read the docs_ once you have completed the [self-assessment]([https://form.typeform.com/to/tiOAik8G](https://docs.google.com/forms/d/e/1FAIpQLSdE4qJ3pmWa1SaQoWMiUI9p3ZdB947PbhqZEIFo7nWYdcJ44A/viewform?usp=header)). 
+> Comment the link to your notes from Step 1: _Read the docs_ once you have completed the [self-assessment](https://form.typeform.com/to/tiOAik8G](https://docs.google.com/forms/d/e/1FAIpQLSdE4qJ3pmWa1SaQoWMiUI9p3ZdB947PbhqZEIFo7nWYdcJ44A/viewform?usp=header). 
 
 ---
 
@@ -149,11 +147,11 @@ Follow the [help guide](https://github.com/hbraswelrh/creme-brulee/blob/main/doc
 1. **Create a New Branch**: In your copy of the learning course, create a new branch named `learn-complytime/step-2`. 
 2. **Switch Branches**: Switch to the `learn-complytime/step-2` branch. This is where you'll start working with Git and Markdown.  
 3. **Navigate and Review**: Go to the `markdown/` folder and review its contents. You'll find catalogs, profiles, and component definitions that were initialized by `complyscribe`.  
-   * **Editing Example**: The in-depth walkthrough in the [course_layout.md](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md) provides an example of editing Markdown in the `markdown/component-definitions/My-Test-Component/My-Test-Component/rhel10-anssi-enhanced/r1/r1.md` file. Use this as a guide to make changes to the control implementations in the Component Definitions. **Directions are hidden until you begin editing the Markdown file.**  
+   * **Editing Example**: The in-depth walkthrough in the [**manual steps**](https://github.com/complytime/creme-brulee/blob/main/steps/manual_steps.md) provides an example of editing Markdown in the `markdown/component-definitions/My-Test-Component/My-Test-Component/rhel10-anssi-enhanced/r1/r1.md` file. Use this as a guide to make changes to the control implementations in the Component Definitions. **Directions are hidden until you begin editing the Markdown file.**  
 4. **Commit Your Changes**: Commit your changes to your `learn-complytime/step-2` branch. You can make several commits as you work.  
 5. **Open a Pull Request**: Open a Pull Request and update its description to clearly explain the changes you've made in the Markdown files.  
 6. **Submit Your Work**: Copy the link to your Pull Request and submit it in the self-assessment.  
-7. **Keep Practicing\!**: There's no limit to how many times you can retry this exercise. Simply follow the steps in the [**manual steps**](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md) again. For additional help, refer to the [**course layout**](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md).
+7. **Keep Practicing\!**: There's no limit to how many times you can retry this exercise. Simply follow the steps in the [**manual steps**](https://github.com/complytime/creme-brulee/blob/main/steps/manual_steps.md) again. For additional help, refer to the [**course layout**](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md).
 
 ---
 
