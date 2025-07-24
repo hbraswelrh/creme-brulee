@@ -167,30 +167,31 @@ Markdown version of Control R1 from `rhel10-anssi-enhanced` OSCAL Profile.
 
 <img alt="img.png" height="250" src="images/comdefexample.png" width="650"/>
 
-Updates can be made to the Component Definition editable content by clicking the pencil in the top right corner of the `r1.md` file. This is where you must make sure that the branch selected in the top left corner is `learn-complytime/step-2`.
+> ✏️ **How to edit:** Updates can be made to the Component Definition editable content by clicking the pencil in the top right corner of the `r1.md` file. This is where you must make sure that the branch selected in the top left corner is `learn-complytime/step-2`.
 
 <img alt="img.png" height="300" src="images/fixed.png" width="700"/>
 
+> 🧠 **Knowledge check:** This is the step where your knowledge from the Intro to GitHub Skills and Communicate Using Markdown will be important. The "Edit" and "Preview" tabs in the GitHub UI editor will help you check your Markdown work as you go. "Edit" is the Markdown formatted text. "Preview" is the styled format with Markdown applied.
 
-This is the step where your knowledge from the Intro to GitHub Skills and Communicate Using Markdown will be important. The "Edit" and "Preview" tabs in the GitHub UI editor will help you check your Markdown work as you go. "Edit" is the Markdown formatted text. "Preview" is the styled format with Markdown applied.
-
-##### EDIT - Markdown format that includes my change "Example control implementation description for control r1. This should be edited as part of Step 2 of the ComplyTime GitHub Skills Discovery."
+> ✏️ **EDIT** - Markdown format that includes my change "Example control implementation description for control r1. This should be edited as part of Step 2 of the ComplyTime GitHub Skills Discovery."
 
 <img alt="img.png" height="300" src="images/previewtesting.png" width="700"/>
 
-##### PREVIEW - styled Markdown format that includes my change "Example control implementation description for control r1. This should be edited as part of Step 2 of the ComplyTime GitHub Skills Discovery."
+> 👁️ **PREVIEW** - styled Markdown format that includes my change "Example control implementation description for control r1. This should be edited as part of Step 2 of the ComplyTime GitHub Skills Discovery."
 
 <img alt="img_1.png" height="300" src="images/fixeditup.png" width="700"/>
 
-#### Git flow
+---
 
-After making a few edits click the green button in the top right corner "Commit Changes." There will be a pop-up window that includes a field for your commit message and the extended description. The description can be left blank or expand on the changes you made to the Markdown. 
+### 🔄 **Git Flow**
 
-> Ensure the "Commit directly to the learn-complytime/step-2 branch" option is selected.
+After making a few edits click the green button in the top right corner "Commit Changes." There will be a pop-up window that includes a field for your commit message and the extended description. The description can be left blank or expand on the changes you made to the Markdown.
+
+> ⚠️ **Important:** Ensure the "Commit directly to the learn-complytime/step-2 branch" option is selected.
 
 <img alt="img.png" height="440" src="images/primage.png" width="640"/>
 
-Click the green box that says "Commit Changes." Then, click **Code** in the top left corner to go back to the homepage of your repository. There will be a yellow banner that notifies you that your  `learn-complytime/step-2` branch had recent pushes. Click the green box "Compare & pull request."
+Click the green box that says "Commit Changes." Then, click **Code** in the top left corner to go back to the homepage of your repository. There will be a yellow banner that notifies you that your `learn-complytime/step-2` branch had recent pushes. Click the green box "Compare & pull request."
 
 <img alt="img.png" height="340" src="images/PRalert.png" width="500"/>
 
@@ -198,12 +199,13 @@ Once you click "Compare & pull request" there will be a new screen populated to 
 
 <img alt="img.png" height="400" src="images/prcompare.png" width="600"/>
 
-
 The same rules apply for the Add a description box of the Pull Request. The "Write" tab will show the Markdown format. The "Preview" tab shows the styled Markdown format.
 
 <img alt="img.png" src="images/PRformatted.png" width="600" height="380"/>
 
-#### Providing context through Markdown
+---
+
+### 📝 **Providing Context Through Markdown**
 
 Update the description with the issue that you opened for taking notes on the course content. Easily link the issue by using the `#` symbol. The Pull Request has a template so you can easily use bullet points, check boxes, and link references in Markdown. 
 
@@ -211,25 +213,34 @@ Click the green "Create pull request" button. This will create a pull request th
 
 <img alt="img.png" height="500" src="images/createprbutton.png" width="500"/>
 
-#### Checking your work
+---
 
-Result
+### ✅ **Checking Your Work**
+
+> 🎯 **Result**
 
 <img alt="img.png" height="380" src="images/hwoitlooks.png" width="580"/>
-
 
 Click "Commits." The commit message you chose when editing R1: Hardware Support in `r1.md` should match the commit title in your pull request. Clicking on the commit will let you see the changes you made and any description you added.
 
 <img alt="img.png" height="460" src="images/commitimage.png" width="700"/>
 
-**Commit Preview**
+> 👁️ **Commit Preview**
 
 <img alt="img.png" height="100" src="images/fixcommitmessage.png" width="700"/>
 
-Once you have opened the PR your GitHub Issue for the course will **close**. Switching back to the `main` branch, the page will send a Congratulations :tada: and you can keep practicing or revisit your previous work on the GitHub issue by clicking "RETURN TO EXERCISE."
+---
+
+## 🎉 **Congratulations!**
+
+Once you have opened the PR your GitHub Issue for the course will **close**. Switching back to the `main` branch, the page will send a Congratulations 🎊 and you can keep practicing or revisit your previous work on the GitHub issue by clicking "RETURN TO EXERCISE."
 
 <img alt="img.png" height="400" src="images/congrats.png" width="560"/>
 
-Clicking "RETURN TO EXERCISE" will bring you back to this page. Feel free to keep practicing.
+> 🔄 **Continue Learning:** Clicking "RETURN TO EXERCISE" will bring you back to this page. Feel free to keep practicing.
 
 <img alt="img.png" height="400" src="images/issuepage.png" width="600"/>
+
+---
+
+> 🎯 **You've completed the course layout! Great job on making it this far!** 🚀
