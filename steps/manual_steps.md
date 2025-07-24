@@ -1,54 +1,32 @@
 # ComplyTime Manual Steps Guide
 
-  * [ComplyTime GitHub Skills Discovery Manual Steps](#complytime-github-skills-discovery-manual-steps)
-      * [📚 Step 1: Read the docs](#-reading-creme-brulee-course-documentation)
-          * [Review Materials](#-mandatory-review-materials-for-course-completion)
-      * [📓 Take Notes Using GitHub Issues](#-taking-notes-using-github-issues)
-          * [Navigation](#-navigation-steps)
-          * [Update the Issue Template Content](#-update-the-template-content)
-          * [Next Steps - Trigger Step 2](#-next-steps---trigger-step-2)
-              * [Comment the Link to Your Notes to Populate Step 2](#-comment-the-link-to-your-notes-to-populate-step-2)
-          * [Take the Self-Assessment](#-take-the-self-assessment)
-  * [Step 2: Practice Communicating using Markdown and Git](#step-2-practice-communicating-using-markdown-and-git)
-      * [Getting Started](https://www.google.com/search?q=%23getting-started)
-      * [🚀 Step 2: Practice Communicating Using Markdown and Git](#-step-2-practice-communicating-using-markdown-and-git)
-          * [Populating Step 2](#-populating-step-2)
-          * [Follow the Directions](#-follow-the-directions)
-      * [🌳 Branching Workflow](#-branching-workflow)
-          * [Navigation ](#-step-1-navigate-to-homepage)
-          * [Branch View](#-step-2-view-branches)
-          * [Create New `learn-complytime/step-2` Branch](#-step-3-create-new-branch)
-          * [Name Your Branch](#-step-4-name-your-branch)
-          * [Branch Transition](#-branch-transition)
-      * [📁 Making Changes in the `markdown/` Folder](#-making-changes-in-the-markdown-folder)
-          * [Component Definitions Structure](#-component-definitions-structure)
-          * [Reference: RHEL10 ANSSI Control R1](#-reference-rhel10-anssi-control-r1)
-          * [What You'll Edit](#-what-youll-edit)
-          * [How to Edit](#-how-to-edit)
-          * [Editing Interface](#-editing-interface)
-              * [EDIT Mode](#-edit-mode)
-              * [PREVIEW Mode](#-preview-mode)
-      * [🔄 Git Workflow](#-git-workflow)
-          * [Create Pull Request](#-create-pull-request)
-          * [Compare Changes](#-compare-changes)
-          * [Format Description](#-format-description)
-      * [📝 Providing Context Through Markdown](#-providing-context-through-markdown)
-      * [✅ Checking Your Work](#-checking-your-work)
-          * [Result](#-result)
-          * [Review Commits](#-review-commits)
-          * [Commit Preview](#-commit-preview)
-          * [Continue Learning](#-continue-learning)
-      * [What You'll Submit](#what-youll-submit)
-      * [RHEL10 ANSSI Enhanced Component Definition Example](#rhel10-anssi-enhanced-component-definition-example)
 
+  - [📚 Step 1: Reading `creme-brulee` Course Documentation](#-reading-creme-brulee-course-documentation)
+      - [✅ Review Materials for Course Completion](#-mandatory-review-materials-for-course-completion)
+  - [📓 Taking Notes Using GitHub Issues](#-taking-notes-using-github-issues)
+      - [🧭 Navigation Steps](#-navigation-steps)
+      - [🔧 Update the Template Content](#-update-the-template-content)
+      - [📝 Take the Self-Assessment](#-take-the-self-assessment)
+      - [➡️ Next Steps - Trigger Step 2](#-next-steps---trigger-step-2)
+  - [🚀 Step 2: Practice Communicating using Markdown and Git](#-step-2-practice-communicating-using-markdown-and-git)
+      - [What you'll need](#what-youll-need)
+      - [Getting Started](#getting-started)
+      - [🌳 Branching Workflow](#-branching-workflow)
+      - [📁 Making Changes in the `markdown/` Folder](#-making-changes-in-the-markdown-folder)
+      - [🔄 Git Workflow](#-git-workflow)
+      - [📝 Providing Context Through Markdown](#-providing-context-through-markdown)
+      - [✅ Checking Your Work](#-checking-your-work)
+      - [What You'll Submit](https://www.google.com/search?q=%23what-youll-submit)
+      - [RHEL10 ANSSI Enhanced Component Definition Example](https://www.google.com/search?q=%23rhel10-anssi-enhanced-component-definition-example)
 
 # ComplyTime GitHub Skills Discovery Manual Steps
 
-> [Prerequisites](https://github.com/hbraswelrh/creme-brulee/blob/main/README.md#prerequisites) must be completed prior to attempting the ComplyTime Skills Discovery 
+> [Prerequisites](https://github.com/complytime/creme-brulee/blob/main/README.md#prerequisites) must be completed prior to attempting the ComplyTime Skills Discovery 
 
 Welcome to the ComplyTime learning course\! This guide will help you navigate the course, which is built on GitHub Skills and uses automated workflows to set up your personalized workspace. You'll use GitHub Issues to keep track of your notes as you progress.
 
 Good luck with your ComplyTime learning journey\!
+
 
 ## **📚 Reading `creme-brulee` Course Documentation**
 
@@ -106,6 +84,14 @@ Update the content and the `{REPLACE_ME}` areas with your Key Concepts. Click "C
 
 ---
 
+---
+
+### **📝 Take the Self-Assessment**
+
+> Copy the link to your notes from Step 1: _Read the docs_ once you have completed the [self-assessment](https://docs.google.com/forms/d/e/1FAIpQLSdE4qJ3pmWa1SaQoWMiUI9p3ZdB947PbhqZEIFo7nWYdcJ44A/viewform). 
+
+---
+
 ### ➡️ **Next Steps - Trigger Step 2**
 
 > 🎯 **Action Required:** Once you have taken notes and completed the self-assessment for Step 1: Read the docs, copy the link of your issue and paste it in the comments of your Exercise: Read the docs issue.
@@ -118,19 +104,20 @@ Update the content and the `{REPLACE_ME}` areas with your Key Concepts. Click "C
 
 #### 💬 **Comment the Link to Your Notes to Populate Step 2**
 
+> 🔄 **How it works:** Comment the link to your note-taking issue on the exercise issue once finishing Step 1: _Read the Docs_. The next step will populate after around 20 seconds.
+
+
 ![comment](https://github.com/hbraswelrh/creme-brulee/blob/f57b896a9898162d80e34ba6abca85fcc0da4930/steps/images/comment.png)
 
+After around 20 seconds, the same GitHub Issue titled **Exercise: Read the docs** will populate Step 2: Practice Communicating using Markdown and Git. 
+
+#### Step 2 content
+
+![step2body.png](images/step2body.png)
 ---
 
----
 
-### **📝 Take the Self-Assessment**
-
-> Comment the link to your notes from Step 1: _Read the docs_ once you have completed the [self-assessment](https://form.typeform.com/to/tiOAik8G](https://docs.google.com/forms/d/e/1FAIpQLSdE4qJ3pmWa1SaQoWMiUI9p3ZdB947PbhqZEIFo7nWYdcJ44A/viewform?usp=header). 
-
----
-
-# Step 2: Practice Communicating using Markdown and Git
+## 🚀 **Step 2: Practice Communicating using Markdown and Git**
 
 > You should've completed the _Communicate Using Markdown_ GitHub Skills pre-requisite course.  
 
@@ -152,23 +139,6 @@ Follow the [help guide](https://github.com/hbraswelrh/creme-brulee/blob/main/doc
 5. **Open a Pull Request**: Open a Pull Request and update its description to clearly explain the changes you've made in the Markdown files.  
 6. **Submit Your Work**: Copy the link to your Pull Request and submit it in the self-assessment.  
 7. **Keep Practicing\!**: There's no limit to how many times you can retry this exercise. Simply follow the steps in the [**manual steps**](https://github.com/complytime/creme-brulee/blob/main/steps/manual_steps.md) again. For additional help, refer to the [**course layout**](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md).
-
----
-
-
-## 🚀 **Step 2: Practice Communicating Using Markdown and Git**
-
-> 🔄 **How it works:** Comment the link to your note-taking issue on the exercise issue once finishing Step 1: _Read the Docs_. The next step will populate after around 20 seconds.
-
-![issuecommenttrigger](images/issuecommenttrigger.png)
-
-### ⏳ **Populating Step 2**
-
-![step2populate](images/step2populate.png)
-
-### 📋 **Follow the Directions**
-
-![followdirections](images/followdirections.png)
 
 ---
 
