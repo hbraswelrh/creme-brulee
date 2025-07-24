@@ -4,9 +4,9 @@
 
 ## What you'll need
 
-After completing [**Step 1:** _Read the docs_](https://github.com/hbraswelrh/creme-brulee/blob/main/.github/steps/1-step.md) you'll need to copy the link to the exercise issue and include it in the Pull request.
+After completing [**Step 1:** _Read the docs_](https://github.com/complytime/creme-brulee/blob/main/.github/steps/1-step.md) you'll need to copy the link to the exercise issue and include it in the Pull request.
 
-Follow the [help guide](https://github.com/hbraswelrh/creme-brulee/blob/main/docs/issue-help.md) for creating issues.
+Follow the [help guide](https://github.com/complytime/creme-brulee/blob/main/docs/issue-help.md) for creating issues.
 
 ---
 
@@ -21,7 +21,7 @@ Follow the steps in the [manual_steps.md](https://github.com/hbraswelrh/creme-br
 4. **Commit Your Changes**: Commit your changes to your `learn-complytime/step-2` branch. You can make several commits as you work.  
 5. **Open a Pull Request**: Open a Pull Request and update its description to clearly explain the changes you've made in the Markdown files.  
 6. **Submit Your Work**: Copy the link to your Pull Request and submit it in the self-assessment.  
-7. **Keep Practicing\!**: There's no limit to how many times you can retry this exercise. Simply follow the steps in the [**manual steps**](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/manual_steps.md) again. For additional help, refer to the [**course layout**](https://github.com/hbraswelrh/creme-brulee/blob/main/steps/course_layout.md).
+7. **Keep Practicing\!**: There's no limit to how many times you can retry this exercise. Simply follow the steps in the [**manual steps**](https://github.com/complytime/creme-brulee/blob/main/steps/manual_steps.md) again.
 
 ---
 
