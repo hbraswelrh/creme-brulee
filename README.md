@@ -39,7 +39,7 @@ _Learn to use ComplyTime organization projects and tools._
 
 
 
-> :hourglass: **How long?** This exercise is self-paced. The [manual_steps.md](https://github.com/hbraswelrh/creme-brulee/blob/e2574a94f9ac3f85a35d29749d326969d0faafbe/steps/manual_steps.md) can be leveraged to pace yourself, revisit subjects, and follow step-by-step examples.
+> :hourglass: **How long?** This exercise is self-paced. The [manual_steps.md](https://github.com/complytime/creme-brulee/blob/main/steps/manual_steps.md#-reading-creme-brulee-course-documentation) can be leveraged to pace yourself, revisit subjects, and follow step-by-step examples.
 
 In this exercise, you will:
 1. Learn about the relevant repositories in the ComplyTime organization.
