@@ -28,7 +28,7 @@ Welcome to the ComplyTime learning course\! This guide will help you navigate th
 Good luck with your ComplyTime learning journey\!
 
 
-## **📚 Reading `creme-brulee` Course Documentation**
+## **📚 Step 1: Reading `creme-brulee` Course Documentation**
 
 This is the _first_ step of the learning course. Get started by reviewing the docs that will set the stage for your learning journey within the `creme-brulee` project.
 
