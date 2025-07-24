@@ -28,4 +28,3 @@ _Include description of your changes_
 
 Any questions can be left in the comments. Tag @hbraswelrh for more info. Escalate any issues via Slack in the #learn-complytime Slack Channel.
 
-Follow `GUIDELINES.md` for comment structure.  
