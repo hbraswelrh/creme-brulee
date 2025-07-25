@@ -19,11 +19,11 @@ _Learn to use ComplyTime organization projects and tools._
 
 ##### OSCAL for Compliance Managers
 
-> Required before attempting the ComplyTime module of the learning course
+> Required before attempting the ComplyTime module of the skills discovery
 
-- Review the OSCAL for Compliance Managers recording. The slides can be referenced [here](https://docs.google.com/presentation/d/13LDE-AL3xvWf1trSn_NE1OyjTP1KwVaq3HIbypgvtuU/edit?usp=sharing)
+- Review the OSCAL recordings [Why are we here? Intro to OSCAL: for Compliance Managers]() and [Intro to OSCAL Tooling](). The slides can be referenced [here](https://docs.google.com/presentation/d/13LDE-AL3xvWf1trSn_NE1OyjTP1KwVaq3HIbypgvtuU/edit?usp=sharing)
 
-##### Required GitHub curated Skills courses to complete prior to the ComplyTime module 
+##### Required GitHub curated skills courses to complete prior to the ComplyTime module 
 
 > The required GitHub Skills courses will prepare you to interact with GitHub Issues, Pull Requests, and understand Git Flow. 
 
