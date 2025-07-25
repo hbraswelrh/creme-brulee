@@ -15,6 +15,7 @@ _Learn to use ComplyTime organization projects and tools._
 #### GitHub 
 
 - You'll need a GitHub account with a personal access token, setup [account here](https://docs.github.com/en/get-started/start-your-journey/creating-an-account-on-github), [token here](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens) :octocat:
+- Account setup should take around 2 hours.
 
 
 ##### OSCAL for Compliance Managers
@@ -25,7 +26,7 @@ _Learn to use ComplyTime organization projects and tools._
 
 ##### Required GitHub curated skills courses to complete prior to the ComplyTime module 
 
-> The required GitHub Skills courses will prepare you to interact with GitHub Issues, Pull Requests, and understand Git Flow. 
+> The required GitHub Skills courses will prepare you to interact with GitHub Issues, Pull Requests, and understand Git Flow. Completion of these exercises should take around 2 hours.
 
   - Take the [Introduction to GitHub](https://github.com/skills/introduction-to-github) Skills course. 
   - Take the [Communicate using Markdown](https://github.com/skills/communicate-using-markdown) GitHub Skills course. 
@@ -39,7 +40,7 @@ _Learn to use ComplyTime organization projects and tools._
 
 
 
-> :hourglass: **How long?** This exercise is self-paced. The [manual_steps.md](https://github.com/complytime/creme-brulee/blob/main/steps/manual_steps.md#-reading-creme-brulee-course-documentation) can be leveraged to pace yourself, revisit subjects, and follow step-by-step examples.
+> :hourglass: **How long?** This exercise is self-paced. The [manual_steps.md](https://github.com/complytime/creme-brulee/blob/main/steps/manual_steps.md#-reading-creme-brulee-course-documentation) can be leveraged to pace yourself, revisit subjects, and follow step-by-step examples. The automated ComplyTime Skills Discovery typically takes about **two hours** to finish. However, the actual time may vary depending on your **reading comprehension** and **level of interest**.
 
 In this exercise, you will:
 1. Learn about the relevant repositories in the ComplyTime organization.
